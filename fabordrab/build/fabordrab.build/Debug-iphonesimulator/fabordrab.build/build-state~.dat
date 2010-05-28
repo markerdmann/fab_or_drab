@@ -1,0 +1,1518 @@
+Tfabordrab
+v7
+r0
+t296769524.815921
+cCheck dependencies
+cProcessInfoPlistFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/Info.plist fabordrab-Info.plist
+cCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
+cCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
+cProcessPCH /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch.gch fabordrab_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PullToRefreshTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PushedBaseTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RefreshTableHeaderView.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/BaseTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B2B537F000000000000007D
+t1261130623
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004B8D68BD0000000000000110
+t1267558589
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B7D0575000000000026F020
+t1266484597
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B7D05600000000000288B20
+t1266484576
+s2657056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B7D05520000000000001355
+t1266484562
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B7D0FAC000000000000007D
+t1266487212
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B7E2999000000000000098F
+t1266559385
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B7E2A2E000000000213D0F0
+t1266559534
+s34853104
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004B7CBB590000000000001A1A
+t1266465625
+s6682
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/AppHelpers.h
+c000000004BD5223A000000000000013E
+t1272259130
+s318
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/AppHelpers.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CDataScanner.h
+c000000004BD1C37F000000000000095B
+t1272038271
+s2395
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CDataScanner.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDataSerializer.h
+c000000004BD1C37F0000000000000716
+t1272038271
+s1814
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDataSerializer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDeserializer.h
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDeserializer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONScanner.h
+c000000004BD1C37F000000000000081C
+t1272038271
+s2076
+i"CDataScanner.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONScanner.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONSerializer.h
+c000000004BD1C37F0000000000000787
+t1272038271
+s1927
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONSerializer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CSerializedJSONData.h
+c000000004BD1C37F00000000000005A9
+t1272038271
+s1449
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/CSerializedJSONData.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h
+c000000004BE49F2B00000000000001AD
+t1273274155
+s429
+i<UIKit/UIKit.h>
+i"PullToRefreshTableViewController.h"
+i"UIModalAlert.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m
+c000000004BEA87C50000000000000F60
+t1273661381
+s3936
+i"BaseTableViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/PullToRefreshTableViewController.h
+c000000004BE50614000000000000032F
+t1273300500
+s815
+i<UIKit/UIKit.h>
+i"RefreshTableHeaderView.h"
+i"LoggingViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/RefreshTableHeaderView.h
+c000000004BD3B7FA000000000000035C
+t1272166394
+s860
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.h
+c000000004BE0FA4F0000000000000102
+t1273035343
+s258
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m
+c000000004BEA893600000000000006DD
+t1273661750
+s1757
+i"GradientTableViewCell.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.h
+c000000004BD1C37F000000000000095B
+t1272038271
+s2395
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m
+c000000004BD1C37F0000000000001674
+t1272038271
+s5748
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.h
+c000000004BD1C37F0000000000000716
+t1272038271
+s1814
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m
+c000000004BD1C37F0000000000001AB2
+t1272038271
+s6834
+i"CJSONDataSerializer.h"
+i"CSerializedJSONData.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.h
+c000000004BD1C37F0000000000000681
+t1272038271
+s1665
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m
+c000000004BD1C37F0000000000000B3A
+t1272038271
+s2874
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.h
+c000000004BD1C37F000000000000081C
+t1272038271
+s2076
+i"CDataScanner.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m
+c000000004BD1C37F00000000000039AA
+t1272038271
+s14762
+i"CJSONScanner.h"
+i"NSCharacterSet_Extensions.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.h
+c000000004BD1C37F0000000000000787
+t1272038271
+s1927
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m
+c000000004BD1C37F00000000000008C6
+t1272038271
+s2246
+i"CJSONSerializer.h"
+i"CJSONDataSerializer.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.h
+c000000004BD1C37F00000000000005A9
+t1272038271
+s1449
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m
+c000000004BD1C37F00000000000005FB
+t1272038271
+s1531
+i"CSerializedJSONData.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.h
+c000000004BD1C37F00000000000005AD
+t1272038271
+s1453
+i"CDataScanner.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m
+c000000004BD1C37F00000000000009EC
+t1272038271
+s2540
+i"CDataScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.h
+c000000004BD1C37F000000000000057A
+t1272038271
+s1402
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m
+c000000004BD1C37F0000000000000731
+t1272038271
+s1841
+i"NSCharacterSet_Extensions.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.h
+c000000004BD1C37F0000000000000598
+t1272038271
+s1432
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m
+c000000004BD1C37F0000000000000613
+t1272038271
+s1555
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.h
+c000000004BD1C37F0000000000000656
+t1272038271
+s1622
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m
+c000000004BD1C37F0000000000000D65
+t1272038271
+s3429
+i"NSScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.h
+c000000004BD5223A000000000000013E
+t1272259130
+s318
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m
+c000000004BDDD08400000000000004AD
+t1272828036
+s1197
+i"AppHelpers.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.h
+c000000004BDD3EE00000000000000BD0
+t1272790752
+s3024
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m
+c000000004BDD3F030000000000005D5A
+t1272790787
+s23898
+i<Foundation/Foundation.h>
+i"ISO8601DateFormatter.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.h
+c000000004BD4DE3200000000000000FF
+t1272241714
+s255
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m
+c000000004BD530DB000000000000058E
+t1272262875
+s1422
+i"LoggingViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.h
+c000000004BE50614000000000000032F
+t1273300500
+s815
+i<UIKit/UIKit.h>
+i"RefreshTableHeaderView.h"
+i"LoggingViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m
+c000000004BE5B65C00000000000012B0
+t1273345628
+s4784
+i"PullToRefreshTableViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.h
+c000000004BE49F7F0000000000000153
+t1273274239
+s339
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m
+c000000004BE52C680000000000000BBA
+t1273310312
+s3002
+i"PushedBaseTableViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.h
+c000000004BD3B7FA000000000000035C
+t1272166394
+s860
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m
+c000000004BE505AA0000000000001374
+t1273300394
+s4980
+i"RefreshTableHeaderView.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.h
+c000000004BE5271800000000000001E7
+t1273308952
+s487
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"PushedBaseTableViewController.h"
+i"AppHelpers.h"
+i"UIImage+Resize.h"
+i"Twitter.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m
+c000000004BEA5D5C00000000000025F1
+t1273650524
+s9713
+i"RetweetTableViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RootViewController.h
+c000000004C001D3300000000000000E3
+t1275075891
+s227
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RootViewController.m
+c000000004C001D3300000000000010BB
+t1275075891
+s4283
+i"RootViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h
+c000000004BD3D384000000000000016D
+t1272173444
+s365
+i<Foundation/Foundation.h>
+i<HTTPRiot/HTTPRiot.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m
+c000000004BD3D38C0000000000000142
+t1272173452
+s322
+i"Twitter.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.h
+c000000004BE4CAA200000000000001EE
+t1273285282
+s494
+i<UIKit/UIKit.h>
+i"GradientTableViewCell.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m
+c000000004BEA87E90000000000000C9B
+t1273661417
+s3227
+i"TwitterTableViewCell.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h
+c000000004C002001000000000000022A
+t1275076609
+s554
+i<UIKit/UIKit.h>
+i"BaseTableViewController.h"
+i"Twitter.h"
+i"Misc/AppHelpers.h"
+i"JSON/CJSONDeserializer.h"
+i"RetweetTableViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m
+c000000004C00206C0000000000002206
+t1275076716
+s8710
+i"TwitterTableViewController.h"
+i"TwitterTableViewCell.h"
+i"UIModalAlert.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.h
+c000000004BE4C1100000000000000108
+t1273282832
+s264
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m
+c000000004BE5FDDA0000000000000328
+t1273363930
+s808
+i"UIImage+Resize.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.h
+c000000004C001D3300000000000001CF
+t1275075891
+s463
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m
+c000000004C001D330000000000000366
+t1275075891
+s870
+i"fabordrabAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/CDataScanner_Extensions.h
+c000000004BD1C37F00000000000005AD
+t1272038271
+s1453
+i"CDataScanner.h"
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/CDataScanner_Extensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSCharacterSet_Extensions.h
+c000000004BD1C37F000000000000057A
+t1272038271
+s1402
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSCharacterSet_Extensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSDictionary_JSONExtensions.h
+c000000004BD1C37F0000000000000598
+t1272038271
+s1432
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSDictionary_JSONExtensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSScanner_Extensions.h
+c000000004BD1C37F0000000000000656
+t1272038271
+s1622
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSScanner_Extensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/ISO8601DateFormatter.h
+c000000004BDD3EE00000000000000BD0
+t1272790752
+s3024
+i<Foundation/Foundation.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/ISO8601DateFormatter.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/LoggingViewController.h
+c000000004BD4DE3200000000000000FF
+t1272241714
+s255
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/LoggingViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
+c000000004C001D330000000000002F48
+t1275075891
+s12104
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
+c000000004C001D330000000000004454
+t1275075891
+s17492
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app.dSYM
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/Info.plist
+t1275076718
+s601
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/MainWindow.nib
+t1275076719
+s2029
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/PkgInfo
+t1275076718
+s8
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/RootViewController.nib
+t1275076719
+s1388
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers-868FDCD73D50563F.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers-E7C72C9D018DD15E.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers.o
+t1275076724
+s17212
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/BaseTableViewController.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner-B4E6B7CD82C8CB4A.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner-FEF0B0929380F164.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner.o
+t1275076724
+s21752
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions-454323AA97E8AC48.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions-690C1FDE70E23178.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions.o
+t1275076724
+s9532
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer-A5E97621E5B8EB4C.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer-EFF36EE6F6711166.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer.o
+t1275076724
+s22348
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer-96EC347648A90B4E.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer-E0F62D3B59613168.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer.o
+t1275076724
+s10360
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner-87EEF2CAAB992B50.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner-D1F8EB8FBC51516A.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner.o
+t1275076724
+s32096
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer-C2FBA9E41F41716C.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer-C47B4B4668D1BB59.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer.o
+t1275076724
+s11348
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData-B57E099ACBC1DB5B.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData-FF88025FDC7A0175.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o
+t1275076724
+s8144
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell.o
+t1275076723
+s20124
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter-77929B2BA0407641.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter-D8C9EAF1647DF160.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter.o
+t1275076724
+s43744
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController-6895598003309643.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController-C9CCA945C76E1162.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController.o
+t1275076724
+s35120
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions-3645E1FEFAD8CC4A.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions-804FDAC40B90F264.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions.o
+t1275076724
+s6600
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions-2748A0535DC8EC4C.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions-715299186E811266.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+t1275076724
+s6860
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions-184B5EA7C0B90C4E.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions-6255576CD1713268.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o
+t1275076724
+s12348
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PullToRefreshTableViewController.o
+t1275076723
+s45704
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PushedBaseTableViewController.o
+t1275076723
+s35052
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RefreshTableHeaderView.o
+t1275076723
+s28608
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o
+t1275076724
+s30672
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o
+t1275076724
+s7976
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrab.LinkFileList
+c000000004C00206E0000000000000E7D
+t1275076718
+s3709
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o
+t2
+s0
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o
+t1275076723
+s5964
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/fabordrab_Prefix.pch
+c000000004C001D330000000000000144
+t1275075891
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m
+c000000004C001D330000000000000161
+t1275075891
+s353
+i<UIKit/UIKit.h>
+
+N/var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-bquaadcpnimbdjefzuljywjmfcds/fabordrab_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch.gch
+t1275076723
+s13026768
+
+Nfabordrab-Info.plist
+c000000004C001D33000000000000038D
+t1275075891
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296769518#296769518#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers-868FDCD73D50563F.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/AppHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers-E7C72C9D018DD15E.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/AppHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.093543
+e296769524.167723
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m296769524#296769524#0(0"0(0#0#71"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m4300907800#2001"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/AppHelpers.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/BaseTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.750101
+e296769524.815816
+r0
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/BaseTableViewController.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:9:
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h:11:25: error: UIModalAlert.h: No such file or directory
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m: In function '-[BaseTableViewController displayModalAlertWithError:]':
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: 'MBProgressHUD' undeclared (first use in this function)
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: (Each undeclared identifier is reported only once
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: for each function it appears in.)
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: 'modal' undeclared (first use in this function)
+o{standard input}:280:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000001$pb"
+o{standard input}:280:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:272:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000001$pb"
+o{standard input}:272:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:261:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000001$pb"
+o{standard input}:261:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:254:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000001$pb"
+o{standard input}:254:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:251:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:251:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:244:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000001$pb"
+o{standard input}:244:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000001$pb"
+o{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:229:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000001$pb"
+o{standard input}:229:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:221:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"
+o{standard input}:221:symbol: "LC6" can't be undefined in a subtraction expression
+o{standard input}:218:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"
+o{standard input}:218:symbol: "LC6" can't be undefined in a subtraction expression
+o{standard input}:215:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"
+o{standard input}:215:symbol: "LC6" can't be undefined in a subtraction expression
+o{standard input}:212:non-relocatable subtraction expression, "LC5" minus "L00000000001$pb"
+o{standard input}:212:symbol: "LC5" can't be undefined in a subtraction expression
+o{standard input}:210:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"
+o{standard input}:210:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:207:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:207:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:200:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"
+o{standard input}:200:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"
+o{standard input}:192:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:184:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:184:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:181:non-relocatable subtraction expression, "LC4" minus "L00000000001$pb"
+o{standard input}:181:symbol: "LC4" can't be undefined in a subtraction expression
+o{standard input}:179:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"
+o{standard input}:179:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:176:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:176:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:169:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"
+o{standard input}:169:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:161:non-relocatable subtraction expression, "LC3" minus "L00000000001$pb"
+o{standard input}:161:symbol: "LC3" can't be undefined in a subtraction expression
+o{standard input}:159:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"
+o{standard input}:159:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:156:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:156:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:149:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"
+o{standard input}:149:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"
+o{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:139:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:139:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:132:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:132:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:118:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:112:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:112:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:109:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:109:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:102:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:102:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:99:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"
+o{standard input}:99:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:96:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"
+o{standard input}:96:symbol: "LC1" can't be undefined in a subtraction expression
+o{standard input}:93:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"
+o{standard input}:93:symbol: "LC0" can't be undefined in a subtraction expression
+o{standard input}:85:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:85:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:79:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000001$pb"
+o{standard input}:79:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:73:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000001$pb"
+o{standard input}:73:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:66:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:66:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:63:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:63:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol LC0
+o{standard input}:unknown:Undefined local symbol LC1
+o{standard input}:unknown:Undefined local symbol LC2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol LC3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol LC4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol LC5
+o{standard input}:unknown:Undefined local symbol LC6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+lSLF07#2@98"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m296769524#296769524#0(11727"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:9:/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h:11:25: error: UIModalAlert.h: No such file or directory/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m: In function '-[BaseTableViewController displayModalAlertWithError:]':/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: 'MBProgressHUD' undeclared (first use in this function)/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: (Each undeclared identifier is reported only once/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: for each function it appears in.)/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m:117: error: 'modal' undeclared (first use in this function){standard input}:280:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000001$pb"{standard input}:280:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:272:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000001$pb"{standard input}:272:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:261:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000001$pb"{standard input}:261:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:254:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000001$pb"{standard input}:254:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:251:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000001$pb"{standard input}:251:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:244:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000001$pb"{standard input}:244:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:237:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000001$pb"{standard input}:237:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:229:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000001$pb"{standard input}:229:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:221:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"{standard input}:221:symbol: "LC6" can't be undefined in a subtraction expression{standard input}:218:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"{standard input}:218:symbol: "LC6" can't be undefined in a subtraction expression{standard input}:215:non-relocatable subtraction expression, "LC6" minus "L00000000001$pb"{standard input}:215:symbol: "LC6" can't be undefined in a subtraction expression{standard input}:212:non-relocatable subtraction expression, "LC5" minus "L00000000001$pb"{standard input}:212:symbol: "LC5" can't be undefined in a subtraction expression{standard input}:210:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000001$pb"{standard input}:210:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:207:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:207:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:200:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000001$pb"{standard input}:200:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:192:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000001$pb"{standard input}:192:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:184:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:184:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:181:non-relocatable subtraction expression, "LC4" minus "L00000000001$pb"{standard input}:181:symbol: "LC4" can't be undefined in a subtraction expression{standard input}:179:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000001$pb"{standard input}:179:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:176:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:176:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:169:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000001$pb"{standard input}:169:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:161:non-relocatable subtraction expression, "LC3" minus "L00000000001$pb"{standard input}:161:symbol: "LC3" can't be undefined in a subtraction expression{standard input}:159:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000001$pb"{standard input}:159:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:156:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000001$pb"{standard input}:156:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:149:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000001$pb"{standard input}:149:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:142:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000001$pb"{standard input}:142:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:139:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:139:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:132:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:132:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:118:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:118:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:112:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:112:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:109:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000001$pb"{standard input}:109:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:102:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:102:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:99:non-relocatable subtraction expression, "LC2" minus "L00000000001$pb"{standard input}:99:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:96:non-relocatable subtraction expression, "LC1" minus "L00000000001$pb"{standard input}:96:symbol: "LC1" can't be undefined in a subtraction expression{standard input}:93:non-relocatable subtraction expression, "LC0" minus "L00000000001$pb"{standard input}:93:symbol: "LC0" can't be undefined in a subtraction expression{standard input}:85:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:85:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:79:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000001$pb"{standard input}:79:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:73:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000001$pb"{standard input}:73:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:66:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:66:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:63:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:63:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol LC0{standard input}:unknown:Undefined local symbol LC1{standard input}:unknown:Undefined local symbol LC2{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol LC3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol LC4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol LC5{standard input}:unknown:Undefined local symbol LC6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_183(4@41"UIModalAlert.h: No such file or directory296769524#116#147#2(7@112"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m296769524#18446744073709551615#0#0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m295354181#9#0#9#0#0"0(13@135"UIModalAlert.h: No such file or directory in /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h296769524#18446744073709551615#0#0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h294966955#11#0#11#0#0"0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h294966955#11#0#11#0#28"*: No such file or directory0(4@55"'MBProgressHUD' undeclared (first use in this function)296769524#425#159#0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m295354181#117#0#117#0#43"'*' undeclared (first use in this function)0(4@47"'modal' undeclared (first use in this function)296769524#874#151#0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m295354181#117#0#117#0#43"'*' undeclared (first use in this function)0(0#0#90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m4300907800#2033"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/BaseTableViewController.o1#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner-B4E6B7CD82C8CB4A.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner-FEF0B0929380F164.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.250466
+e296769524.333936
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m296769524#296769524#0(0"0(0#0#73"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m4300907800#2005"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CDataScanner.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions-454323AA97E8AC48.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions-690C1FDE70E23178.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.595528
+e296769524.674336
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m296769524#296769524#0(0"0(0#0#95"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m4300907800#2038"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/CDataScanner_Extensions.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer-A5E97621E5B8EB4C.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer-EFF36EE6F6711166.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.334041
+e296769524.447893
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m296769524#296769524#0(0"0(0#0#80"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m4300907800#2019"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDataSerializer.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDataSerializer.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer-96EC347648A90B4E.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer-E0F62D3B59613168.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.387112
+e296769524.453070
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m296769524#296769524#0(0"0(0#0#78"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m4300907800#2015"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONDeserializer.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONDeserializer.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner-87EEF2CAAB992B50.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner-D1F8EB8FBC51516A.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.448007
+e296769524.595429
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m296769524#296769524#0(0"0(0#0#73"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m4300907800#2005"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONScanner.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONScanner.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer-C2FBA9E41F41716C.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer-C47B4B4668D1BB59.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.453177
+e296769524.542163
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m296769524#296769524#0(0"0(0#0#76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m4300907800#2011"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CJSONSerializer.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CJSONSerializer.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData-B57E099ACBC1DB5B.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData-FF88025FDC7A0175.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.542267
+e296769524.614499
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m296769524#296769524#0(0"0(0#0#80"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m4300907800#2019"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.579022
+e296769523.719562
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m296769523#296769523#0(0"0(0#0#77"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m3342341017401716736#2018"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter-77929B2BA0407641.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter-D8C9EAF1647DF160.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.166446
+e296769524.387003
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m296769524#296769524#0(0"0(0#0#81"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m4300907800#2021"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/ISO8601DateFormatter.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/ISO8601DateFormatter.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/ISO8601DateFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController-6895598003309643.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/LoggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController-C9CCA945C76E1162.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.167807
+e296769524.250357
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m296769524#296769524#0(0"0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m4300907800#2023"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Misc/LoggingViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/LoggingViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/LoggingViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions-3645E1FEFAD8CC4A.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions-804FDAC40B90F264.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.614612
+e296769524.683469
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m296769524#296769524#0(0"0(0#0#97"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m4300907800#2042"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSCharacterSet_Extensions.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions-2748A0535DC8EC4C.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions-715299186E811266.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.674433
+e296769524.749981
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m296769524#296769524#0(0"0(0#0#99"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m4300907800#2046"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSDictionary_JSONExtensions.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions-184B5EA7C0B90C4E.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions-6255576CD1713268.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.683574
+e296769524.775151
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m296769524#296769524#0(0"0(0#0#92"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m4300907800#2032"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/Extensions/NSScanner_Extensions.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PullToRefreshTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.580509
+e296769523.773777
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PullToRefreshTableViewController.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m296769523#296769523#0(0"0(0#0#88"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m4300907800#2040"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PullToRefreshTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PullToRefreshTableViewController.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PushedBaseTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.719679
+e296769523.821172
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PushedBaseTableViewController.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m296769523#296769523#0(0"0(0#0#85"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m4300907800#2034"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/PushedBaseTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PushedBaseTableViewController.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RefreshTableHeaderView.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.773893
+e296769523.891913
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RefreshTableHeaderView.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m296769523#296769523#0(0"0(0#0#78"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m4300907800#2020"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RefreshTableHeaderView.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RefreshTableHeaderView.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.821281
+e296769523.965632
+r0
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.h:16,
+o                 from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m:9:
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m296769523#296769523#0(342"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.h:16,                 from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m:9:/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory1(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296769523#217#125#3(7@104"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m296769523#18446744073709551615#0#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m295343324#9#0#9#0#0"0(7@104"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.h296769523#18446744073709551615#0#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.h295001752#16#0#16#0#0"0(13@113"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h296769523#18446744073709551615#0#0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h293866244#10#0#10#0#0"0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h293866244#10#0#10#0#28"*: No such file or directory0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m4300907800#2028"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o1#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RootViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.892018
+e296769523.960894
+r0
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m:9:
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+lSLF07#2@71"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m296769523#296769523#0(214"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m:9:/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory1(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296769523#89#125#2(7@85"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m296769523#18446744073709551615#0#0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m293866252#9#0#9#0#0"0(13@113"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h296769523#18446744073709551615#0#0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h293866244#10#0#10#0#0"0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h293866244#10#0#10#0#28"*: No such file or directory0(0#0#63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m4300907800#1990"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o1#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.961000
+e296769524.086636
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m296769523#296769524#0(0"0(0#0#76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m4300907800#2016"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.967101
+e296769524.093449
+r0
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h:10,
+o                 from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h:11:25: error: UIModalAlert.h: No such file or directory
+oIn file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h:11,
+o                 from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m:12:25: error: UIModalAlert.h: No such file or directory
+lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296769523#296769524#0(845"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h:10,                 from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m:9:/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h:11:25: error: UIModalAlert.h: No such file or directoryIn file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h:11,                 from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m:9:/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m:12:25: error: UIModalAlert.h: No such file or directory3(4@41"UIModalAlert.h: No such file or directory296769524#217#147#3(7@104"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296769524#18446744073709551615#0#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296769516#9#0#9#0#0"0(7@104"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h296769524#18446744073709551615#0#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h296769409#10#0#10#0#0"0(13@135"UIModalAlert.h: No such file or directory in /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h296769524#18446744073709551615#0#0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h294966955#11#0#11#0#0"0(6@90"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h294966955#11#0#11#0#28"*: No such file or directory0(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296769524#581#125#3(7@104"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296769524#18446744073709551615#0#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296769516#9#0#9#0#0"0(7@104"In file included from /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h296769524#18446744073709551615#0#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.h296769409#11#0#11#0#0"0(13@113"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h296769524#18446744073709551615#0#0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h293866244#10#0#10#0#0"0(6@63"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.h293866244#10#0#10#0#28"*: No such file or directory0(4@41"UIModalAlert.h: No such file or directory296769524#706#139#0(6@82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296769516#12#0#12#0#28"*: No such file or directory0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m4300907800#2028"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o1#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769524.086743
+e296769524.166334
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m296769524#296769524#0(0"0(0#0#70"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m4300907800#2004"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o0#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.356563
+e296769523.580426
+r0
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m:10:31: error: RootViewController.h: No such file or directory
+lSLF07#2@84"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m296769523#296769523#0(139"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m:10:31: error: RootViewController.h: No such file or directory1(4@47"RootViewController.h: No such file or directory296769523#0#139#0(6@76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m296768691#10#0#10#0#28"*: No such file or directory0(0#0#76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m4300907800#2016"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o1#
+
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769523.353101
+e296769523.578909
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m296769523#296769523#0(0"0(0#0#52"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m4300907800#1976"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
+s296769518.062944
+e296769519.555207
+r1
+xCompileXIB
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib296769518#296769519#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#60"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib4300907800#505"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/MainWindow.nib /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib0#
+
+CCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
+s296769518.090584
+e296769519.554680
+r1
+xCompileXIB
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@33"CompileXIB RootViewController.xib296769518#296769519#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#68"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib4300907800#521"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/RootViewController.nib /Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib0#
+
+CGenerateDSYMFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app.dSYM /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab
+r0
+
+CLd /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab normal i386
+r0
+
+CProcessInfoPlistFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/Info.plist fabordrab-Info.plist
+s296769518.023983
+e296769518.062838
+r1
+xProcessInfoPlistFile
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/Info.plist
+xfabordrab-Info.plist
+lSLF07#2@28"Process fabordrab-Info.plist296769518#296769518#0(0"0(0#0#66"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/fabordrab-Info.plist28147961534414964#506"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility fabordrab-Info.plist -genpkginfo /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/Info.plist0#
+
+CProcessPCH /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-bquaadcpnimbdjefzuljywjmfcds/fabordrab_Prefix.pch.gch fabordrab_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch.gch fabordrab_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s296769519.555349
+e296769523.352846
+r1
+xProcessPCH
+x/var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch.gch
+xfabordrab_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile fabordrab_Prefix.pch296769519#296769523#0(0"0(0#0#66"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/fabordrab_Prefix.pch4300907800#1859"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/fabordrab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/fabordrab_Prefix.pch -o /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-eaxolspynurqpvgxctugedgeqdpj/fabordrab_Prefix.pch.gch0#
+
+CTouch /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app
+r0
+
