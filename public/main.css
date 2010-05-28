@@ -1,0 +1,22 @@
+body {font-size:16px; font-family:verdana;}
+img {border:none;}
+h2 {font-size:20px;}
+
+#header h1 {margin:0; font-size:24px;}
+
+#content {
+    margin:0 auto;
+    width:850px;
+}
+
+#connect_button {
+  margin:20 auto;
+  width:250px;
+  font-size:20px;
+  color:red;
+}
+
+.timeline {
+  margin:0 auto; 
+  width:700px
+}

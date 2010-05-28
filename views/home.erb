@@ -1,0 +1,16 @@
+<div id="connect_button">
+    <a href="/connect"><img src="sign_in_with_twitter.gif"/></a>
+</div>
+<h2>About</h2>
+<p>
+    Sinitter is an application to demonstrate the integration of Twitter OAuth with <a href="http://www.sinatrarb.com/">sinatra</a> and
+    also serves as a live test for the <a href="http://github.com/moomerman/twitter_oauth/tree/master">twitter_oauth</a> Ruby gem.
+</p>
+<p>The <a href="http://github.com/moomerman/sinitter/tree/master">source code</a> for this application is available on github.</p>
+<p>Created and maintained by <a href="http://moocode.com/foo">Richard Taylor</a> (<a href="http://twitter.com/moomerman">@moomerman</a>). Any comments/suggestions welcome</p>
+
+<h2>Current Trends</h2>
+<%= @trends['trends'].to_a.first.last.collect{|x| "<a href='/search?q=#{URI.encode(x['query'])}'>#{x['name']}</a>"}.join(', ') %>
+
+<h2>Public Timeline</h2>
+<%= partial('timeline', :locals => {:tweets => @tweets}) %>

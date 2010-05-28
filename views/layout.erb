@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Sinitter - Twitter OAuth Demo Application</title>
+    <link href="/main.css" media="screen" rel="Stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+</head>
+
+<body>
+
+<div id="content">
+    <div id="header">
+        <div>
+            <h1>Sinitter - Twitter OAuth Demo Application</h1>
+        </div>
+        <br clear="all"/>
+    </div>
+    
+    <div id="nav" style="float:right">
+        <p>
+            <a href='/'>Home</a> |
+            <a href='/search'>Search</a>
+            <% if @user %>
+                |
+                <a href='/timeline'>Timeline</a> |
+                <a href='/mentions'>Mentions</a> |
+                <a href='/retweets'>Retweets of me</a> |
+                <a href='/retweeted'>Retweets by me</a> |
+                <a href='/messages'>Direct Messages</a> |
+                <a href='/disconnect'>Logout</a>
+            <% end %>
+        </p>
+    </div>
+    <br clear="all"/>
+    
+    <%= yield %>
+    
+    <div id="footer">
+        <br/>
+        <small>
+            Hosted free on <a href="http://heroku.com/">Heroku</a>. API calls remaining: <%= @rate_limit_status['remaining_hits'] %>/<%= @rate_limit_status['hourly_limit'] %> per hour
+        </small>
+    </div>
+    
+</div>
+
+</body>
+</html>
