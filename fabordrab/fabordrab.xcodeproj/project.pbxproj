@@ -14,11 +14,12 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		4D48060A11B1CA9A00BD36BE /* TwitterOauth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48060911B1CA9A00BD36BE /* TwitterOauth.m */; };
 		4DBA09C911B056080030ED26 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */; };
 		4DBA09CA11B056080030ED26 /* PushedBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C311B056080030ED26 /* PushedBaseTableViewController.m */; };
 		4DBA09CB11B056080030ED26 /* RefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */; };
 		4DBA09CC11B056080030ED26 /* RetweetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C711B056080030ED26 /* RetweetTableViewController.m */; };
-		4DBA09D711B056290030ED26 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D011B056290030ED26 /* Twitter.m */; };
+		4DBA09D711B056290030ED26 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D011B056290030ED26 /* Tweet.m */; };
 		4DBA09D811B056290030ED26 /* TwitterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */; };
 		4DBA09D911B056290030ED26 /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D411B056290030ED26 /* TwitterTableViewController.m */; };
 		4DBA09DA11B056290030ED26 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D611B056290030ED26 /* UIImage+Resize.m */; };
@@ -58,6 +59,8 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D48060811B1CA9A00BD36BE /* TwitterOauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterOauth.h; sourceTree = "<group>"; };
+		4D48060911B1CA9A00BD36BE /* TwitterOauth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterOauth.m; sourceTree = "<group>"; };
 		4DBA09C011B056080030ED26 /* PullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTableViewController.h; sourceTree = "<group>"; };
 		4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTableViewController.m; sourceTree = "<group>"; };
 		4DBA09C211B056080030ED26 /* PushedBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedBaseTableViewController.h; sourceTree = "<group>"; };
@@ -66,8 +69,8 @@
 		4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableHeaderView.m; sourceTree = "<group>"; };
 		4DBA09C611B056080030ED26 /* RetweetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetweetTableViewController.h; sourceTree = "<group>"; };
 		4DBA09C711B056080030ED26 /* RetweetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetweetTableViewController.m; sourceTree = "<group>"; };
-		4DBA09CF11B056290030ED26 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
-		4DBA09D011B056290030ED26 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		4DBA09CF11B056290030ED26 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		4DBA09D011B056290030ED26 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 		4DBA09D111B056290030ED26 /* TwitterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTableViewCell.h; sourceTree = "<group>"; };
 		4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTableViewCell.m; sourceTree = "<group>"; };
 		4DBA09D311B056290030ED26 /* TwitterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTableViewController.h; sourceTree = "<group>"; };
@@ -208,8 +211,10 @@
 		4DBA09CD11B0560D0030ED26 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA09CF11B056290030ED26 /* Twitter.h */,
-				4DBA09D011B056290030ED26 /* Twitter.m */,
+				4D48060811B1CA9A00BD36BE /* TwitterOauth.h */,
+				4D48060911B1CA9A00BD36BE /* TwitterOauth.m */,
+				4DBA09CF11B056290030ED26 /* Tweet.h */,
+				4DBA09D011B056290030ED26 /* Tweet.m */,
 			);
 			name = Twitter;
 			sourceTree = "<group>";
@@ -405,7 +410,7 @@
 				4DBA09CA11B056080030ED26 /* PushedBaseTableViewController.m in Sources */,
 				4DBA09CB11B056080030ED26 /* RefreshTableHeaderView.m in Sources */,
 				4DBA09CC11B056080030ED26 /* RetweetTableViewController.m in Sources */,
-				4DBA09D711B056290030ED26 /* Twitter.m in Sources */,
+				4DBA09D711B056290030ED26 /* Tweet.m in Sources */,
 				4DBA09D811B056290030ED26 /* TwitterTableViewCell.m in Sources */,
 				4DBA09D911B056290030ED26 /* TwitterTableViewController.m in Sources */,
 				4DBA09DA11B056290030ED26 /* UIImage+Resize.m in Sources */,
@@ -424,6 +429,7 @@
 				4DBA0A3011B057590030ED26 /* NSScanner_Extensions.m in Sources */,
 				4DBA0AA111B05A2C0030ED26 /* GradientTableViewCell.m in Sources */,
 				4DBA0AA811B05A590030ED26 /* BaseTableViewController.m in Sources */,
+				4D48060A11B1CA9A00BD36BE /* TwitterOauth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +439,22 @@
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ADDITIONAL_SDKS = "SDKs/httpriot-0.6.10/$(PLATFORM_NAME)$(IPHONEOS_DEPLOYMENT_TARGET).sdk";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = fabordrab_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "fabordrab-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_LDFLAGS = (
+					"-lhttpriot",
+					"-lxml2",
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = Fab;
 				SDKROOT = iphoneos3.1.3;
 			};

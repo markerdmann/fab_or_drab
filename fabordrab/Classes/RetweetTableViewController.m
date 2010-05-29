@@ -33,7 +33,7 @@
  * Adds a custom back button view onto the navbar.
  *
  */
-- (id)initWithTweet:(Twitter *)twt
+- (id)initWithTweet:(Tweet *)twt
 {
   if ( self = [super initWithStyle:UITableViewStyleGrouped] )
 	{

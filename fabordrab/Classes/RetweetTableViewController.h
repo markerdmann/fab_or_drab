@@ -13,15 +13,15 @@
 #import "AppHelpers.h"
 #import "UIImage+Resize.h"
 
-#import "Twitter.h"
+#import "Tweet.h"
 
 
 @interface RetweetViewController : PushedBaseTableViewController {
-	Twitter *tweet;
+	Tweet *tweet;
 }
 
-@property (nonatomic, retain) Twitter *tweet;
+@property (nonatomic, retain) Tweet *tweet;
 
-- (id) initWithTweet:(Twitter *)twt;
+- (id) initWithTweet:(Tweet *)twt;
 
 @end

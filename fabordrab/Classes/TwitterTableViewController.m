@@ -118,7 +118,7 @@
 	tweetsArray = [[NSMutableArray alloc] init];
 	
 	for ( id object in array) {
-		Twitter *twt = [[Twitter alloc] init];
+		Tweet *twt = [[Tweet alloc] init];
 
 		NSDate *tweetDate = [self dateFromTwitterString:[object valueForKey:@"created_at"]]; // [self dateFromTwitterString:[object valueForKey:@"created_at"]];
 		NSString *tweetText = [object valueForKey:@"text"];
@@ -278,7 +278,7 @@
  */
 - (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath: (NSIndexPath *) indexPath
 {
-	Twitter *twt = [tweetsArray objectAtIndex:indexPath.row];
+	Tweet *twt = [tweetsArray objectAtIndex:indexPath.row];
 	return [TwitterTableViewCell heightForCellInTable:tableView withText:twt.text];
 }
 
@@ -317,7 +317,7 @@
  */
 - (void)prepareCell:(TwitterTableViewCell *)cell forIndexPath:(NSIndexPath *)indexPath
 {
-  Twitter *twt = [tweetsArray objectAtIndex:indexPath.row];
+  Tweet *twt = [tweetsArray objectAtIndex:indexPath.row];
 		
 	cell.textLabel.text = [self stringFromTwitterDate:twt.created];
 	cell.detailTextLabel.text = twt.text;
@@ -337,7 +337,7 @@
 {
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 	
-	Twitter *twt = [tweetsArray objectAtIndex:indexPath.row];
+	Tweet *twt = [tweetsArray objectAtIndex:indexPath.row];
 	RetweetViewController *next = [[RetweetViewController alloc] initWithTweet:twt];
 	[self.navigationController pushViewController:next animated:YES];
 	[next release];

@@ -4,7 +4,7 @@
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/PushedBaseTableViewController.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RefreshTableHeaderView.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o
-/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o
+/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Tweet.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o
@@ -23,3 +23,4 @@
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/NSScanner_Extensions.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell.o
 /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/BaseTableViewController.o
+/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterOauth.o
