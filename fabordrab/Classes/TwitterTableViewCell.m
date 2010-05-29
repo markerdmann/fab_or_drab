@@ -60,13 +60,13 @@
 	cellSize = [theText sizeWithFont:[UIFont fontWithName:@"Helvetica-Bold" size:16.0f]
 								 constrainedToSize:targetSize
 										 lineBreakMode:UILineBreakModeWordWrap];
-	
+
   // NOTE: 1.0f for the bottom pixel line on the row
   cellSize.height += (2.0f * TwitterCellMargin) + 1.0f;
 
 	// For the Date
 	cellSize.height += TwitterCellDateHeight;
-	
+
   return cellSize.height;
 }
 

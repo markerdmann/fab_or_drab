@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #include <HTTPRiot/HTTPRiot.h> 
 
-@protocol TFTwitterStatusDelegate
+@protocol TwitterStatusDelegate
 @optional
 	- (void)statusUpdateComplete;
 @end

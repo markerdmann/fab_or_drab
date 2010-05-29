@@ -13,6 +13,7 @@
 #import "JSON/CJSONDeserializer.h"
 
 #import "RetweetTableViewController.h"
+#import "TwitterLoginView.h"
 
 @interface TwitterTableViewController : BaseTableViewController {
 	NSMutableData *tweetsData;

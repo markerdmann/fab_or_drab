@@ -336,16 +336,22 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath 
 {
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
-	
+
+	/*
 	Tweet *twt = [tweetsArray objectAtIndex:indexPath.row];
 	RetweetViewController *next = [[RetweetViewController alloc] initWithTweet:twt];
+	[self.navigationController pushViewController:next animated:YES];
+	[next release];
+	 */
+
+	TwitterLoginView *next = [[TwitterLoginView alloc] init];
 	[self.navigationController pushViewController:next animated:YES];
 	[next release];
 }
 
 - (void)dealloc
 {
-    [super dealloc];
+	[super dealloc];
 }
 
 @end
