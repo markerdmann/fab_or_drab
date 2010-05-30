@@ -33,19 +33,23 @@ before do
 
   token = session[:access_token]
   secret = session[:secret_token]
-  @client = TwitterOAuth::Client.new(
-    :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
-    :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
-    :token => token,
-    :secret => secret
-  )
+  @client = set_client(token, secret)
   @rate_limit_status = @client.rate_limit_status
 
   User.first_or_create( :token => token,
                         :secret => secret )
 end
 
+def set_client(token, secret)
+  
+  TwitterOAuth::Client.new(
+    :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
+    :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
+    :token => token,
+    :secret => secret
+  )
 
+end
 
 get '/' do
   redirect '/timeline' if @user
@@ -98,8 +102,8 @@ post '/upload' do
     )
   url = "#{@@config['s3_url']}/#{filename}"
 
-  token = session[:token]
-  secret = session[:secret_token]
+  token = params[:token] || session[:token]
+  secret = params[:secret] || session[:secret_token]
   user = User.first_or_create( :token => token, :secret => secret )
   picture = Picture.create( :uri => url ) 
   user.pictures << picture
@@ -110,6 +114,7 @@ post '/upload' do
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
+  @client = set_client(token, secret)
   @client.update(short_url)
   
   redirect "/vote/#{id}"
