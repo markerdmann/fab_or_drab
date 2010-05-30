@@ -29,6 +29,11 @@ a {
 img {
 	max-width: 800px;
 	max-height: 500px;
+	border-style: solid;
+	border-color: white;
+	border-width: 7px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
 }
 
 form.left {
@@ -52,15 +57,16 @@ body{
 .sideways ul li {
     	list-style-type:none;
 	display:inline;
-	padding:0 10px 0 10px;
-	border-right:2px solid magenta;
+	padding:0px 10px 0 30px;
+	font-size: 28px;
 }
 
 .sideways ul li.field {
     	list-style-type:none;
 	display:inline;
-	padding:0 10px 0 10px;
-        border-right:none;
+	padding:0 10px 0 30px;
+    border-right:none;
+	font-size: 16px;
 }
 
 .sideways ul li.last {
@@ -110,8 +116,8 @@ body{
 	margin-top:50px;	
 	padding-top:20px;
 	padding-bottom:20px;
-	-moz-border-radius:5px;
-	-webkit-border-radius:5px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
 }
 #main .image{
 	text-align:center;
