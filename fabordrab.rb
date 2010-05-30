@@ -44,21 +44,6 @@ get '/timeline' do
   erb :timeline
 end
 
-get '/mentions' do
-  @tweets = @client.mentions
-  erb:timeline
-end
-
-get '/retweets' do
-  @tweets = @client.retweets_of_me
-  erb:timeline
-end
-
-get '/retweeted' do
-  @tweets = @client.retweeted_by_me
-  erb:timeline
-end
-
 post '/update' do
   @client.update(params[:update])
   redirect '/timeline'
