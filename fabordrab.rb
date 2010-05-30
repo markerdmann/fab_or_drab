@@ -136,7 +136,7 @@ get '/vote' do
   @url = least_judged_picture.url
   puts @url.inspect
 
-  erb :vote
+  redirect '/vote/#{@name}'
 end
 
 get '/vote/:name' do
