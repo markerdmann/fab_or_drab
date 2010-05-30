@@ -11,9 +11,6 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'init.rb'))
 
 include AWS::S3
 
-FAB = 1
-DRAB = 0
-
 configure do
   set :sessions, true
   @@config = YAML.load_file("config.yml") rescue nil || {}
@@ -98,9 +95,10 @@ post '/upload' do
   name = Ohm.redis.incr "fabordrab:picture:last_name"
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
-  token = params[:token] || session[:token]
+  token = params[:token] || session[:access_token]
   secret = params[:secret] || session[:secret_token]
 
+  puts "in upload"
   puts token.inspect
   puts secret.inspect
   user = User.first_or_create( :token => token, :secret => secret )
@@ -168,13 +166,13 @@ end
 
 post '/fab/:name' do
   name = params[:name]
-  rate_picture(name, FAB)
+  rate_picture(name, Picture::FAB)
   redirect "/vote"
 end
 
 post '/drab/:name' do
   name = params[:name]
-  rate_picture(name, DRAB)
+  rate_picture(name, Picture::DRAB)
   redirect "/vote"
 end
 
