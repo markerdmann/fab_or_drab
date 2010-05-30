@@ -136,3 +136,6 @@ body{
 #rightPanel{
 	right:-400px;	
 }
+p.intro {
+	margin: 20px;
+}

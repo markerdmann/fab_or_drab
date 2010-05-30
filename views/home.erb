@@ -1,6 +1,24 @@
 <div id="connect_button">
     <a href="/connect"><img src="sign_in_with_twitter.gif"/></a>
 </div>
+<p class="intro">
+	Hi Everyone! Welcome to Fab Or Drab, which is now officially 1 day old. This app is designed for people who have trouble making decisions when they're putting
+	on clothes (at the store, for example, or before a night on the town). We've put together a small
+	demo app for the iPhone that lets you take a picture and upload it (or you can upload via the
+	web interface). After the picture has been uploaded, other users can vote "Fab" or "Drab" by 
+	clicking on the link which is tweeted out to all your friends. It even includes annotations! :-)
+	Users can also find your picture by clicking on the vote link (pictures shown in order of 
+	fewest judgments).<br /><br />
+	
+	You may also notice that you're receiving judgments in spite of the fact that no one else
+	knows about this app. We're using CrowdFlower to have paid workers around the world judge your pictures.
+	This is a way of seeding the app in order to generate a community of happy and satisfied users. After
+	a while, paying for judgments will probably be unnecessary. 
+	After a	picture has been judged by workers, the results are posted back to Fab Or Drab and added to the
+	stats on the My Pictures page.<br /><br />
+	
+	Apologies for the rough interface design! Our front-end developers were all busy this weekend. :-)<br /><br />
+</p>
 <h2>Current Trends</h2>
 <%= @trends['trends'].to_a.first.last.collect{|x| "<a href='/search?q=#{URI.encode(x['query'])}'>#{x['name']}</a>"}.join(', ') %>
 
