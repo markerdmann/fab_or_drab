@@ -99,7 +99,8 @@ post '/upload' do
   user = User.first_or_create( :token => token, :secret => secret )
   picture = Picture.create( :name => Picture.hash_name(name) )
   filename = picture.filename
-  picture.update( :url => "#{@@config['s3_url']}/#{filename}" )
+  s3_url = ENV['S3_URL'] || @@config['s3_url']
+  picture.update( :url => "#{s3_url}/#{filename}" )
   user.pictures << picture
   
   S3Object.store(
