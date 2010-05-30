@@ -1,6 +1,8 @@
 class User < Ohm::Model
-  attribute :email
   attribute :token
-  attribute :secret_token
+  attribute :secret
   collection :pictures, Picture
+
+  index :token
+  index :secret
 end
