@@ -57,6 +57,7 @@ get '/' do
   redirect '/timeline' if @user
   @trends = @client.current_trends
   @tweets = @client.public_timeline
+
   erb :home
 end
 
@@ -82,6 +83,15 @@ get '/search' do
   erb :search
 end
 
+get '/mypics' do 
+  token, secret = get_tokens
+  user = User.first_or_create(:token => token, :secret => secret) 
+  redirect '/' unless user
+
+  @pics = user.pictures
+  erb :mypics
+end
+
 get '/upload' do
   
   erb :upload
@@ -104,8 +114,7 @@ post '/upload' do
   name = Ohm.redis.incr "fabordrab:picture:last_name"
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
-  token = params[:token] || session[:access_token]
-  secret = params[:secret] || session[:secret_token]
+  token, secret = get_tokens
 
   puts "in upload"
   puts token.inspect
@@ -238,5 +247,11 @@ end
 helpers do 
   def partial(name, options={})
     erb("_#{name.to_s}".to_sym, options.merge(:layout => false))
+  end
+
+  def get_tokens
+    token = params[:token] || session[:access_token]
+    secret = params[:secret] || session[:secret_token]
+    return token, secret
   end
 end

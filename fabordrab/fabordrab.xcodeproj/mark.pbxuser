@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FabOrDrabAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 460}}";
+			sepNavSelRange = "{182, 0}";
+			sepNavVisRange = "{0, 454}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FabOrDrabAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 611}}";
+			sepNavSelRange = "{538, 0}";
+			sepNavVisRange = "{44, 862}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* FabOrDrab */ = {
+		activeExec = 0;
+		executables = (
+			4D91DF8A11B280EA00821C56 /* FabOrDrab */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4D91DF8A11B280EA00821C56 /* FabOrDrab */;
+		activeSDKPreference = iphoneos3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* FabOrDrab */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* FabOrDrab */,
+		);
+		codeSenseManager = 4D91DF9A11B280F200821C56 /* Code sense */;
+		executables = (
+			4D91DF8A11B280EA00821C56 /* FabOrDrab */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					897,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					857,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 296915842;
+			PBXWorkspaceStateSaveDate = 296915842;
+		};
+		perUserProjectItems = {
+			4D52B55A11B2937F00F9CE33 /* PBXTextBookmark */ = 4D52B55A11B2937F00F9CE33 /* PBXTextBookmark */;
+			4D52B55B11B2937F00F9CE33 /* PBXTextBookmark */ = 4D52B55B11B2937F00F9CE33 /* PBXTextBookmark */;
+			4D52B55C11B2937F00F9CE33 /* PBXTextBookmark */ = 4D52B55C11B2937F00F9CE33 /* PBXTextBookmark */;
+			4D52B56B11B2939000F9CE33 /* XCBuildMessageTextBookmark */ = 4D52B56B11B2939000F9CE33 /* XCBuildMessageTextBookmark */;
+			4D52B58D11B2981900F9CE33 /* PBXTextBookmark */ = 4D52B58D11B2981900F9CE33 /* PBXTextBookmark */;
+			4D91DFD811B281C700821C56 /* PBXTextBookmark */ = 4D91DFD811B281C700821C56 /* PBXTextBookmark */;
+			4D91DFDA11B281C700821C56 /* PBXTextBookmark */ = 4D91DFDA11B281C700821C56 /* PBXTextBookmark */;
+			4D91E02011B282C400821C56 /* PBXTextBookmark */ = 4D91E02011B282C400821C56 /* PBXTextBookmark */;
+			4D91E02511B282C400821C56 /* PBXTextBookmark */ = 4D91E02511B282C400821C56 /* PBXTextBookmark */;
+			4D91E02611B282C400821C56 /* PBXTextBookmark */ = 4D91E02611B282C400821C56 /* PBXTextBookmark */;
+			4D91E03511B2834C00821C56 /* PBXTextBookmark */ = 4D91E03511B2834C00821C56 /* PBXTextBookmark */;
+			4D91E09311B2845A00821C56 /* PBXTextBookmark */ = 4D91E09311B2845A00821C56 /* PBXTextBookmark */;
+			4D91E0A511B2849C00821C56 /* PBXTextBookmark */ = 4D91E0A511B2849C00821C56 /* PBXTextBookmark */;
+			4D91E0D111B2871E00821C56 /* PBXTextBookmark */ = 4D91E0D111B2871E00821C56 /* PBXTextBookmark */;
+			4D91E0D211B2871E00821C56 /* PBXTextBookmark */ = 4D91E0D211B2871E00821C56 /* PBXTextBookmark */;
+			4D91E0FB11B2881000821C56 /* PBXTextBookmark */ = 4D91E0FB11B2881000821C56 /* PBXTextBookmark */;
+			4D91E0FC11B2881000821C56 /* PBXTextBookmark */ = 4D91E0FC11B2881000821C56 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4D91DF9911B280F200821C56 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4D52B55A11B2937F00F9CE33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFCA11B2818B00821C56 /* UIImage+Resize.m */;
+		name = "UIImage+Resize.m: 32";
+		rLen = 0;
+		rLoc = 793;
+		rType = 0;
+		vrLen = 950;
+		vrLoc = 159;
+	};
+	4D52B55B11B2937F00F9CE33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFC911B2818B00821C56 /* UIImage+Resize.h */;
+		name = "UIImage+Resize.h: 15";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 337;
+		vrLoc = 0;
+	};
+	4D52B55C11B2937F00F9CE33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFB911B2818B00821C56 /* FabOrDrab.h */;
+		name = "FabOrDrab.h: 26";
+		rLen = 0;
+		rLoc = 595;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	4D52B56B11B2939000F9CE33 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Unused variable 'imagePath'";
+		fRef = 4D91DFBA11B2818B00821C56 /* FabOrDrab.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 141;
+		rType = 1;
+	};
+	4D52B58D11B2981900F9CE33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFBA11B2818B00821C56 /* FabOrDrab.m */;
+		name = "FabOrDrab.m: 72";
+		rLen = 0;
+		rLoc = 1716;
+		rType = 0;
+		vrLen = 1047;
+		vrLoc = 1528;
+	};
+	4D91DF8A11B280EA00821C56 /* FabOrDrab */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = FabOrDrab;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	4D91DF9911B280F200821C56 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4D91DF9A11B280F200821C56 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4D91DFA911B2812F00821C56 /* Camera.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 663}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 401}";
+		};
+	};
+	4D91DFB211B2814300821C56 /* TextEntryCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 437}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{0, 576}";
+		};
+	};
+	4D91DFB311B2814300821C56 /* TextEntryCell.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 1417}}";
+			sepNavSelRange = "{320, 0}";
+			sepNavVisRange = "{302, 908}";
+		};
+	};
+	4D91DFB911B2818B00821C56 /* FabOrDrab.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 452}}";
+			sepNavSelRange = "{595, 0}";
+			sepNavVisRange = "{0, 602}";
+		};
+	};
+	4D91DFBA11B2818B00821C56 /* FabOrDrab.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 2353}}";
+			sepNavSelRange = "{1716, 0}";
+			sepNavVisRange = "{1528, 1047}";
+		};
+	};
+	4D91DFC111B2818B00821C56 /* TwitterLoginView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1104, 460}}";
+			sepNavSelRange = "{492, 0}";
+			sepNavVisRange = "{0, 771}";
+		};
+	};
+	4D91DFC211B2818B00821C56 /* TwitterLoginView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 2223}}";
+			sepNavSelRange = "{634, 0}";
+			sepNavVisRange = "{0, 1003}";
+		};
+	};
+	4D91DFC311B2818B00821C56 /* TwitterOauth.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 323}";
+		};
+	};
+	4D91DFC911B2818B00821C56 /* UIImage+Resize.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 452}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{0, 337}";
+		};
+	};
+	4D91DFCA11B2818B00821C56 /* UIImage+Resize.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 598}}";
+			sepNavSelRange = "{793, 0}";
+			sepNavVisRange = "{159, 950}";
+		};
+	};
+	4D91DFD811B281C700821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFA911B2812F00821C56 /* Camera.m */;
+		name = "Camera.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 401;
+		vrLoc = 0;
+	};
+	4D91DFDA11B281C700821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFC311B2818B00821C56 /* TwitterOauth.h */;
+		name = "TwitterOauth.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 323;
+		vrLoc = 0;
+	};
+	4D91DFF111B2823F00821C56 /* Twitter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 322}";
+		};
+	};
+	4D91DFF211B2824E00821C56 /* AppHelpers.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 460}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 318}";
+		};
+	};
+	4D91DFFC11B2826400821C56 /* CDataScanner.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1075, 923}}";
+			sepNavSelRange = "{670, 1}";
+			sepNavVisRange = "{0, 1349}";
+		};
+	};
+	4D91E02011B282C400821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91E02111B282C400821C56 /* fabordrabAppDelegate.m */;
+		name = "fabordrabAppDelegate.m: 11";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 0;
+	};
+	4D91E02111B282C400821C56 /* fabordrabAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = fabordrabAppDelegate.m;
+		path = /Users/mark/Desktop/FabOrDrab/fabordrabAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
+	4D91E02511B282C400821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFF111B2823F00821C56 /* Twitter.m */;
+		name = "Twitter.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 0;
+	};
+	4D91E02611B282C400821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFF211B2824E00821C56 /* AppHelpers.h */;
+		name = "AppHelpers.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 318;
+		vrLoc = 0;
+	};
+	4D91E03511B2834C00821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFFC11B2826400821C56 /* CDataScanner.h */;
+		name = "CDataScanner.h: 17";
+		rLen = 1;
+		rLoc = 670;
+		rType = 0;
+		vrLen = 1349;
+		vrLoc = 0;
+	};
+	4D91E09311B2845A00821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* FabOrDrabAppDelegate.h */;
+		name = "FabOrDrabAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 182;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	4D91E0A511B2849C00821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* FabOrDrabAppDelegate.m */;
+		name = "FabOrDrabAppDelegate.m: 23";
+		rLen = 0;
+		rLoc = 538;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 44;
+	};
+	4D91E0D111B2871E00821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFB211B2814300821C56 /* TextEntryCell.h */;
+		name = "TextEntryCell.h: 14";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	4D91E0D211B2871E00821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFB311B2814300821C56 /* TextEntryCell.m */;
+		name = "TextEntryCell.m: 20";
+		rLen = 0;
+		rLoc = 320;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 302;
+	};
+	4D91E0FB11B2881000821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFC211B2818B00821C56 /* TwitterLoginView.m */;
+		name = "TwitterLoginView.m: 26";
+		rLen = 0;
+		rLoc = 634;
+		rType = 0;
+		vrLen = 1003;
+		vrLoc = 0;
+	};
+	4D91E0FC11B2881000821C56 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4D91DFC111B2818B00821C56 /* TwitterLoginView.h */;
+		name = "TwitterLoginView.h: 20";
+		rLen = 0;
+		rLoc = 492;
+		rType = 0;
+		vrLen = 771;
+		vrLoc = 0;
+	};
+	8D1107310486CEB800E47090 /* FabOrDrab-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{42, 82}, {1042, 770}}";
+		};
+	};
+}
