@@ -11,6 +11,9 @@ require File.expand_path(File.join(File.dirname(__FILE__), 'init.rb'))
 
 include AWS::S3
 
+FAB = 1
+DRAB = 0
+
 configure do
   set :sessions, true
   @@config = YAML.load_file("config.yml") rescue nil || {}
@@ -119,7 +122,7 @@ end
 
 get '/vote' do
   ## yeah we would use sorted set here
-  least_judged_picture = Picture.all.sort_by { |a,b| a.votes.size <=> b.votes.size } 
+  least_judged_picture = Picture.all.sort { |a,b| a.votes.size <=> b.votes.size }
   @url = least_judge_picture.url
   puts @url.inspect
 
@@ -129,12 +132,29 @@ end
 get '/vote/:id' do
   
   id = params[:id]
-
-  @url = Picture.first(:name => id).url
+  
+  pic = Picture.first( :name => id )
+  @url = pic.url
+  
   puts @url.inspect
 
   erb :vote
   
+end
+
+def rate_picture(name, fab_or_drab)
+  pic = Picture.first( :name => name )
+  vote = Vote.create( :rating => fab_or_drab, :picture => pic ) if pic
+end
+
+post '/fab/:id' do
+  id = params[:id]
+  rate_picture(id, FAB)
+end
+
+post '/drab/:id' do
+  id = params[:id]
+  rate_picture(id, DRAB)
 end
 
 # store the request tokens and send to Twitter
