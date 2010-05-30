@@ -10,7 +10,7 @@
 #import "TwitterTableViewCell.h"
 
 #define NETWORK_TIMEOUT 120.0
-#define TwitterURL @"https://twitter.com/statuses/user_timeline/marksands.json"
+#define TwitterURL @"https://twitter.com/statuses/user_timeline/marksands2.json"
 
 #pragma mark -
 

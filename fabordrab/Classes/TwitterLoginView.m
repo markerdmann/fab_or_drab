@@ -5,6 +5,7 @@
 //  Created by Mark Sands on 5/29/10.
 //  Copyright 2010 Apple Inc. All rights reserved.
 //
+#include <stdlib.h>
 
 #import "TwitterLoginView.h"
 
@@ -76,8 +77,11 @@
 {
   [self.usernameCell resignFirstResponder];
   [self.passwordCell resignFirstResponder];
-	  
-  [TwitterOauth postStatus:@"Test!"
+
+	int r = rand() % 9001;
+	NSString *asdf = [NSString stringWithFormat:@"tanf test - drink code play again - number %d",r];
+
+  [TwitterOauth postStatus:asdf
 							withUsername:self.usernameCell.text
 									password:self.passwordCell.text
 									delegate:self];
@@ -97,12 +101,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
-	if (section == 0) {
-		return @"Please enter your Twitter credentials:";
-	} else {
-		return @"ZOMGWTFBBQ?!";
-	}
-
+	return @"Enter your Twitter credentials:";
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -113,12 +112,12 @@
 - (UITableViewCell *)tableView:(UITableView *)aTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
   static NSString *CellIdentifier = @"Cell";
-  
+
   UITableViewCell *cell = [aTableView dequeueReusableCellWithIdentifier:CellIdentifier];
   if (cell == nil) {
     cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
   }
-  
+
 	if (indexPath.row == 0) {
 		return self.usernameCell;
 	}
@@ -139,12 +138,24 @@
 
 #pragma mark UITextFieldDelegate methods
 
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+	if (textField == self.passwordCell.textField) {
+		//[textField setReturnKeyType:UIReturnKeySend];
+		//[textField addTarget:self action:@selector(sendTweet:) forControlEvents:UIControlEventEditingDidEndOnExit];		
+	}
+}
+
+-(void)textFieldDidEndEditing:(UITextField *)textField {
+	//if ( textField == self.passwordCell.textField ) {
+	//}
+}
+
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
   if (textField == self.usernameCell.textField) {
     [self.usernameCell resignFirstResponder];
     [self.passwordCell becomeFirstResponder];
-  }
+	}
   else if (textField == self.passwordCell.textField) {
     [self.passwordCell resignFirstResponder];
   }
@@ -155,7 +166,7 @@
 
 - (void)statusUpdateComplete
 {
-  [self.parentViewController dismissModalViewControllerAnimated:YES];
+	[self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

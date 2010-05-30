@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface fabordrabAppDelegate : NSObject <UIApplicationDelegate> {
-    
-    UIWindow *window;
-    UINavigationController *navigationController;
+@interface fabordrabAppDelegate : NSObject <UIApplicationDelegate>
+{    
+	UIWindow *window;
+	UINavigationController *navigationController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;

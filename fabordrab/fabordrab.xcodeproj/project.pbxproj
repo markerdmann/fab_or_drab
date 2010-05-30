@@ -19,6 +19,7 @@
 		4D48065E11B1DAF300BD36BE /* TextEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48065D11B1DAF300BD36BE /* TextEntryCell.m */; };
 		4D48069C11B1DCFD00BD36BE /* TextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48069A11B1DCFD00BD36BE /* TextEntryCell.xib */; };
 		4D48069D11B1DCFD00BD36BE /* TwitterLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */; };
+		4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48076611B1ED2A00BD36BE /* FabOrDrab.m */; };
 		4DBA09C911B056080030ED26 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */; };
 		4DBA09CA11B056080030ED26 /* PushedBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C311B056080030ED26 /* PushedBaseTableViewController.m */; };
 		4DBA09CB11B056080030ED26 /* RefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */; };
@@ -71,6 +72,8 @@
 		4D48065D11B1DAF300BD36BE /* TextEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEntryCell.m; sourceTree = "<group>"; };
 		4D48069A11B1DCFD00BD36BE /* TextEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextEntryCell.xib; sourceTree = "<group>"; };
 		4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterLoginController.xib; sourceTree = "<group>"; };
+		4D48076511B1ED2A00BD36BE /* FabOrDrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabOrDrab.h; sourceTree = "<group>"; };
+		4D48076611B1ED2A00BD36BE /* FabOrDrab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabOrDrab.m; sourceTree = "<group>"; };
 		4DBA09C011B056080030ED26 /* PullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTableViewController.h; sourceTree = "<group>"; };
 		4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTableViewController.m; sourceTree = "<group>"; };
 		4DBA09C211B056080030ED26 /* PushedBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedBaseTableViewController.h; sourceTree = "<group>"; };
@@ -214,6 +217,7 @@
 		4D48065111B1D99900BD36BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4D48076411B1ED1600BD36BE /* FabOrDrab */,
 				4D48065211B1D9A100BD36BE /* Twitter */,
 			);
 			name = Views;
@@ -222,10 +226,23 @@
 		4D48065211B1D9A100BD36BE /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				4DBA09D111B056290030ED26 /* TwitterTableViewCell.h */,
+				4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */,
+				4D48064411B1D2DC00BD36BE /* TwitterLoginView.h */,
+				4D48064511B1D2DC00BD36BE /* TwitterLoginView.m */,
 				4D48065C11B1DAF300BD36BE /* TextEntryCell.h */,
 				4D48065D11B1DAF300BD36BE /* TextEntryCell.m */,
 			);
 			name = Twitter;
+			sourceTree = "<group>";
+		};
+		4D48076411B1ED1600BD36BE /* FabOrDrab */ = {
+			isa = PBXGroup;
+			children = (
+				4D48076511B1ED2A00BD36BE /* FabOrDrab.h */,
+				4D48076611B1ED2A00BD36BE /* FabOrDrab.m */,
+			);
+			name = FabOrDrab;
 			sourceTree = "<group>";
 		};
 		4DBA09BD11B055EE0030ED26 /* Controller */ = {
@@ -271,12 +288,8 @@
 			children = (
 				4DBA09C611B056080030ED26 /* RetweetTableViewController.h */,
 				4DBA09C711B056080030ED26 /* RetweetTableViewController.m */,
-				4DBA09D111B056290030ED26 /* TwitterTableViewCell.h */,
-				4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */,
 				4DBA09D311B056290030ED26 /* TwitterTableViewController.h */,
 				4DBA09D411B056290030ED26 /* TwitterTableViewController.m */,
-				4D48064411B1D2DC00BD36BE /* TwitterLoginView.h */,
-				4D48064511B1D2DC00BD36BE /* TwitterLoginView.m */,
 			);
 			name = Twitter;
 			sourceTree = "<group>";
@@ -466,6 +479,7 @@
 				4D48060A11B1CA9A00BD36BE /* TwitterOauth.m in Sources */,
 				4D48064611B1D2DC00BD36BE /* TwitterLoginView.m in Sources */,
 				4D48065E11B1DAF300BD36BE /* TextEntryCell.m in Sources */,
+				4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
