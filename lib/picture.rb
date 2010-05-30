@@ -15,6 +15,6 @@ class Picture < Ohm::Model
   end
 
   def rating
-    self.votes.inject(0) {|r,v| r += v.rating } / self.votes.size.to_f
+    self.votes.inject(0) {|r,v| r += v.rating.to_i } / self.votes.size.to_f
   end
 end
