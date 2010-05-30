@@ -1,11 +1,11 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'sinatra'
-require 'twitter_oauth'
 require 'redis'
 require 'aws/s3'
 require 'json'
 require 'httparty'
+require 'twitter_oauth/lib/twitter_oauth'
 
 require File.expand_path(File.join(File.dirname(__FILE__), 'init.rb'))
 
@@ -93,10 +93,13 @@ post '/upload' do
   image_file = params[:datafile][:tempfile]
   
   annotations = {}
-  annotations[:category] = params[:category]
-  annotations[:brand] = params[:brand]
-  annotations[:store] = params[:store]
-  annotations[:price] = params[:price]
+  annotations['product'] = {}
+  annotations['product']['category'] = params[:category]
+  annotations['product']['brand'] = params[:brand]
+  annotations['product']['store'] = params[:store]
+  annotations['product']['price'] = params[:price]
+  
+  puts annotations.inspect
   
   name = Ohm.redis.incr "fabordrab:picture:last_name"
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
@@ -132,7 +135,7 @@ post '/upload' do
   short_url = response['data']['url']
   puts short_url.inspect
   @client = set_client(token, secret)
-  @client.update(short_url)
+  p @client.update(short_url + " #fabordrab", {:annotations => annotations.to_json})
   
   redirect "/vote/#{picture.name}"
 end
