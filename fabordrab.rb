@@ -4,6 +4,7 @@ require 'sinatra'
 require 'twitter_oauth'
 require 'redis'
 require 'aws/s3'
+require 'json'
 
 $redis = Redis.new(:host => '173.203.28.144')
 
@@ -82,13 +83,25 @@ end
 
 post '/upload' do
   
+  
   image_file = params[:datafile][:tempfile]
+  filename = rand(10**20).to_s + ".jpg"
   S3Object.store(
-      '1.jpg',
+      filename,
       image_file.read,
       'fabordrab',
       :access => :public_read
     )
+  url = "http://s3.amazonaws.com/fabordrab/#{filename}"
+  $redis.sadd("images", url)
+  redirect '/vote'
+  
+end
+
+get '/vote' do
+  
+  @image_url = $redis.srandmember("images")
+  "<img src='#{@image_url}' />"
   
 end
 
