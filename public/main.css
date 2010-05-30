@@ -21,6 +21,10 @@ a {
   padding: 10px;
 }
 
+img.connect_button {
+	border: none;
+}
+
 .timeline {
   margin:0 auto; 
   width:700px
