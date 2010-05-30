@@ -88,7 +88,7 @@ post '/upload' do
   $redis.set(id, url)
   $redis.sadd("images", url)
   
-  base_uri = @@config['base_uri']
+  base_uri = ENV['BASE_URI'] || @@config['base_uri']
   vote_url = base_uri + "/vote/#{id}"
   response = HTTParty.get("http://api.bit.ly/v3/shorten?login=markerdmann&apiKey=R_d7a6c79cf48989e6e9355bd4a6d96da2&longUrl=#{vote_url}")
   puts response.inspect
