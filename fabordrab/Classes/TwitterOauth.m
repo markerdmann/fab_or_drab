@@ -23,7 +23,7 @@
       withUsername:(NSString *)username
           password:(NSString *)password
           delegate:(id)aDelegate {
-  
+
   [self setBasicAuthWithUsername:username password:password];
   NSDictionary *body = [NSDictionary dictionaryWithObject:status forKey:@"status"];
   NSDictionary *opts = [NSDictionary dictionaryWithObject:body forKey:@"body"];

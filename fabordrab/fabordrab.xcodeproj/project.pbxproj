@@ -52,6 +52,10 @@
 		4DBA0ABE11B05AAB0030ED26 /* UIBackBarButtonPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0AB811B05AAB0030ED26 /* UIBackBarButtonPlain.png */; };
 		4DBA0B3F11B0662C0030ED26 /* icon-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0B3D11B0662C0030ED26 /* icon-big.png */; };
 		4DBA0B4011B0662C0030ED26 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0B3E11B0662C0030ED26 /* icon.png */; };
+<<<<<<< HEAD
+=======
+		4DCB5C7B11B2461700C2EDAE /* ImageUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB5C7A11B2461700C2EDAE /* ImageUpload.m */; };
+>>>>>>> master
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,6 +135,11 @@
 		4DBA0AB811B05AAB0030ED26 /* UIBackBarButtonPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBackBarButtonPlain.png; path = Images/UIBackBarButtonPlain.png; sourceTree = "<group>"; };
 		4DBA0B3D11B0662C0030ED26 /* icon-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-big.png"; path = "Images/icon-big.png"; sourceTree = "<group>"; };
 		4DBA0B3E11B0662C0030ED26 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		4DCB5C7911B2461700C2EDAE /* ImageUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUpload.h; sourceTree = "<group>"; };
+		4DCB5C7A11B2461700C2EDAE /* ImageUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUpload.m; sourceTree = "<group>"; };
+>>>>>>> master
 		8D1107310486CEB800E47090 /* fabordrab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fabordrab-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -282,6 +291,10 @@
 		4DBA09CE11B056130030ED26 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				4DCB5C7411B245EA00C2EDAE /* Image */,
+>>>>>>> master
 				4DBA09CD11B0560D0030ED26 /* Twitter */,
 			);
 			name = Model;
@@ -394,6 +407,18 @@
 			name = Images;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		4DCB5C7411B245EA00C2EDAE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4DCB5C7911B2461700C2EDAE /* ImageUpload.h */,
+				4DCB5C7A11B2461700C2EDAE /* ImageUpload.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+>>>>>>> master
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -494,6 +519,10 @@
 				4D48065E11B1DAF300BD36BE /* TextEntryCell.m in Sources */,
 				4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */,
 				4D4808E411B20F9500BD36BE /* Camera.m in Sources */,
+<<<<<<< HEAD
+=======
+				4DCB5C7B11B2461700C2EDAE /* ImageUpload.m in Sources */,
+>>>>>>> master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

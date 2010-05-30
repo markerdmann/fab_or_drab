@@ -14,28 +14,43 @@ include AWS::S3
 configure do
   set :sessions, true
   @@config = YAML.load_file("config.yml") rescue nil || {}
+
   Ohm.redis=Ohm.connection(:port =>6379, 
                            :db => @@config["redis_db"] || 0,
                            :thread_safe => true,
-                           :host => @@config["redis_host"] || "127.0.0.1")
+                           :host => ENV['REDIS_HOST'] || @@config["redis_host"] || "127.0.0.1")
   $redis = Ohm.redis
 
   AWS::S3::Base.establish_connection!(
-    :access_key_id     => @@config["s3_access_key_id"],
-    :secret_access_key => @@config["s3_secret_access_key"]
+    :access_key_id     => ENV['S3_ACCESS_KEY_ID'] || @@config["s3_access_key_id"],
+    :secret_access_key => ENV['S3_SECRET_ACCESS_KEY'] || @@config["s3_secret_access_key"]
   )
 end
 
 before do
   next if request.path_info =~ /ping$/
   @user = session[:user]
-  @client = TwitterOAuth::Client.new(
+
+  token = session[:access_token]
+  secret = session[:secret_token]
+  @client = set_client(token, secret)
+  @rate_limit_status = @client.rate_limit_status
+
+  puts token.inspect
+  puts secret.inspect
+  User.first_or_create( :token => token,
+                        :secret => secret )
+end
+
+def set_client(token, secret)
+  
+  TwitterOAuth::Client.new(
     :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
     :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
-    :token => session[:access_token],
-    :secret => session[:secret_token]
+    :token => token,
+    :secret => secret
   )
-  @rate_limit_status = @client.rate_limit_status
+
 end
 
 get '/' do
@@ -74,48 +89,91 @@ get '/upload' do
 end
 
 post '/upload' do
-  
+
   image_file = params[:datafile][:tempfile]
-  id = rand(10**20).to_s
-  filename = id + ".jpg"
+  
+  name = Ohm.redis.incr "fabordrab:picture:last_name"
+  name_available = Ohm.redis.sadd "fabordrab:picture:names", name
+
+  token = params[:token] || session[:access_token]
+  secret = params[:secret] || session[:secret_token]
+
+  puts "in upload"
+  puts token.inspect
+  puts secret.inspect
+  user = User.first_or_create( :token => token, :secret => secret )
+  picture = Picture.create( :name => Picture.hash_name(name) )
+  filename = picture.filename
+  s3_url = ENV['S3_URL'] || @@config['s3_url']
+  picture.update( :url => "#{s3_url}/#{filename}" )
+  user.pictures << picture
+  
   S3Object.store(
       filename,
       image_file.read,
       'fabordrab',
       :access => :public_read
     )
-  url = "http://s3.amazonaws.com/fabordrab/#{filename}"
-  $redis.set(id, url)
-  $redis.sadd("images", url)
+
+  base_uri = ENV['BASE_URI'] || @@config['base_uri']
+  vote_url = base_uri + "/vote/#{picture.name}"
   
-  base_uri = @@config['base_uri']
-  vote_url = base_uri + "/vote/#{id}"
-  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=markerdmann&apiKey=R_d7a6c79cf48989e6e9355bd4a6d96da2&longUrl=#{vote_url}")
+  bitly_login = ENV['BITLY_LOGIN'] || @@config['bitly_login']
+  bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
+
+  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{bitly_login}&apiKey=#{bitly_api_key}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
+  @client = set_client(token, secret)
   @client.update(short_url)
   
-  redirect "/vote/#{id}"
-  
+  redirect "/vote/#{picture.name}"
 end
 
 get '/vote' do
-  
-  @url = $redis.srandmember("images")
-  puts @url.inspect
-  
-  erb :vote
-  
+  ## yeah we would use sorted set here
+  least_judged_picture = Picture.all.sort { |a,b| a.votes.size <=> b.votes.size }.first
+  if( least_judged_picture )
+    @name = least_judged_picture.name
+    @url = least_judged_picture.url
+    puts @url.inspect
+    redirect "/vote/#{@name}"
+  else
+    redirect "/"
+  end
 end
 
-get '/vote/:id' do
+get '/vote/:name' do
   
-  id = params[:id]
-  @url = $redis.get(id)
-  puts @url.inspect
-  erb :vote
+  @name = params[:name]
+  pic = Picture.first(:name => @name)
   
+  if(pic)
+    @url = pic.url
+    puts @url.inspect
+
+    erb :vote
+  else
+    redirect "/"
+  end
+end
+
+def rate_picture(name, fab_or_drab)
+  pic = Picture.first( :name => name )
+  vote = Vote.create( :rating => fab_or_drab, :picture => pic ) if pic
+end
+
+post '/fab/:name' do
+  name = params[:name]
+  rate_picture(name, Picture::FAB)
+  redirect "/vote"
+end
+
+post '/drab/:name' do
+  name = params[:name]
+  rate_picture(name, Picture::DRAB)
+  redirect "/vote"
 end
 
 # store the request tokens and send to Twitter

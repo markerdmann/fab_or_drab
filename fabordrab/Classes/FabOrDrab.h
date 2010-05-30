@@ -11,13 +11,16 @@
 @interface FabOrDrab : UIViewController <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 {
 	UIBarButtonItem *loginButton;
-	UIView *view;
+	UIImage *image;
+	NSData *imageData;
 }
 
 @property (nonatomic, retain) UIBarButtonItem *loginButton;
-@property (nonatomic, retain) IBOutlet UIView *view;
+@property (nonatomic, retain) UIImage *image;
+@property (nonatomic, retain) NSData *imageData;
 
 - (void) login:(id)sender;
 - (void) snap:(id)sender;
+- (void) sendImage:(id)sender;
 
 @end

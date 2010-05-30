@@ -3,3 +3,4 @@ aws-s3
 redis
 json
 httparty
+ohm
