@@ -17,7 +17,7 @@ configure do
   Ohm.redis=Ohm.connection(:port =>6379, 
                            :db => @@config["redis_db"] || 0,
                            :thread_safe => true,
-                           :host => @@config["redis_host"] || "127.0.0.1")
+                           :host => ENV['REDIS_HOST'] || @@config["redis_host"] || "127.0.0.1")
   $redis = Ohm.redis
 
   AWS::S3::Base.establish_connection!(
