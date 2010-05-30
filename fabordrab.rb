@@ -95,6 +95,12 @@ post '/upload' do
 
   image_file = params[:datafile][:tempfile]
   
+  annotations = {}
+  annotations[:category] = params[:category]
+  annotations[:brand] = params[:brand]
+  annotations[:store] = params[:store]
+  annotations[:price] = params[:price]
+  
   name = Ohm.redis.incr "fabordrab:picture:last_name"
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
