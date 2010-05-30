@@ -155,14 +155,16 @@ def rate_picture(name, fab_or_drab)
   vote = Vote.create( :rating => fab_or_drab, :picture => pic ) if pic
 end
 
-post '/fab/:id' do
-  id = params[:id]
-  rate_picture(id, FAB)
+post '/fab/:name' do
+  name = params[:name]
+  rate_picture(name, FAB)
+  redirect "/vote"
 end
 
-post '/drab/:id' do
-  id = params[:id]
-  rate_picture(id, DRAB)
+post '/drab/:name' do
+  name = params[:name]
+  rate_picture(name, DRAB)
+  redirect "/vote"
 end
 
 # store the request tokens and send to Twitter
