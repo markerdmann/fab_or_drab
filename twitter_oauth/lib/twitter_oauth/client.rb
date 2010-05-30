@@ -57,7 +57,7 @@ module TwitterOAuth
         @consumer ||= OAuth::Consumer.new(
           @consumer_key,
           @consumer_secret,
-          { :site=>"http://api.twitter.com/1" }
+          { :site=>"https://api.twitter.com/1" }
         )
       end
 
