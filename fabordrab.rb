@@ -145,8 +145,7 @@ post '/upload' do
   
   
   # post to crowdflower
-  
-  HTTParty.post("https://api.crowdflower.com/v1/jobs/12386/units.json?key=#{@@cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
+  HTTParty.post("https://api.crowdflower.com/v1/jobs/12392/units.json?key=#{@@cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
   
   redirect "/vote/#{picture.name}"
 end
