@@ -7,7 +7,7 @@
                 </a>
                 <div class="sideways">
                   <ul>
-                    <li>Rating: <%= p.rating %></li>
+                    <li>Rating: <%= (p.rating * 100).round %></li>
                     <li>Fabs: <%= p.fabs %></li>
                     <li>Drabs: <%= p.drabs %></li>
                     <li class="last"> <a href="/vote/<%= p.name %>"> Vote!</a> </li>

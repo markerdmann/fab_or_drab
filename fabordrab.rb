@@ -91,7 +91,7 @@ get '/mypics' do
   user = get_user
   redirect '/' unless user
 
-  @pics = user.pictures
+  @pics = user.pictures.sort.reverse
   
   erb :mypics
 end
