@@ -5,4 +5,8 @@ class User < Ohm::Model
 
   index :token
   index :secret
+
+  def stats
+    pictures
+  end
 end
