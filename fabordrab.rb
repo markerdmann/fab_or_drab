@@ -36,19 +36,23 @@ before do
 
   token = session[:access_token]
   secret = session[:secret_token]
-  @client = TwitterOAuth::Client.new(
-    :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
-    :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
-    :token => token,
-    :secret => secret
-  )
+  @client = set_client(token, secret)
   @rate_limit_status = @client.rate_limit_status
 
   User.first_or_create( :token => token,
                         :secret => secret )
 end
 
+def set_client(token, secret)
+  
+  TwitterOAuth::Client.new(
+    :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
+    :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
+    :token => token,
+    :secret => secret
+  )
 
+end
 
 get '/' do
   redirect '/timeline' if @user
@@ -92,13 +96,14 @@ post '/upload' do
   name = Ohm.redis.incr "fabordrab:picture:last_name"
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
-  token = session[:token]
-  secret = session[:secret_token]
+  token = params[:token] || session[:token]
+  secret = params[:secret] || session[:secret_token]
   
   user = User.first_or_create( :token => token, :secret => secret )
   picture = Picture.create( :name => Picture.hash_name(name) )
   filename = picture.filename
-  picture.update( :url => "#{@@config['s3_url']}/#{filename}" )
+  s3_url = ENV['S3_URL'] || @@config['s3_url']
+  picture.update( :url => "#{s3_url}/#{filename}" )
   user.pictures << picture
   
   S3Object.store(
@@ -110,11 +115,15 @@ post '/upload' do
 
   base_uri = ENV['BASE_URI'] || @@config['base_uri']
   vote_url = base_uri + "/vote/#{picture.name}"
+  
+  bitly_login = ENV['BITLY_LOGIN'] || @@config['bitly_login']
+  bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
 
-  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{@@config['bitly_login']}&apiKey=#{@@config['bitly_api_key']}&longUrl=#{vote_url}")
+  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{bitly_login}&apiKey=#{bitly_api_key}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
+  @client = set_client(token, secret)
   @client.update(short_url)
   
   redirect "/vote/#{picture.name}"
