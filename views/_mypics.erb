@@ -1,17 +1,30 @@
 <div class="mypics">
     <% pics.each do |p| %>
-        <p>
+       <p>
             <div style="float:left; margin:5px">
                 <a href="<%= p.url %>">
-                    <img src="<%= p.url %>" width="300" height="300"/>
+                    <img src="<%= p.url %>"/>
                 </a>
                 <div class="sideways">
                   <ul>
                     <li>Rating: <%= p.rating %></li>
                     <li>Fabs: <%= p.fabs %></li>
-                    <li class="last">Drabs: <%= p.drabs %></li>
+                    <li>Drabs: <%= p.drabs %></li>
+                    <li class="last"> <a href="/vote/<%= p.name %>"> Vote!</a> </li>
                   </ul>
                 </div>
+                
+                <div class="sideways">
+                  <ul>
+                    <% p.get_data.each do |type, attributes| %>
+                    <li style="font-weight:bold;font-size:16px"> <%= type.capitalize %> </li>
+                      <% attributes.each do |f, v| %>
+                        <li class="field"><span style="font-weight:bold;"><%= f.capitalize %></span>: <span><%= v %></span></li>
+                      <% end %>
+                    <% end %>
+                  </ul>
+                </div>
+                <br/>
             </div>
             <hr style="clear:both"/>
         </p>

@@ -49,8 +49,16 @@ body{
 	border-right:2px solid magenta;
 }
 
+.sideways ul li.field {
+    	list-style-type:none;
+	display:inline;
+	padding:0 10px 0 10px;
+        border-right:none;
+}
+
 .sideways ul li.last {
-    border: none;
+    padding:0 10px 0 10px;
+    border:none;
 }
 
 #top{
