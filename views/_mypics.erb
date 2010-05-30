@@ -1,0 +1,19 @@
+<div class="mypics">
+    <% pics.each do |p| %>
+        <p>
+            <div style="float:left; margin:5px">
+                <a href="<%= p.url %>">
+                    <img src="<%= p.url %>" width="300" height="300"/>
+                </a>
+                <div class="sideways">
+                  <ul>
+                    <li>Rating: <%= p.rating %></li>
+                    <li>Fabs: <%= p.fabs %></li>
+                    <li class="last">Drabs: <%= p.drabs %></li>
+                  </ul>
+                </div>
+            </div>
+            <hr style="clear:both"/>
+        </p>
+    <% end %>
+</div>

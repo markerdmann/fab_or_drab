@@ -30,6 +30,18 @@ body{
 	font-family:Arial,Helvetica,sans-serif;
 	margin:0px;
 }
+
+.sideways ul li {
+    	list-style-type:none;
+	display:inline;
+	padding:0 10px 0 10px;
+	border-right:2px solid magenta;
+}
+
+.sideways ul li.last {
+    border: none;
+}
+
 #top{
 	width:800px;
 	height:40px;
