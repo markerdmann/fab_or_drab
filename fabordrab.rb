@@ -7,13 +7,9 @@ require 'aws/s3'
 require 'json'
 require 'httparty'
 
-AWS::S3::Base.establish_connection!(
-    :access_key_id     => '1K0XS3P667NWV6EZWBR2',
-    :secret_access_key => 'fQXVMcK11QW8O6xsxWKISpb30Oir32q8UZFV1G/6'
-  )
-include AWS::S3
-
 require File.expand_path(File.join(File.dirname(__FILE__), 'init.rb'))
+
+include AWS::S3
 
 configure do
   set :sessions, true
@@ -23,6 +19,11 @@ configure do
                            :thread_safe => true,
                            :host => @@config["redis_host"] || "127.0.0.1")
   $redis = Ohm.redis
+
+  AWS::S3::Base.establish_connection!(
+    :access_key_id     => @@config["s3_access_key_id"],
+    :secret_access_key => @@config["s3_secret_access_key"]
+  )
 end
 
 before do
