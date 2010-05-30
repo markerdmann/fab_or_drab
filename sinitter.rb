@@ -2,6 +2,16 @@
 require 'rubygems'
 require 'sinatra'
 require 'twitter_oauth'
+require 'redis'
+require 'aws/s3'
+
+$redis = Redis.new(:host => '173.203.28.144')
+
+AWS::S3::Base.establish_connection!(
+    :access_key_id     => '1K0XS3P667NWV6EZWBR2',
+    :secret_access_key => 'fQXVMcK11QW8O6xsxWKISpb30Oir32q8UZFV1G/6'
+  )
+include AWS::S3
 
 configure do
   set :sessions, true
@@ -62,6 +72,24 @@ get '/search' do
   params[:q] ||= 'sinitter OR twitter_oauth'
   @search = @client.search(params[:q], :page => params[:page], :per_page => params[:per_page])
   erb :search
+end
+
+get '/upload' do
+  
+  erb :upload
+  
+end
+
+post '/upload' do
+  
+  image_file = params[:datafile][:tempfile]
+  S3Object.store(
+      '1.jpg',
+      image_file.read,
+      'fabordrab',
+      :access => :public_read
+    )
+  
 end
 
 # store the request tokens and send to Twitter
