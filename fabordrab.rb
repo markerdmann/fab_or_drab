@@ -239,18 +239,26 @@ end
 post '/crowdflower' do
   
   return if params[:signal] != "unit_complete"
+
+  begin
+    payload = JSON.parse(params[:payload])
+    name = payload['data']['name']
   
-  payload = JSON.parse(params[:payload])
-  name = payload['data']['name']
-  
-  judgments = payload['results']['judgments']
-  judgments.each do |judgment|
-    result = judgment['data']['choose_one']
-    if result == "Fab"
-      HTTParty.post("http://fabordrab.heroku.com/fab/#{name}")
-    elsif result == "Drab"
-      HTTParty.post("http://fabordrab.heroku.com/drab/#{name}")
+    judgments = payload['results']['judgments']
+    judgments.each do |judgment|
+      begin
+        result = judgment['data']['choose_one']
+        if result == "Fab"
+          HTTParty.post("http://fabordrab.heroku.com/fab/#{name}")
+        elsif result == "Drab"
+          HTTParty.post("http://fabordrab.heroku.com/drab/#{name}")
+        end
+      rescue => e
+        puts e.inspect
+      end
     end
+  rescue => e
+    puts e.inspect
   end
   
   status 200
