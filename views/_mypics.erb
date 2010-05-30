@@ -1,9 +1,9 @@
 <div class="mypics">
     <% pics.each do |p| %>
        <p>
-            <div style="float:left; margin:5px">
+         <div>
                 <a href="<%= p.url %>">
-                    <img src="<%= p.url %>"/>
+                  <p class="centeredImage"><img src="<%= p.url %>"/></p>
                 </a>
                 <div class="sideways">
                   <ul>
