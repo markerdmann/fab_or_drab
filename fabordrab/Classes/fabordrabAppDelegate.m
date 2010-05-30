@@ -6,7 +6,7 @@
 //  Copyright Apple Inc 2010. All rights reserved.
 //
 
-#import "fabordrabAppDelegate.h"
+#import "FabOrDrabAppDelegate.h"
 #import "FabOrDrab.h"
 
 @implementation fabordrabAppDelegate

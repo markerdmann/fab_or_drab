@@ -1,0 +1,734 @@
+TFabOrDrab
+v7
+r0
+t296911381.108972
+cCheck dependencies
+cCpResource build/Debug-iphoneos/FabOrDrab.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/Info.plist FabOrDrab-Info.plist
+cCompileXIB /Users/mark/Desktop/FabOrDrab/MainWindow.xib
+cCompileXIB /Users/mark/Desktop/FabOrDrab/RootViewController.xib
+cProcessPCH /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch.gch FabOrDrab_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/main.o /Users/mark/Desktop/FabOrDrab/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate.o /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrab.o /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/GradientTableViewCell.o /Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/ImageUpload.o /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterLoginView.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterOauth.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewCell.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewController.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/UIImage+Resize.o /Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessProductPackaging "/Users/mark/Library/MobileDevice/Provisioning Profiles/208DE0FA-5CA0-4C13-8585-1E83657DC9FA.mobileprovision" /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004B7F9C7F0000000000000110
+t1266654335
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004B7C99D000000000000000DD
+t1266457040
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004B7C99D000000000000001E5
+t1266457040
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B7D0F6D00000000003B4B70
+t1266487149
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B7D0FBE000000000036A580
+t1266487230
+s3581312
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B7D0F9B0000000000001355
+t1266487195
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B7D11BB000000000000007D
+t1266487739
+s125
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B7E2A02000000000000098F
+t1266559490
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B7E2AAA00000000026E4750
+t1266559658
+s40781648
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/Availability.h
+c000000004B7CBBAD0000000000001A1A
+t1266465709
+s6682
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/usr/include/stdlib.h
+c000000004B7C9D300000000000002DF5
+t1266457904
+s11765
+
+N/Users/mark/Desktop/FabOrDrab/Classes/Camera.h
+c000000004C02482600000000000000F2
+t1275217958
+s242
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.h
+c000000004C0248570000000000000243
+t1275218007
+s579
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m
+c000000004C0248B60000000000001A1A
+t1275218102
+s6682
+i"FabOrDrab.h"
+i"AppHelpers.h"
+i"TwitterLoginView.h"
+i"Camera.h"
+i"ImageUpload.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.h
+c000000004C024A9100000000000001C6
+t1275218577
+s454
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m
+c000000004C024A88000000000000040C
+t1275218568
+s1036
+i"FabOrDrabAppDelegate.h"
+i"FabOrDrab.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.h
+c000000004C0248240000000000000102
+t1275217956
+s258
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m
+c000000004C02482400000000000006DD
+t1275217956
+s1757
+i"GradientTableViewCell.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h
+c000000004C0248260000000000000187
+t1275217958
+s391
+i<Foundation/Foundation.h>
+i<HTTPRiot/HTTPRiot.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m
+c000000004C0248260000000000000BCA
+t1275217958
+s3018
+i"ImageUpload.h"
+i"AppHelpers.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/JSON/CJSONDeserializer.h
+c000000004C0248240000000000000681
+t1275217956
+s1665
+i<Foundation/Foundation.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/Misc/AppHelpers.h
+c000000004C024824000000000000013E
+t1275217956
+s318
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/PushedBaseTableViewController.h
+c000000004C02482400000000000001AA
+t1275217956
+s426
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/RetweetTableViewController.h
+c000000004C02482400000000000001DF
+t1275217956
+s479
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"PushedBaseTableViewController.h"
+i"AppHelpers.h"
+i"UIImage+Resize.h"
+i"Tweet.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/RootViewController.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TextEntryCell.h
+c000000004C0248240000000000000240
+t1275217956
+s576
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/Tweet.h
+c000000004C024824000000000000014A
+t1275217956
+s330
+i<Foundation/Foundation.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h
+c000000004C0248240000000000000303
+t1275217956
+s771
+i<UIKit/UIKit.h>
+i"TwitterOauth.h"
+i"TextEntryCell.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m
+c000000004C0248240000000000001081
+t1275217956
+s4225
+i<stdlib.h>
+i"TwitterLoginView.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h
+c000000004C02482400000000000001E2
+t1275217956
+s482
+i<Foundation/Foundation.h>
+i<HTTPRiot/HTTPRiot.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m
+c000000004C0248C50000000000000842
+t1275218117
+s2114
+i"TwitterOauth.h"
+i"AppHelpers.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.h
+c000000004C02482400000000000001EE
+t1275217956
+s494
+i<UIKit/UIKit.h>
+i"GradientTableViewCell.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m
+c000000004C0248240000000000000DD5
+t1275217956
+s3541
+i"TwitterTableViewCell.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h
+c000000004C024824000000000000024A
+t1275217956
+s586
+i<UIKit/UIKit.h>
+i"BaseTableViewController.h"
+i"Tweet.h"
+i"Misc/AppHelpers.h"
+i"JSON/CJSONDeserializer.h"
+i"RetweetTableViewController.h"
+i"TwitterLoginView.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m
+c000000004C0248240000000000002589
+t1275217956
+s9609
+i"TwitterTableViewController.h"
+i"TwitterTableViewCell.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.h
+c000000004C0248240000000000000108
+t1275217956
+s264
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m
+c000000004C0248240000000000000328
+t1275217956
+s808
+i"UIImage+Resize.h"
+
+N/Users/mark/Desktop/FabOrDrab/Classes/fabordrabAppDelegate.h
+c000000004C02482400000000000001C6
+t1275217956
+s454
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/Classes/fabordrabAppDelegate.m
+c000000004C024A6E000000000000040C
+t1275218542
+s1036
+i"fabordrabAppDelegate.h"
+i"FabOrDrab.h"
+
+N/Users/mark/Desktop/FabOrDrab/FabOrDrab_Prefix.pch
+c000000004C0248250000000000000144
+t1275217957
+s324
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mark/Desktop/FabOrDrab/MainWindow.xib
+c000000004C0248240000000000005EEE
+t1275217956
+s24302
+
+N/Users/mark/Desktop/FabOrDrab/RootViewController.xib
+c000000004C0248E800000000000059BD
+t1275218152
+s22973
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app.dSYM
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/FabOrDrab
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/Info.plist
+t1275218577
+s695
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/MainWindow.nib
+t1275218578
+s1490
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/PkgInfo
+t1275218577
+s8
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/ResourceRules.plist
+t1275218577
+s485
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/RootViewController.nib
+t1275218578
+s1681
+
+N/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision
+t1275218581
+s7170
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent
+t1275218581
+s322
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrab.LinkFileList
+c000000004C024A9100000000000004C7
+t1275218577
+s1223
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrab.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate-7F5F6560DB50D630.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate.o
+t1275218580
+s45992
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/GradientTableViewCell.o
+t1275218580
+s20400
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/ImageUpload.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/RootViewController.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterLoginView.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterOauth.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewCell.o
+t1275218581
+s32720
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewController.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/UIImage+Resize.o
+t1275218581
+s8328
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/fabordrabAppDelegate-1E3D18BF6DEE0B6B.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/fabordrabAppDelegate-5924EAAC5649E46E.o
+t2
+s0
+
+N/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/main.o
+t1275218580
+s6420
+
+N/Users/mark/Desktop/FabOrDrab/main.m
+c000000004C0248250000000000000161
+t1275217957
+s353
+i<UIKit/UIKit.h>
+
+N/Users/mark/Library/MobileDevice/Provisioning Profiles/208DE0FA-5CA0-4C13-8585-1E83657DC9FA.mobileprovision
+c000000004C01DE9B0000000000001C02
+t1275190939
+s7170
+
+N/var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch.gch
+t1275218580
+s8962708
+
+NFabOrDrab-Info.plist
+c000000004C0248250000000000000395
+t1275217957
+s917
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296911377#296911377#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCodeSign /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app
+r0
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrab.o /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.554981
+e296911380.625845
+r0
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrab.o
+x/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:10:23: error: AppHelpers.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:12:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:12:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:14:
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload'
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m: In function '-[FabOrDrab imagePickerController:didFinishPickingMediaWithInfo:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: 'FabOrDrab' may not respond to '-uploadImage'
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: (Messages without a matching method signature
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: will be assumed to return 'id' and accept
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: '...' as arguments.)
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m: In function '-[FabOrDrab image:didFinishSavingWithError:contextInfo:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:89: warning: implicit declaration of function 'AlertWithErrorAndDelegate'
+lSLF07#2@57"Compile /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296911380#296911380#0(1688"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:10:23: error: AppHelpers.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,                 from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:12:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,                 from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:12:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'In file included from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:14:/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload'/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m: In function '-[FabOrDrab imagePickerController:didFinishPickingMediaWithInfo:]':/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: 'FabOrDrab' may not respond to '-uploadImage'/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: (Messages without a matching method signature/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: will be assumed to return 'id' and accept/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:78: warning: '...' as arguments.)/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m: In function '-[FabOrDrab image:didFinishSavingWithError:contextInfo:]':/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m:89: warning: implicit declaration of function 'AlertWithErrorAndDelegate'7(4@39"AppHelpers.h: No such file or directory296911380#0#104#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#10#0#10#0#28"*: No such file or directory0(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296911380#263#114#3(7@71"In file included from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296911380#18446744073709551615#0#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#12#0#12#0#0"0(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296910756#10#0#10#0#0"0(13@102"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#28"*: No such file or directory0(4@81"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'296911380#536#146#3(7@71"In file included from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296911380#18446744073709551615#0#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#12#0#12#0#0"0(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296910756#10#0#10#0#0"0(13@137"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth' in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#60"cannot find interface declaration for '*', superclass of '*'0(4@80"Cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload'296911380#758#144#2(7@71"In file included from /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296911380#18446744073709551615#0#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#14#0#14#0#0"0(13@135"Cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload' in /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296911380#18446744073709551615#0#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296910758#17#0#17#0#0"0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296910758#17#0#17#0#60"cannot find interface declaration for '*', superclass of '*'0(22@45"'FabOrDrab' may not respond to '-uploadImage'296911380#1034#109#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#78#0#78#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)296911380#1143#109#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#78#0#78#0#0"0(22@60"Implicit declaration of function 'AlertWithErrorAndDelegate'296911380#1564#124#0(6@49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m296910902#89#0#89#0#36"implicit declaration of function '*'0(0#0#49"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m4300907800#1860"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrab.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrab.o1#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate-7F5F6560DB50D630.o /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate.o /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.363106
+e296911380.631792
+r1
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate.o
+x/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m296911380#296911380#0(0"0(0#0#60"/Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m4300907800#1882"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/FabOrDrabAppDelegate.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/FabOrDrabAppDelegate.o0#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/GradientTableViewCell.o /Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.625933
+e296911380.728745
+r1
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/GradientTableViewCell.o
+x/Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m296911380#296911380#0(0"0(0#0#61"/Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m3418354662983820800#1884"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/GradientTableViewCell.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/GradientTableViewCell.o0#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/ImageUpload.o /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.631888
+e296911380.691518
+r0
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/ImageUpload.o
+x/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload'
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:10:23: error: AppHelpers.h: No such file or directory
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m: In function '+[ImageUpload initialize]':
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: 'ImageUpload' may not respond to '+setHeaders:'
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: (Messages without a matching method signature
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: will be assumed to return 'id' and accept
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: '...' as arguments.)
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:22: warning: 'ImageUpload' may not respond to '+setBaseURL:'
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:23: warning: 'ImageUpload' may not respond to '+setDelegate:'
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m: In function '+[ImageUpload uploadImage:delegate:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:47: warning: 'ImageUpload' may not respond to '+postPath:withOptions:object:'
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m: In function '+[ImageUpload restConnection:didFailWithError:object:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:57: warning: implicit declaration of function 'AlertWithErrorAndDelegate'
+lSLF07#2@59"Compile /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296911380#296911380#0(1739"In file included from /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:9:/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:9:/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload'/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:10:23: error: AppHelpers.h: No such file or directory/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m: In function '+[ImageUpload initialize]':/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: 'ImageUpload' may not respond to '+setHeaders:'/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: (Messages without a matching method signature/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: will be assumed to return 'id' and accept/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:21: warning: '...' as arguments.)/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:22: warning: 'ImageUpload' may not respond to '+setBaseURL:'/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:23: warning: 'ImageUpload' may not respond to '+setDelegate:'/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m: In function '+[ImageUpload uploadImage:delegate:]':/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:47: warning: 'ImageUpload' may not respond to '+postPath:withOptions:object:'/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m: In function '+[ImageUpload restConnection:didFailWithError:object:]':/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m:57: warning: implicit declaration of function 'AlertWithErrorAndDelegate'9(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296911380#77#113#2(7@73"In file included from /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296911380#18446744073709551615#0#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#9#0#9#0#0"0(13@101"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296911380#18446744073709551615#0#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296910758#10#0#10#0#0"0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296910758#10#0#10#0#28"*: No such file or directory0(4@80"Cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload'296911380#267#144#2(7@73"In file included from /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296911380#18446744073709551615#0#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#9#0#9#0#0"0(13@135"Cannot find interface declaration for 'HRRestModel', superclass of 'ImageUpload' in /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296911380#18446744073709551615#0#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296910758#17#0#17#0#0"0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.h296910758#17#0#17#0#60"cannot find interface declaration for '*', superclass of '*'0(4@39"AppHelpers.h: No such file or directory296911380#411#106#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#10#0#10#0#28"*: No such file or directory0(22@47"'ImageUpload' may not respond to '+setHeaders:'296911380#611#113#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#21#0#21#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)296911380#724#111#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#21#0#21#0#0"0(22@47"'ImageUpload' may not respond to '+setBaseURL:'296911380#1028#113#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#22#0#22#0#26"'*' may not respond to '*'0(22@48"'ImageUpload' may not respond to '+setDelegate:'296911380#1141#114#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#23#0#23#0#26"'*' may not respond to '*'0(22@64"'ImageUpload' may not respond to '+postPath:withOptions:object:'296911380#1360#130#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#47#0#47#0#26"'*' may not respond to '*'0(22@60"Implicit declaration of function 'AlertWithErrorAndDelegate'296911380#1613#126#0(6@51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m296910758#57#0#57#0#36"implicit declaration of function '*'0(0#0#51"/Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m4300907800#1864"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/ImageUpload.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/ImageUpload.o1#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/RootViewController.o /Users/mark/Desktop/FabOrDrab/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterLoginView.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.691614
+e296911380.799792
+r0
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterLoginView.o
+x/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m:10:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m:10:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'
+lSLF07#2@64"Compile /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m296911380#296911380#0(592"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m:10:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m:10:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'2(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296911380#166#114#3(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m296910756#10#0#10#0#0"0(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296910756#10#0#10#0#0"0(13@102"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#28"*: No such file or directory0(4@81"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'296911380#446#146#3(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m296910756#10#0#10#0#0"0(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296910756#10#0#10#0#0"0(13@137"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth' in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#60"cannot find interface declaration for '*', superclass of '*'0(0#0#56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m4300907800#1874"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterLoginView.o1#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterOauth.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.728848
+e296911380.894773
+r0
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterOauth.o
+x/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:10:23: error: AppHelpers.h: No such file or directory
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m: In function '+[TwitterOauth initialize]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: 'TwitterOauth' may not respond to '+setHeaders:'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: (Messages without a matching method signature
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: will be assumed to return 'id' and accept
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: '...' as arguments.)
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:18: warning: 'TwitterOauth' may not respond to '+setBaseURL:'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:19: warning: 'TwitterOauth' may not respond to '+setDelegate:'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m: In function '+[TwitterOauth postStatus:withUsername:password:delegate:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:27: warning: 'TwitterOauth' may not respond to '+setBasicAuthWithUsername:password:'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:30: warning: 'TwitterOauth' may not respond to '+postPath:withOptions:object:'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m: In function '+[TwitterOauth restConnection:didFailWithError:object:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:39: warning: implicit declaration of function 'AlertWithErrorAndDelegate'
+lSLF07#2@60"Compile /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296911380#296911380#0(1922"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:9:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:9:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:10:23: error: AppHelpers.h: No such file or directory/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m: In function '+[TwitterOauth initialize]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: 'TwitterOauth' may not respond to '+setHeaders:'/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: (Messages without a matching method signature/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: will be assumed to return 'id' and accept/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:17: warning: '...' as arguments.)/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:18: warning: 'TwitterOauth' may not respond to '+setBaseURL:'/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:19: warning: 'TwitterOauth' may not respond to '+setDelegate:'/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m: In function '+[TwitterOauth postStatus:withUsername:password:delegate:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:27: warning: 'TwitterOauth' may not respond to '+setBasicAuthWithUsername:password:'/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:30: warning: 'TwitterOauth' may not respond to '+postPath:withOptions:object:'/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m: In function '+[TwitterOauth restConnection:didFailWithError:object:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m:39: warning: implicit declaration of function 'AlertWithErrorAndDelegate'10(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296911380#78#114#2(7@74"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#9#0#9#0#0"0(13@102"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#28"*: No such file or directory0(4@81"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'296911380#270#146#2(7@74"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#9#0#9#0#0"0(13@137"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth' in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#60"cannot find interface declaration for '*', superclass of '*'0(4@39"AppHelpers.h: No such file or directory296911380#416#107#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#10#0#10#0#28"*: No such file or directory0(22@48"'TwitterOauth' may not respond to '+setHeaders:'296911380#619#115#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#17#0#17#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)296911380#734#112#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#17#0#17#0#0"0(22@48"'TwitterOauth' may not respond to '+setBaseURL:'296911380#1041#115#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#18#0#18#0#26"'*' may not respond to '*'0(22@49"'TwitterOauth' may not respond to '+setDelegate:'296911380#1156#116#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#19#0#19#0#26"'*' may not respond to '*'0(22@71"'TwitterOauth' may not respond to '+setBasicAuthWithUsername:password:'296911380#1400#138#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#27#0#27#0#26"'*' may not respond to '*'0(22@65"'TwitterOauth' may not respond to '+postPath:withOptions:object:'296911380#1538#132#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#30#0#30#0#26"'*' may not respond to '*'0(22@60"Implicit declaration of function 'AlertWithErrorAndDelegate'296911380#1795#127#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m296910917#39#0#39#0#36"implicit declaration of function '*'0(0#0#52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m4300907800#1866"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterOauth.o1#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewCell.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.799997
+e296911381.017844
+r1
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewCell.o
+x/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m296911380#296911381#0(0"0(0#0#60"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m4300907800#1882"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewCell.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewCell.o0#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewController.o /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.894908
+e296911381.037570
+r0
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewController.o
+x/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:10:36: error: BaseTableViewController.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:15,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/RetweetTableViewController.h:13:23: error: AppHelpers.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:16,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directory
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:16,
+o                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'
+oIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:18: error: cannot find interface declaration for 'BaseTableViewController', superclass of 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController connectionDidFinishLoading:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: 'TwitterTableViewController' may not respond to '-doneLoadingTableViewData'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: (Messages without a matching method signature
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: will be assumed to return 'id' and accept
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: '...' as arguments.)
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController connection:didFailWithError:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:97: warning: 'TwitterTableViewController' may not respond to '-doneLoadingTableViewData'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController parseTweets]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:134: error: request for member 'tableView' in something not a structure or union
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController loadView]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:214: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:215: warning: 'TwitterTableViewController' may not respond to '-setColoredNavigationBarWithTitle:andColor:'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewDidLoad]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:221: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:222: warning: 'TwitterTableViewController' may not respond to '-loadTableData'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewWillAppear:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:228: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewDidAppear:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:234: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController didReceiveMemoryWarning]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:241: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewDidUnload]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:248: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:338: error: no super class declared in @interface for 'TwitterTableViewController'
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:348: error: request for member 'navigationController' in something not a structure or union
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController dealloc]':
+o/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:354: error: no super class declared in @interface for 'TwitterTableViewController'
+lSLF07#2@74"Compile /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296911380#296911381#0(5540"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:10:36: error: BaseTableViewController.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:15,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:/Users/mark/Desktop/FabOrDrab/Classes/RetweetTableViewController.h:13:23: error: AppHelpers.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:16,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:10:32: error: HTTPRiot/HTTPRiot.h: No such file or directoryIn file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h:10,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:16,                 from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h:17: error: cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:9:/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h:18: error: cannot find interface declaration for 'BaseTableViewController', superclass of 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController connectionDidFinishLoading:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: 'TwitterTableViewController' may not respond to '-doneLoadingTableViewData'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: (Messages without a matching method signature/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: will be assumed to return 'id' and accept/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:82: warning: '...' as arguments.)/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController connection:didFailWithError:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:97: warning: 'TwitterTableViewController' may not respond to '-doneLoadingTableViewData'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController parseTweets]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:134: error: request for member 'tableView' in something not a structure or union/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController loadView]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:214: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:215: warning: 'TwitterTableViewController' may not respond to '-setColoredNavigationBarWithTitle:andColor:'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewDidLoad]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:221: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:222: warning: 'TwitterTableViewController' may not respond to '-loadTableData'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewWillAppear:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:228: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewDidAppear:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:234: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController didReceiveMemoryWarning]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:241: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController viewDidUnload]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:248: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController tableView:didSelectRowAtIndexPath:]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:338: error: no super class declared in @interface for 'TwitterTableViewController'/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:348: error: request for member 'navigationController' in something not a structure or union/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m: In function '-[TwitterTableViewController dealloc]':/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m:354: error: no super class declared in @interface for 'TwitterTableViewController'20(4@52"BaseTableViewController.h: No such file or directory296911380#92#134#2(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#9#0#9#0#0"0(13@122"BaseTableViewController.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#10#0#10#0#0"0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#10#0#10#0#28"*: No such file or directory0(4@39"AppHelpers.h: No such file or directory296911380#411#121#3(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#9#0#9#0#0"0(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#15#0#15#0#0"0(13@109"AppHelpers.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/RetweetTableViewController.h296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/RetweetTableViewController.h296910756#13#0#13#0#0"0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/RetweetTableViewController.h296910756#13#0#13#0#28"*: No such file or directory0(4@46"HTTPRiot/HTTPRiot.h: No such file or directory296911380#800#114#4(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#9#0#9#0#0"0(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#16#0#16#0#0"0(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296910756#10#0#10#0#0"0(13@102"HTTPRiot/HTTPRiot.h: No such file or directory in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#10#0#10#0#28"*: No such file or directory0(4@81"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth'296911380#1182#146#4(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#9#0#9#0#0"0(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#16#0#16#0#0"0(7@78"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296911380#18446744073709551615#0#0(6@56"/Users/mark/Desktop/FabOrDrab/Classes/TwitterLoginView.h296910756#10#0#10#0#0"0(13@137"Cannot find interface declaration for 'HRRestModel', superclass of 'TwitterOauth' in /Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296911380#18446744073709551615#0#0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#0"0(6@52"/Users/mark/Desktop/FabOrDrab/Classes/TwitterOauth.h296910756#17#0#17#0#60"cannot find interface declaration for '*', superclass of '*'0(4@107"Cannot find interface declaration for 'BaseTableViewController', superclass of 'TwitterTableViewController'296911380#1420#186#2(7@88"In file included from /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#9#0#9#0#0"0(13@177"Cannot find interface declaration for 'BaseTableViewController', superclass of 'TwitterTableViewController' in /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296911380#18446744073709551615#0#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#18#0#18#0#0"0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.h296910756#18#0#18#0#60"cannot find interface declaration for '*', superclass of '*'0(22@75"'TwitterTableViewController' may not respond to '-doneLoadingTableViewData'296911380#1747#156#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#82#0#82#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)296911380#1903#126#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#82#0#82#0#0"0(22@75"'TwitterTableViewController' may not respond to '-doneLoadingTableViewData'296911380#2394#156#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#97#0#97#0#26"'*' may not respond to '*'0(4@68"Request for member 'tableView' in something not a structure or union296911380#2675#148#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#134#0#134#0#0"0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911380#2945#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#214#0#214#0#0"0(22@93"'TwitterTableViewController' may not respond to '-setColoredNavigationBarWithTitle:andColor:'296911380#3095#175#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#215#0#215#0#26"'*' may not respond to '*'0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911380#3395#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#221#0#221#0#0"0(22@64"'TwitterTableViewController' may not respond to '-loadTableData'296911380#3545#146#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#222#0#222#0#26"'*' may not respond to '*'0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911380#3820#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#228#0#228#0#0"0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911380#4098#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#234#0#234#0#0"0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911380#4385#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#241#0#241#0#0"0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911380#4662#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#248#0#248#0#0"0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911381#4960#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#338#0#338#0#0"0(4@79"Request for member 'navigationController' in something not a structure or union296911381#5110#159#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#348#0#348#0#0"0(4@70"No super class declared in @interface for 'TwitterTableViewController'296911381#5390#150#0(6@66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m296910756#354#0#354#0#0"0(0#0#66"/Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m4300907800#1894"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/TwitterTableViewController.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/TwitterTableViewController.o1#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/UIImage+Resize.o /Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911381.017956
+e296911381.086511
+r1
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/UIImage+Resize.o
+x/Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m296911381#296911381#0(0"0(0#0#54"/Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m4300907800#1870"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/Classes/UIImage+Resize.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/UIImage+Resize.o0#
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/fabordrabAppDelegate-1E3D18BF6DEE0B6B.o /Users/mark/Desktop/FabOrDrab/Classes/fabordrabAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/fabordrabAppDelegate-5924EAAC5649E46E.o /Users/mark/Desktop/FabOrDrab/Classes/fabordrabAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/main.o /Users/mark/Desktop/FabOrDrab/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911380.361931
+e296911380.554879
+r1
+xCompileC
+xbuild/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/main.o
+x/Users/mark/Desktop/FabOrDrab/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/mark/Desktop/FabOrDrab/main.m296911380#296911380#0(0"0(0#0#36"/Users/mark/Desktop/FabOrDrab/main.m4300907800#1842"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch -c /Users/mark/Desktop/FabOrDrab/main.m -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/mark/Desktop/FabOrDrab/MainWindow.xib
+s296911377.841799
+e296911378.279882
+r1
+xCompileXIB
+x/Users/mark/Desktop/FabOrDrab/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib296911377#296911378#0(0"0(0#0#44"/Users/mark/Desktop/FabOrDrab/MainWindow.xib4300907800#618"    cd /Users/mark/Desktop/FabOrDrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/MainWindow.nib /Users/mark/Desktop/FabOrDrab/MainWindow.xib0#
+
+CCompileXIB /Users/mark/Desktop/FabOrDrab/RootViewController.xib
+s296911377.842618
+e296911378.333024
+r1
+xCompileXIB
+x/Users/mark/Desktop/FabOrDrab/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib296911377#296911378#0(0"0(0#0#52"/Users/mark/Desktop/FabOrDrab/RootViewController.xib4300907800#634"    cd /Users/mark/Desktop/FabOrDrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/RootViewController.nib /Users/mark/Desktop/FabOrDrab/RootViewController.xib0#
+
+CCpResource build/Debug-iphoneos/FabOrDrab.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+s296911377.771678
+e296911377.841701
+r1
+xCpResource
+xbuild/Debug-iphoneos/FabOrDrab.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist296911377#296911377#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist8028903794874265600#641"    cd /Users/mark/Desktop/FabOrDrab    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app0#
+
+CGenerateDSYMFile /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app.dSYM /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/FabOrDrab
+r0
+
+CLd /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/FabOrDrab normal armv6
+r0
+
+CProcessInfoPlistFile /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/Info.plist FabOrDrab-Info.plist
+s296911377.807290
+e296911377.814296
+r1
+xProcessInfoPlistFile
+x/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/Info.plist
+xFabOrDrab-Info.plist
+lSLF07#2@28"Process FabOrDrab-Info.plist296911377#296911377#0(0"0(0#0#50"/Users/mark/Desktop/FabOrDrab/FabOrDrab-Info.plist4300907800#711"    cd /Users/mark/Desktop/FabOrDrab    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    builtin-infoPlistUtility FabOrDrab-Info.plist -genpkginfo /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/ResourceRules.plist -o /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/Info.plist0#
+
+CProcessPCH /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch.gch FabOrDrab_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s296911378.333239
+e296911380.361716
+r1
+xProcessPCH
+x/var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch.gch
+xFabOrDrab_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile FabOrDrab_Prefix.pch296911378#296911380#0(0"0(0#0#50"/Users/mark/Desktop/FabOrDrab/FabOrDrab_Prefix.pch4300907800#1747"    cd /Users/mark/Desktop/FabOrDrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-generated-files.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-own-target-headers.hmap -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-all-target-headers.hmap -iquote /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab-project-headers.hmap -F/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos -I/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/include -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources/armv6 -I/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/DerivedSources -c /Users/mark/Desktop/FabOrDrab/FabOrDrab_Prefix.pch -o /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/FabOrDrab_Prefix-fnpegzzzijmsiefznklxwplawcxm/FabOrDrab_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/mark/Library/MobileDevice/Provisioning Profiles/208DE0FA-5CA0-4C13-8585-1E83657DC9FA.mobileprovision" /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision
+s296911381.086620
+e296911381.088528
+r1
+xProcessProductPackaging
+x/Users/mark/Library/MobileDevice/Provisioning Profiles/208DE0FA-5CA0-4C13-8585-1E83657DC9FA.mobileprovision
+x/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/mark/Library/MobileDevice/Provisioning Profiles/208DE0FA-5CA0-4C13-8585-1E83657DC9FA.mobileprovision" build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision296911381#296911381#0(0"0(0#0#89"/Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision4300907800#583"    cd /Users/mark/Desktop/FabOrDrab    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mark/Library/MobileDevice/Provisioning Profiles/208DE0FA-5CA0-4C13-8585-1E83657DC9FA.mobileprovision" -o /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent
+s296911381.088604
+e296911381.108892
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent296911381#296911381#0(0"0(0#0#98"/Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent4300907800#597"    cd /Users/mark/Desktop/FabOrDrab    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/mark/Desktop/FabOrDrab/build/FabOrDrab.build/Debug-iphoneos/FabOrDrab.build/FabOrDrab.xcent0#
+
+CTouch /Users/mark/Desktop/FabOrDrab/build/Debug-iphoneos/FabOrDrab.app
+r0
+

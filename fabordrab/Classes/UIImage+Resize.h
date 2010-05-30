@@ -11,5 +11,6 @@
 @interface UIImage (Resize)
 
 + (UIImage*)imageNamed:(NSString*)imageName scaledToSize:(CGSize)newSize;
++ (UIImage*)imageWithImage:(UIImage*)image scaledToSize:(CGSize)newSize;
 
 @end

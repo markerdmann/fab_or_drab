@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "BaseTableViewController.h"
-#import "Tweet.h"
 #import "Misc/AppHelpers.h"
 #import "JSON/CJSONDeserializer.h"
 
-#import "RetweetTableViewController.h"
 #import "TwitterLoginView.h"
 
 @interface TwitterTableViewController : BaseTableViewController {

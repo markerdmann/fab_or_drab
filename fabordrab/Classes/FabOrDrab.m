@@ -13,6 +13,8 @@
 #import "Camera.h"
 #import "ImageUpload.h"
 
+#import "UIImage+Resize.h"
+
 #import <QuartzCore/QuartzCore.h>
 
 @implementation FabOrDrab
@@ -71,10 +73,10 @@
 {
 	UIImage *imageFromCam = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 	
-	//self.imageData = UIImagePNGRepresentation(imageFromCam);
-	self.imageData = UIImageJPEGRepresentation(imageFromCam, 90);
+	// should change this size?
+	UIImage *imageToScale = [UIImage imageWithImage:imageFromCam scaledToSize:CGSizeMake(480, 640)];
+	self.imageData = UIImageJPEGRepresentation(imageToScale, 90);
 
-	//[self sendImage:self];
 	[self uploadImage];
 
 	//UIImageWriteToSavedPhotosAlbum(image, self, @selector(image:didFinishSavingWithError:contextInfo:), nil);
@@ -105,8 +107,6 @@
 
 
 
-
-
 - (void) uploadImage {
 
 	// create the URL
@@ -134,41 +134,14 @@
 	// create data
 	NSMutableData *postBody = [NSMutableData data];
 	
-	NSString *username = @"marksands2";
-	NSString *password = @"raidmax";
-	NSString *message = @"Testing TwitPic Upload for Blog Post";
-	
-	// username part
-	[postBody appendData:[[NSString stringWithFormat:@"--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"username\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[username dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
-	
-	// password part
-	[postBody appendData:[[NSString stringWithFormat:@"--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"password\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[password dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
-	
-	// message part
-	[postBody appendData:[[NSString stringWithFormat:@"--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[[NSString stringWithString:@"Content-Disposition: form-data; name=\"message\"\r\n\r\n"] dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[message dataUsingEncoding:NSUTF8StringEncoding]];
-	[postBody appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
-	
 	// media part
 	[postBody appendData:[[NSString stringWithFormat:@"--%@\r\n", stringBoundary] dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[@"Content-Disposition: form-data; name=\"datafile\"; filename=\"dummy.jpg\"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[@"Content-Type: image/jpeg\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
 	[postBody appendData:[@"Content-Transfer-Encoding: binary\r\n\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
-	
-	// get the image data from main bundle directly into NSData object
 
-	NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"retweet" ofType:@"png"];
-	NSData *imageData2 = [NSData dataWithContentsOfFile:imagePath];
-	
 	// add it to body
-	[postBody appendData:imageData2];
+	[postBody appendData:self.imageData];
 	[postBody appendData:[@"\r\n" dataUsingEncoding:NSUTF8StringEncoding]];
 	
 	// final boundary
@@ -185,15 +158,12 @@
 	NSData *responseData = [NSURLConnection sendSynchronousRequest:postRequest returningResponse:&response error:&error];
 	
 	if (error)
-	{
-		NSLog(@"Error: %@", [error localizedDescription]);
-	}
+		AlertWithErrorAndDelegate(error, nil);
 	
 	// convert data into string
 	NSString *responseString = [[[NSString alloc] initWithBytes:[responseData bytes]
 																											 length:[responseData length]
 																										 encoding:NSUTF8StringEncoding] autorelease];
-	
 	// see if we get a welcome result
 	NSLog(@"%@", responseString);
 }

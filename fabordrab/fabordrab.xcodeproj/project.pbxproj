@@ -7,140 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D3623260D0F684500981E51 /* fabordrabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* fabordrabAppDelegate.m */; };
+		1D3623260D0F684500981E51 /* FabOrDrabAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FabOrDrabAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
-		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
-		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
-		4D48060A11B1CA9A00BD36BE /* TwitterOauth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48060911B1CA9A00BD36BE /* TwitterOauth.m */; };
-		4D48064611B1D2DC00BD36BE /* TwitterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48064511B1D2DC00BD36BE /* TwitterLoginView.m */; };
-		4D48065E11B1DAF300BD36BE /* TextEntryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48065D11B1DAF300BD36BE /* TextEntryCell.m */; };
-		4D48069C11B1DCFD00BD36BE /* TextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48069A11B1DCFD00BD36BE /* TextEntryCell.xib */; };
-		4D48069D11B1DCFD00BD36BE /* TwitterLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */; };
-		4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48076611B1ED2A00BD36BE /* FabOrDrab.m */; };
-		4D4808E411B20F9500BD36BE /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4808E311B20F9500BD36BE /* Camera.m */; };
-		4DBA09C911B056080030ED26 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */; };
-		4DBA09CA11B056080030ED26 /* PushedBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C311B056080030ED26 /* PushedBaseTableViewController.m */; };
-		4DBA09CB11B056080030ED26 /* RefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */; };
-		4DBA09CC11B056080030ED26 /* RetweetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C711B056080030ED26 /* RetweetTableViewController.m */; };
-		4DBA09D711B056290030ED26 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D011B056290030ED26 /* Tweet.m */; };
-		4DBA09D811B056290030ED26 /* TwitterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */; };
-		4DBA09D911B056290030ED26 /* TwitterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D411B056290030ED26 /* TwitterTableViewController.m */; };
-		4DBA09DA11B056290030ED26 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09D611B056290030ED26 /* UIImage+Resize.m */; };
-		4DBA0A0F11B0574A0030ED26 /* AppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A0A11B0574A0030ED26 /* AppHelpers.m */; };
-		4DBA0A1011B0574A0030ED26 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A0C11B0574A0030ED26 /* ISO8601DateFormatter.m */; };
-		4DBA0A1111B0574A0030ED26 /* LoggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A0E11B0574A0030ED26 /* LoggingViewController.m */; };
-		4DBA0A2711B057590030ED26 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A1311B057590030ED26 /* CDataScanner.m */; };
-		4DBA0A2811B057590030ED26 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A1511B057590030ED26 /* CJSONDataSerializer.m */; };
-		4DBA0A2911B057590030ED26 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A1711B057590030ED26 /* CJSONDeserializer.m */; };
-		4DBA0A2A11B057590030ED26 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A1911B057590030ED26 /* CJSONScanner.m */; };
-		4DBA0A2B11B057590030ED26 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A1B11B057590030ED26 /* CJSONSerializer.m */; };
-		4DBA0A2C11B057590030ED26 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A1D11B057590030ED26 /* CSerializedJSONData.m */; };
-		4DBA0A2D11B057590030ED26 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A2011B057590030ED26 /* CDataScanner_Extensions.m */; };
-		4DBA0A2E11B057590030ED26 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A2211B057590030ED26 /* NSCharacterSet_Extensions.m */; };
-		4DBA0A2F11B057590030ED26 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A2411B057590030ED26 /* NSDictionary_JSONExtensions.m */; };
-		4DBA0A3011B057590030ED26 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A2611B057590030ED26 /* NSScanner_Extensions.m */; };
-		4DBA0A5C11B058660030ED26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBA0A5B11B058660030ED26 /* QuartzCore.framework */; };
-		4DBA0AA111B05A2C0030ED26 /* GradientTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0A9811B05A2C0030ED26 /* GradientTableViewCell.m */; };
-		4DBA0AA811B05A590030ED26 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA0AA711B05A590030ED26 /* BaseTableViewController.m */; };
-		4DBA0AB911B05AAB0030ED26 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0AB311B05AAB0030ED26 /* blueArrow.png */; };
-		4DBA0ABB11B05AAB0030ED26 /* retweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0AB511B05AAB0030ED26 /* retweet.png */; };
-		4DBA0ABC11B05AAB0030ED26 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0AB611B05AAB0030ED26 /* twitter.png */; };
-		4DBA0ABD11B05AAB0030ED26 /* UIBackBarButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0AB711B05AAB0030ED26 /* UIBackBarButtonHighlighted.png */; };
-		4DBA0ABE11B05AAB0030ED26 /* UIBackBarButtonPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0AB811B05AAB0030ED26 /* UIBackBarButtonPlain.png */; };
-		4DBA0B3F11B0662C0030ED26 /* icon-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0B3D11B0662C0030ED26 /* icon-big.png */; };
-		4DBA0B4011B0662C0030ED26 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBA0B3E11B0662C0030ED26 /* icon.png */; };
-<<<<<<< HEAD
-=======
-		4DCB5C7B11B2461700C2EDAE /* ImageUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCB5C7A11B2461700C2EDAE /* ImageUpload.m */; };
->>>>>>> master
+		4D91DFCB11B2818B00821C56 /* FabOrDrab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFBA11B2818B00821C56 /* FabOrDrab.m */; };
+		4D91DFCE11B2818B00821C56 /* ImageUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFC011B2818B00821C56 /* ImageUpload.m */; };
+		4D91DFCF11B2818B00821C56 /* TwitterLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFC211B2818B00821C56 /* TwitterLoginView.m */; };
+		4D91DFD011B2818B00821C56 /* TwitterOauth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFC411B2818B00821C56 /* TwitterOauth.m */; };
+		4D91DFD311B2818B00821C56 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFCA11B2818B00821C56 /* UIImage+Resize.m */; };
+		4D91DFF811B2824E00821C56 /* AppHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFF311B2824E00821C56 /* AppHelpers.m */; };
+		4D91DFF911B2824E00821C56 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFF511B2824E00821C56 /* ISO8601DateFormatter.m */; };
+		4D91DFFA11B2824E00821C56 /* LoggingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFF711B2824E00821C56 /* LoggingViewController.m */; };
+		4D91E00811B2826400821C56 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFFD11B2826400821C56 /* CDataScanner.m */; };
+		4D91E00911B2826400821C56 /* CJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91DFFF11B2826400821C56 /* CJSONDataSerializer.m */; };
+		4D91E00A11B2826400821C56 /* CJSONDeserializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E00111B2826400821C56 /* CJSONDeserializer.m */; };
+		4D91E00B11B2826400821C56 /* CJSONScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E00311B2826400821C56 /* CJSONScanner.m */; };
+		4D91E00C11B2826400821C56 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E00511B2826400821C56 /* CJSONSerializer.m */; };
+		4D91E00D11B2826400821C56 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E00711B2826400821C56 /* CSerializedJSONData.m */; };
+		4D91E01811B2828300821C56 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E01111B2828300821C56 /* CDataScanner_Extensions.m */; };
+		4D91E01911B2828300821C56 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E01311B2828300821C56 /* NSCharacterSet_Extensions.m */; };
+		4D91E01A11B2828300821C56 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E01511B2828300821C56 /* NSDictionary_JSONExtensions.m */; };
+		4D91E01B11B2828300821C56 /* NSScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D91E01711B2828300821C56 /* NSScanner_Extensions.m */; };
+		4D91E03011B2833D00821C56 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D91E02F11B2833D00821C56 /* QuartzCore.framework */; };
+		4D91E0DD11B2875A00821C56 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0D611B2875A00821C56 /* blueArrow.png */; };
+		4D91E0DE11B2875A00821C56 /* icon-big.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0D711B2875A00821C56 /* icon-big.png */; };
+		4D91E0DF11B2875A00821C56 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0D811B2875A00821C56 /* icon.png */; };
+		4D91E0E011B2875A00821C56 /* retweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0D911B2875A00821C56 /* retweet.png */; };
+		4D91E0E111B2875A00821C56 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0DA11B2875A00821C56 /* twitter.png */; };
+		4D91E0E211B2875A00821C56 /* UIBackBarButtonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0DB11B2875A00821C56 /* UIBackBarButtonHighlighted.png */; };
+		4D91E0E311B2875A00821C56 /* UIBackBarButtonPlain.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0DC11B2875A00821C56 /* UIBackBarButtonPlain.png */; };
+		4D91E0E811B2876500821C56 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0E411B2876500821C56 /* MainWindow.xib */; };
+		4D91E0E911B2876500821C56 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0E511B2876500821C56 /* RootViewController.xib */; };
+		4D91E0EA11B2876500821C56 /* TextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0E611B2876500821C56 /* TextEntryCell.xib */; };
+		4D91E0EB11B2876500821C56 /* TwitterLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E0E711B2876500821C56 /* TwitterLoginController.xib */; };
+		4D91E12511B28AA700821C56 /* want.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D91E12411B28AA700821C56 /* want.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D3623240D0F684500981E51 /* fabordrabAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fabordrabAppDelegate.h; sourceTree = "<group>"; };
-		1D3623250D0F684500981E51 /* fabordrabAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fabordrabAppDelegate.m; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* FabOrDrabAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabOrDrabAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FabOrDrabAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabOrDrabAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Fab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AAE50D9B0CCF005BE974 /* fabordrab_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fabordrab_Prefix.pch; sourceTree = "<group>"; };
-		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* FabOrDrab_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabOrDrab_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D48060811B1CA9A00BD36BE /* TwitterOauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterOauth.h; sourceTree = "<group>"; };
-		4D48060911B1CA9A00BD36BE /* TwitterOauth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterOauth.m; sourceTree = "<group>"; };
-		4D48064411B1D2DC00BD36BE /* TwitterLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginView.h; sourceTree = "<group>"; };
-		4D48064511B1D2DC00BD36BE /* TwitterLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginView.m; sourceTree = "<group>"; };
-		4D48065C11B1DAF300BD36BE /* TextEntryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEntryCell.h; sourceTree = "<group>"; };
-		4D48065D11B1DAF300BD36BE /* TextEntryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEntryCell.m; sourceTree = "<group>"; };
-		4D48069A11B1DCFD00BD36BE /* TextEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextEntryCell.xib; sourceTree = "<group>"; };
-		4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterLoginController.xib; sourceTree = "<group>"; };
-		4D48076511B1ED2A00BD36BE /* FabOrDrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabOrDrab.h; sourceTree = "<group>"; };
-		4D48076611B1ED2A00BD36BE /* FabOrDrab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabOrDrab.m; sourceTree = "<group>"; };
-		4D4808E211B20F9500BD36BE /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
-		4D4808E311B20F9500BD36BE /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
-		4DBA09C011B056080030ED26 /* PullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTableViewController.h; sourceTree = "<group>"; };
-		4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTableViewController.m; sourceTree = "<group>"; };
-		4DBA09C211B056080030ED26 /* PushedBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedBaseTableViewController.h; sourceTree = "<group>"; };
-		4DBA09C311B056080030ED26 /* PushedBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedBaseTableViewController.m; sourceTree = "<group>"; };
-		4DBA09C411B056080030ED26 /* RefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshTableHeaderView.h; sourceTree = "<group>"; };
-		4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshTableHeaderView.m; sourceTree = "<group>"; };
-		4DBA09C611B056080030ED26 /* RetweetTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetweetTableViewController.h; sourceTree = "<group>"; };
-		4DBA09C711B056080030ED26 /* RetweetTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetweetTableViewController.m; sourceTree = "<group>"; };
-		4DBA09CF11B056290030ED26 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
-		4DBA09D011B056290030ED26 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
-		4DBA09D111B056290030ED26 /* TwitterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTableViewCell.h; sourceTree = "<group>"; };
-		4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTableViewCell.m; sourceTree = "<group>"; };
-		4DBA09D311B056290030ED26 /* TwitterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTableViewController.h; sourceTree = "<group>"; };
-		4DBA09D411B056290030ED26 /* TwitterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTableViewController.m; sourceTree = "<group>"; };
-		4DBA09D511B056290030ED26 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
-		4DBA09D611B056290030ED26 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
-		4DBA0A0911B0574A0030ED26 /* AppHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppHelpers.h; path = Classes/Misc/AppHelpers.h; sourceTree = "<group>"; };
-		4DBA0A0A11B0574A0030ED26 /* AppHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppHelpers.m; path = Classes/Misc/AppHelpers.m; sourceTree = "<group>"; };
-		4DBA0A0B11B0574A0030ED26 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatter.h; path = Classes/Misc/ISO8601DateFormatter.h; sourceTree = "<group>"; };
-		4DBA0A0C11B0574A0030ED26 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatter.m; path = Classes/Misc/ISO8601DateFormatter.m; sourceTree = "<group>"; };
-		4DBA0A0D11B0574A0030ED26 /* LoggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggingViewController.h; path = Classes/Misc/LoggingViewController.h; sourceTree = "<group>"; };
-		4DBA0A0E11B0574A0030ED26 /* LoggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggingViewController.m; path = Classes/Misc/LoggingViewController.m; sourceTree = "<group>"; };
-		4DBA0A1211B057590030ED26 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDataScanner.h; path = Classes/JSON/CDataScanner.h; sourceTree = "<group>"; };
-		4DBA0A1311B057590030ED26 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDataScanner.m; path = Classes/JSON/CDataScanner.m; sourceTree = "<group>"; };
-		4DBA0A1411B057590030ED26 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDataSerializer.h; path = Classes/JSON/CJSONDataSerializer.h; sourceTree = "<group>"; };
-		4DBA0A1511B057590030ED26 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONDataSerializer.m; path = Classes/JSON/CJSONDataSerializer.m; sourceTree = "<group>"; };
-		4DBA0A1611B057590030ED26 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONDeserializer.h; path = Classes/JSON/CJSONDeserializer.h; sourceTree = "<group>"; };
-		4DBA0A1711B057590030ED26 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONDeserializer.m; path = Classes/JSON/CJSONDeserializer.m; sourceTree = "<group>"; };
-		4DBA0A1811B057590030ED26 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONScanner.h; path = Classes/JSON/CJSONScanner.h; sourceTree = "<group>"; };
-		4DBA0A1911B057590030ED26 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONScanner.m; path = Classes/JSON/CJSONScanner.m; sourceTree = "<group>"; };
-		4DBA0A1A11B057590030ED26 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CJSONSerializer.h; path = Classes/JSON/CJSONSerializer.h; sourceTree = "<group>"; };
-		4DBA0A1B11B057590030ED26 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CJSONSerializer.m; path = Classes/JSON/CJSONSerializer.m; sourceTree = "<group>"; };
-		4DBA0A1C11B057590030ED26 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSerializedJSONData.h; path = Classes/JSON/CSerializedJSONData.h; sourceTree = "<group>"; };
-		4DBA0A1D11B057590030ED26 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSerializedJSONData.m; path = Classes/JSON/CSerializedJSONData.m; sourceTree = "<group>"; };
-		4DBA0A1F11B057590030ED26 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
-		4DBA0A2011B057590030ED26 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
-		4DBA0A2111B057590030ED26 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
-		4DBA0A2211B057590030ED26 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
-		4DBA0A2311B057590030ED26 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
-		4DBA0A2411B057590030ED26 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
-		4DBA0A2511B057590030ED26 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
-		4DBA0A2611B057590030ED26 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
-		4DBA0A5B11B058660030ED26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		4DBA0A9711B05A2C0030ED26 /* GradientTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GradientTableViewCell.h; path = Controller/GradientTableViewCell.h; sourceTree = "<group>"; };
-		4DBA0A9811B05A2C0030ED26 /* GradientTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GradientTableViewCell.m; path = Controller/GradientTableViewCell.m; sourceTree = "<group>"; };
-		4DBA0AA611B05A590030ED26 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewController.h; path = Controller/BaseTableViewController.h; sourceTree = "<group>"; };
-		4DBA0AA711B05A590030ED26 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewController.m; path = Controller/BaseTableViewController.m; sourceTree = "<group>"; };
-		4DBA0AB311B05AAB0030ED26 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = Images/blueArrow.png; sourceTree = "<group>"; };
-		4DBA0AB511B05AAB0030ED26 /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retweet.png; path = Images/retweet.png; sourceTree = "<group>"; };
-		4DBA0AB611B05AAB0030ED26 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = Images/twitter.png; sourceTree = "<group>"; };
-		4DBA0AB711B05AAB0030ED26 /* UIBackBarButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBackBarButtonHighlighted.png; path = Images/UIBackBarButtonHighlighted.png; sourceTree = "<group>"; };
-		4DBA0AB811B05AAB0030ED26 /* UIBackBarButtonPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBackBarButtonPlain.png; path = Images/UIBackBarButtonPlain.png; sourceTree = "<group>"; };
-		4DBA0B3D11B0662C0030ED26 /* icon-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-big.png"; path = "Images/icon-big.png"; sourceTree = "<group>"; };
-		4DBA0B3E11B0662C0030ED26 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
-<<<<<<< HEAD
-=======
-		4DCB5C7911B2461700C2EDAE /* ImageUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUpload.h; sourceTree = "<group>"; };
-		4DCB5C7A11B2461700C2EDAE /* ImageUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUpload.m; sourceTree = "<group>"; };
->>>>>>> master
-		8D1107310486CEB800E47090 /* fabordrab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "fabordrab-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		4D91DFA811B2812F00821C56 /* Camera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		4D91DFA911B2812F00821C56 /* Camera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		4D91DFB211B2814300821C56 /* TextEntryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextEntryCell.h; sourceTree = "<group>"; };
+		4D91DFB311B2814300821C56 /* TextEntryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEntryCell.m; sourceTree = "<group>"; };
+		4D91DFB911B2818B00821C56 /* FabOrDrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabOrDrab.h; sourceTree = "<group>"; };
+		4D91DFBA11B2818B00821C56 /* FabOrDrab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabOrDrab.m; sourceTree = "<group>"; };
+		4D91DFBF11B2818B00821C56 /* ImageUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageUpload.h; sourceTree = "<group>"; };
+		4D91DFC011B2818B00821C56 /* ImageUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageUpload.m; sourceTree = "<group>"; };
+		4D91DFC111B2818B00821C56 /* TwitterLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterLoginView.h; sourceTree = "<group>"; };
+		4D91DFC211B2818B00821C56 /* TwitterLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterLoginView.m; sourceTree = "<group>"; };
+		4D91DFC311B2818B00821C56 /* TwitterOauth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterOauth.h; sourceTree = "<group>"; };
+		4D91DFC411B2818B00821C56 /* TwitterOauth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterOauth.m; sourceTree = "<group>"; };
+		4D91DFC911B2818B00821C56 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		4D91DFCA11B2818B00821C56 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		4D91DFF011B2823F00821C56 /* Twitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		4D91DFF111B2823F00821C56 /* Twitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		4D91DFF211B2824E00821C56 /* AppHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHelpers.h; sourceTree = "<group>"; };
+		4D91DFF311B2824E00821C56 /* AppHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelpers.m; sourceTree = "<group>"; };
+		4D91DFF411B2824E00821C56 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		4D91DFF511B2824E00821C56 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		4D91DFF611B2824E00821C56 /* LoggingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingViewController.h; sourceTree = "<group>"; };
+		4D91DFF711B2824E00821C56 /* LoggingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoggingViewController.m; sourceTree = "<group>"; };
+		4D91DFFC11B2826400821C56 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
+		4D91DFFD11B2826400821C56 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
+		4D91DFFE11B2826400821C56 /* CJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDataSerializer.h; sourceTree = "<group>"; };
+		4D91DFFF11B2826400821C56 /* CJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDataSerializer.m; sourceTree = "<group>"; };
+		4D91E00011B2826400821C56 /* CJSONDeserializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONDeserializer.h; sourceTree = "<group>"; };
+		4D91E00111B2826400821C56 /* CJSONDeserializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONDeserializer.m; sourceTree = "<group>"; };
+		4D91E00211B2826400821C56 /* CJSONScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONScanner.h; sourceTree = "<group>"; };
+		4D91E00311B2826400821C56 /* CJSONScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONScanner.m; sourceTree = "<group>"; };
+		4D91E00411B2826400821C56 /* CJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSONSerializer.h; sourceTree = "<group>"; };
+		4D91E00511B2826400821C56 /* CJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSONSerializer.m; sourceTree = "<group>"; };
+		4D91E00611B2826400821C56 /* CSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSerializedJSONData.h; sourceTree = "<group>"; };
+		4D91E00711B2826400821C56 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
+		4D91E01011B2828300821C56 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
+		4D91E01111B2828300821C56 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
+		4D91E01211B2828300821C56 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
+		4D91E01311B2828300821C56 /* NSCharacterSet_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharacterSet_Extensions.m; sourceTree = "<group>"; };
+		4D91E01411B2828300821C56 /* NSDictionary_JSONExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDictionary_JSONExtensions.h; sourceTree = "<group>"; };
+		4D91E01511B2828300821C56 /* NSDictionary_JSONExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionary_JSONExtensions.m; sourceTree = "<group>"; };
+		4D91E01611B2828300821C56 /* NSScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSScanner_Extensions.h; sourceTree = "<group>"; };
+		4D91E01711B2828300821C56 /* NSScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSScanner_Extensions.m; sourceTree = "<group>"; };
+		4D91E02F11B2833D00821C56 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D91E0D611B2875A00821C56 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = Images/blueArrow.png; sourceTree = "<group>"; };
+		4D91E0D711B2875A00821C56 /* icon-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-big.png"; path = "Images/icon-big.png"; sourceTree = "<group>"; };
+		4D91E0D811B2875A00821C56 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+		4D91E0D911B2875A00821C56 /* retweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = retweet.png; path = Images/retweet.png; sourceTree = "<group>"; };
+		4D91E0DA11B2875A00821C56 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter.png; path = Images/twitter.png; sourceTree = "<group>"; };
+		4D91E0DB11B2875A00821C56 /* UIBackBarButtonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBackBarButtonHighlighted.png; path = Images/UIBackBarButtonHighlighted.png; sourceTree = "<group>"; };
+		4D91E0DC11B2875A00821C56 /* UIBackBarButtonPlain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UIBackBarButtonPlain.png; path = Images/UIBackBarButtonPlain.png; sourceTree = "<group>"; };
+		4D91E0E411B2876500821C56 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = XIB/MainWindow.xib; sourceTree = "<group>"; };
+		4D91E0E511B2876500821C56 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = XIB/RootViewController.xib; sourceTree = "<group>"; };
+		4D91E0E611B2876500821C56 /* TextEntryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TextEntryCell.xib; path = XIB/TextEntryCell.xib; sourceTree = "<group>"; };
+		4D91E0E711B2876500821C56 /* TwitterLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TwitterLoginController.xib; path = XIB/TwitterLoginController.xib; sourceTree = "<group>"; };
+		4D91E12411B28AA700821C56 /* want.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = want.jpg; path = Images/want.jpg; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* FabOrDrab-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FabOrDrab-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +120,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
-				4DBA0A5C11B058660030ED26 /* QuartzCore.framework in Frameworks */,
+				4D91E03011B2833D00821C56 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,12 +130,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4D48065111B1D99900BD36BE /* Views */,
-				4DBA09DB11B0562C0030ED26 /* Categories */,
-				4DBA09CE11B056130030ED26 /* Model */,
-				4DBA09BD11B055EE0030ED26 /* Controller */,
-				1D3623240D0F684500981E51 /* fabordrabAppDelegate.h */,
-				1D3623250D0F684500981E51 /* fabordrabAppDelegate.m */,
+				4D91E00E11B2826900821C56 /* JSON */,
+				4D91DFFB11B2825100821C56 /* Misc */,
+				4D91DFD411B281B900821C56 /* Categories */,
+				4D91DFB811B2816100821C56 /* Models */,
+				4D91DFB711B2815B00821C56 /* Views */,
+				4D91DFB611B2815400821C56 /* Controllers */,
+				1D3623240D0F684500981E51 /* FabOrDrabAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FabOrDrabAppDelegate.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -182,8 +153,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA09FF11B057070030ED26 /* Misc */,
-				4DBA09DF11B056900030ED26 /* JSON */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -196,7 +165,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28A0AAE50D9B0CCF005BE974 /* fabordrab_Prefix.pch */,
+				28A0AAE50D9B0CCF005BE974 /* FabOrDrab_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -205,12 +174,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4D48069A11B1DCFD00BD36BE /* TextEntryCell.xib */,
-				4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */,
-				4DBA0AA911B05A650030ED26 /* Images */,
-				28F335F01007B36200424DE2 /* RootViewController.xib */,
-				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
-				8D1107310486CEB800E47090 /* fabordrab-Info.plist */,
+				4D91E0E411B2876500821C56 /* MainWindow.xib */,
+				4D91E0E511B2876500821C56 /* RootViewController.xib */,
+				4D91E0E611B2876500821C56 /* TextEntryCell.xib */,
+				4D91E0E711B2876500821C56 /* TwitterLoginController.xib */,
+				4D91E03C11B2836200821C56 /* Images */,
+				8D1107310486CEB800E47090 /* FabOrDrab-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -221,210 +190,124 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
-				4DBA0A5B11B058660030ED26 /* QuartzCore.framework */,
+				4D91E02F11B2833D00821C56 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D48065111B1D99900BD36BE /* Views */ = {
+		4D91DFB611B2815400821C56 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4D4808E111B20F8800BD36BE /* Camera */,
-				4D48076411B1ED1600BD36BE /* FabOrDrab */,
-				4D48065211B1D9A100BD36BE /* Twitter */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D91DFB711B2815B00821C56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D91DFB911B2818B00821C56 /* FabOrDrab.h */,
+				4D91DFBA11B2818B00821C56 /* FabOrDrab.m */,
+				4D91DFB211B2814300821C56 /* TextEntryCell.h */,
+				4D91DFB311B2814300821C56 /* TextEntryCell.m */,
+				4D91DFC111B2818B00821C56 /* TwitterLoginView.h */,
+				4D91DFC211B2818B00821C56 /* TwitterLoginView.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
 		};
-		4D48065211B1D9A100BD36BE /* Twitter */ = {
+		4D91DFB811B2816100821C56 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA09D111B056290030ED26 /* TwitterTableViewCell.h */,
-				4DBA09D211B056290030ED26 /* TwitterTableViewCell.m */,
-				4D48064411B1D2DC00BD36BE /* TwitterLoginView.h */,
-				4D48064511B1D2DC00BD36BE /* TwitterLoginView.m */,
-				4D48065C11B1DAF300BD36BE /* TextEntryCell.h */,
-				4D48065D11B1DAF300BD36BE /* TextEntryCell.m */,
+				4D91DFF011B2823F00821C56 /* Twitter.h */,
+				4D91DFF111B2823F00821C56 /* Twitter.m */,
+				4D91DFC311B2818B00821C56 /* TwitterOauth.h */,
+				4D91DFC411B2818B00821C56 /* TwitterOauth.m */,
+				4D91DFBF11B2818B00821C56 /* ImageUpload.h */,
+				4D91DFC011B2818B00821C56 /* ImageUpload.m */,
+				4D91DFA811B2812F00821C56 /* Camera.h */,
+				4D91DFA911B2812F00821C56 /* Camera.m */,
 			);
-			name = Twitter;
+			name = Models;
 			sourceTree = "<group>";
 		};
-		4D48076411B1ED1600BD36BE /* FabOrDrab */ = {
+		4D91DFD411B281B900821C56 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				4D48076511B1ED2A00BD36BE /* FabOrDrab.h */,
-				4D48076611B1ED2A00BD36BE /* FabOrDrab.m */,
-			);
-			name = FabOrDrab;
-			sourceTree = "<group>";
-		};
-		4D4808E111B20F8800BD36BE /* Camera */ = {
-			isa = PBXGroup;
-			children = (
-				4D4808E211B20F9500BD36BE /* Camera.h */,
-				4D4808E311B20F9500BD36BE /* Camera.m */,
-			);
-			name = Camera;
-			sourceTree = "<group>";
-		};
-		4DBA09BD11B055EE0030ED26 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				4DBA09DE11B056570030ED26 /* BaseControllers */,
-				4DBA09DD11B0563F0030ED26 /* PullToRefresh */,
-				4DBA09DC11B056380030ED26 /* Twitter */,
-			);
-			name = Controller;
-			sourceTree = "<group>";
-		};
-		4DBA09CD11B0560D0030ED26 /* Twitter */ = {
-			isa = PBXGroup;
-			children = (
-				4D48060811B1CA9A00BD36BE /* TwitterOauth.h */,
-				4D48060911B1CA9A00BD36BE /* TwitterOauth.m */,
-				4DBA09CF11B056290030ED26 /* Tweet.h */,
-				4DBA09D011B056290030ED26 /* Tweet.m */,
-			);
-			name = Twitter;
-			sourceTree = "<group>";
-		};
-		4DBA09CE11B056130030ED26 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-<<<<<<< HEAD
-=======
-				4DCB5C7411B245EA00C2EDAE /* Image */,
->>>>>>> master
-				4DBA09CD11B0560D0030ED26 /* Twitter */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		4DBA09DB11B0562C0030ED26 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				4DBA09D511B056290030ED26 /* UIImage+Resize.h */,
-				4DBA09D611B056290030ED26 /* UIImage+Resize.m */,
+				4D91DFC911B2818B00821C56 /* UIImage+Resize.h */,
+				4D91DFCA11B2818B00821C56 /* UIImage+Resize.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
 		};
-		4DBA09DC11B056380030ED26 /* Twitter */ = {
+		4D91DFFB11B2825100821C56 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA09C611B056080030ED26 /* RetweetTableViewController.h */,
-				4DBA09C711B056080030ED26 /* RetweetTableViewController.m */,
-				4DBA09D311B056290030ED26 /* TwitterTableViewController.h */,
-				4DBA09D411B056290030ED26 /* TwitterTableViewController.m */,
-			);
-			name = Twitter;
-			sourceTree = "<group>";
-		};
-		4DBA09DD11B0563F0030ED26 /* PullToRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				4DBA09C011B056080030ED26 /* PullToRefreshTableViewController.h */,
-				4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */,
-				4DBA09C411B056080030ED26 /* RefreshTableHeaderView.h */,
-				4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */,
-			);
-			name = PullToRefresh;
-			sourceTree = "<group>";
-		};
-		4DBA09DE11B056570030ED26 /* BaseControllers */ = {
-			isa = PBXGroup;
-			children = (
-				4DBA0AA611B05A590030ED26 /* BaseTableViewController.h */,
-				4DBA0AA711B05A590030ED26 /* BaseTableViewController.m */,
-				4DBA0A9711B05A2C0030ED26 /* GradientTableViewCell.h */,
-				4DBA0A9811B05A2C0030ED26 /* GradientTableViewCell.m */,
-				4DBA09C211B056080030ED26 /* PushedBaseTableViewController.h */,
-				4DBA09C311B056080030ED26 /* PushedBaseTableViewController.m */,
-			);
-			name = BaseControllers;
-			sourceTree = "<group>";
-		};
-		4DBA09DF11B056900030ED26 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				4DBA0A1211B057590030ED26 /* CDataScanner.h */,
-				4DBA0A1311B057590030ED26 /* CDataScanner.m */,
-				4DBA0A1411B057590030ED26 /* CJSONDataSerializer.h */,
-				4DBA0A1511B057590030ED26 /* CJSONDataSerializer.m */,
-				4DBA0A1611B057590030ED26 /* CJSONDeserializer.h */,
-				4DBA0A1711B057590030ED26 /* CJSONDeserializer.m */,
-				4DBA0A1811B057590030ED26 /* CJSONScanner.h */,
-				4DBA0A1911B057590030ED26 /* CJSONScanner.m */,
-				4DBA0A1A11B057590030ED26 /* CJSONSerializer.h */,
-				4DBA0A1B11B057590030ED26 /* CJSONSerializer.m */,
-				4DBA0A1C11B057590030ED26 /* CSerializedJSONData.h */,
-				4DBA0A1D11B057590030ED26 /* CSerializedJSONData.m */,
-				4DBA0A1E11B057590030ED26 /* Extensions */,
-			);
-			name = JSON;
-			sourceTree = "<group>";
-		};
-		4DBA09FF11B057070030ED26 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				4DBA0A0911B0574A0030ED26 /* AppHelpers.h */,
-				4DBA0A0A11B0574A0030ED26 /* AppHelpers.m */,
-				4DBA0A0B11B0574A0030ED26 /* ISO8601DateFormatter.h */,
-				4DBA0A0C11B0574A0030ED26 /* ISO8601DateFormatter.m */,
-				4DBA0A0D11B0574A0030ED26 /* LoggingViewController.h */,
-				4DBA0A0E11B0574A0030ED26 /* LoggingViewController.m */,
+				4D91DFF211B2824E00821C56 /* AppHelpers.h */,
+				4D91DFF311B2824E00821C56 /* AppHelpers.m */,
+				4D91DFF411B2824E00821C56 /* ISO8601DateFormatter.h */,
+				4D91DFF511B2824E00821C56 /* ISO8601DateFormatter.m */,
+				4D91DFF611B2824E00821C56 /* LoggingViewController.h */,
+				4D91DFF711B2824E00821C56 /* LoggingViewController.m */,
 			);
 			name = Misc;
 			sourceTree = "<group>";
 		};
-		4DBA0A1E11B057590030ED26 /* Extensions */ = {
+		4D91E00E11B2826900821C56 /* JSON */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA0A1F11B057590030ED26 /* CDataScanner_Extensions.h */,
-				4DBA0A2011B057590030ED26 /* CDataScanner_Extensions.m */,
-				4DBA0A2111B057590030ED26 /* NSCharacterSet_Extensions.h */,
-				4DBA0A2211B057590030ED26 /* NSCharacterSet_Extensions.m */,
-				4DBA0A2311B057590030ED26 /* NSDictionary_JSONExtensions.h */,
-				4DBA0A2411B057590030ED26 /* NSDictionary_JSONExtensions.m */,
-				4DBA0A2511B057590030ED26 /* NSScanner_Extensions.h */,
-				4DBA0A2611B057590030ED26 /* NSScanner_Extensions.m */,
+				4D91E00F11B2827300821C56 /* Extensions */,
+				4D91DFFC11B2826400821C56 /* CDataScanner.h */,
+				4D91DFFD11B2826400821C56 /* CDataScanner.m */,
+				4D91DFFE11B2826400821C56 /* CJSONDataSerializer.h */,
+				4D91DFFF11B2826400821C56 /* CJSONDataSerializer.m */,
+				4D91E00011B2826400821C56 /* CJSONDeserializer.h */,
+				4D91E00111B2826400821C56 /* CJSONDeserializer.m */,
+				4D91E00211B2826400821C56 /* CJSONScanner.h */,
+				4D91E00311B2826400821C56 /* CJSONScanner.m */,
+				4D91E00411B2826400821C56 /* CJSONSerializer.h */,
+				4D91E00511B2826400821C56 /* CJSONSerializer.m */,
+				4D91E00611B2826400821C56 /* CSerializedJSONData.h */,
+				4D91E00711B2826400821C56 /* CSerializedJSONData.m */,
 			);
-			name = Extensions;
-			path = Classes/JSON/Extensions;
+			name = JSON;
 			sourceTree = "<group>";
 		};
-		4DBA0AA911B05A650030ED26 /* Images */ = {
+		4D91E00F11B2827300821C56 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4DBA0B3D11B0662C0030ED26 /* icon-big.png */,
-				4DBA0B3E11B0662C0030ED26 /* icon.png */,
-				4DBA0AB311B05AAB0030ED26 /* blueArrow.png */,
-				4DBA0AB511B05AAB0030ED26 /* retweet.png */,
-				4DBA0AB611B05AAB0030ED26 /* twitter.png */,
-				4DBA0AB711B05AAB0030ED26 /* UIBackBarButtonHighlighted.png */,
-				4DBA0AB811B05AAB0030ED26 /* UIBackBarButtonPlain.png */,
+				4D91E01011B2828300821C56 /* CDataScanner_Extensions.h */,
+				4D91E01111B2828300821C56 /* CDataScanner_Extensions.m */,
+				4D91E01211B2828300821C56 /* NSCharacterSet_Extensions.h */,
+				4D91E01311B2828300821C56 /* NSCharacterSet_Extensions.m */,
+				4D91E01411B2828300821C56 /* NSDictionary_JSONExtensions.h */,
+				4D91E01511B2828300821C56 /* NSDictionary_JSONExtensions.m */,
+				4D91E01611B2828300821C56 /* NSScanner_Extensions.h */,
+				4D91E01711B2828300821C56 /* NSScanner_Extensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4D91E03C11B2836200821C56 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D91E12411B28AA700821C56 /* want.jpg */,
+				4D91E0D611B2875A00821C56 /* blueArrow.png */,
+				4D91E0D711B2875A00821C56 /* icon-big.png */,
+				4D91E0D811B2875A00821C56 /* icon.png */,
+				4D91E0D911B2875A00821C56 /* retweet.png */,
+				4D91E0DA11B2875A00821C56 /* twitter.png */,
+				4D91E0DB11B2875A00821C56 /* UIBackBarButtonHighlighted.png */,
+				4D91E0DC11B2875A00821C56 /* UIBackBarButtonPlain.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
-		4DCB5C7411B245EA00C2EDAE /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				4DCB5C7911B2461700C2EDAE /* ImageUpload.h */,
-				4DCB5C7A11B2461700C2EDAE /* ImageUpload.m */,
-			);
-			name = Image;
-			sourceTree = "<group>";
-		};
->>>>>>> master
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* fabordrab */ = {
+		1D6058900D05DD3D006BFB54 /* FabOrDrab */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "fabordrab" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FabOrDrab" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -434,8 +317,8 @@
 			);
 			dependencies = (
 			);
-			name = fabordrab;
-			productName = fabordrab;
+			name = FabOrDrab;
+			productName = FabOrDrab;
 			productReference = 1D6058910D05DD3D006BFB54 /* Fab.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -444,7 +327,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "fabordrab" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FabOrDrab" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -458,7 +341,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* fabordrab */,
+				1D6058900D05DD3D006BFB54 /* FabOrDrab */,
 			);
 		};
 /* End PBXProject section */
@@ -468,17 +351,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
-				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
-				4DBA0AB911B05AAB0030ED26 /* blueArrow.png in Resources */,
-				4DBA0ABB11B05AAB0030ED26 /* retweet.png in Resources */,
-				4DBA0ABC11B05AAB0030ED26 /* twitter.png in Resources */,
-				4DBA0ABD11B05AAB0030ED26 /* UIBackBarButtonHighlighted.png in Resources */,
-				4DBA0ABE11B05AAB0030ED26 /* UIBackBarButtonPlain.png in Resources */,
-				4DBA0B3F11B0662C0030ED26 /* icon-big.png in Resources */,
-				4DBA0B4011B0662C0030ED26 /* icon.png in Resources */,
-				4D48069C11B1DCFD00BD36BE /* TextEntryCell.xib in Resources */,
-				4D48069D11B1DCFD00BD36BE /* TwitterLoginController.xib in Resources */,
+				4D91E0DD11B2875A00821C56 /* blueArrow.png in Resources */,
+				4D91E0DE11B2875A00821C56 /* icon-big.png in Resources */,
+				4D91E0DF11B2875A00821C56 /* icon.png in Resources */,
+				4D91E0E011B2875A00821C56 /* retweet.png in Resources */,
+				4D91E0E111B2875A00821C56 /* twitter.png in Resources */,
+				4D91E0E211B2875A00821C56 /* UIBackBarButtonHighlighted.png in Resources */,
+				4D91E0E311B2875A00821C56 /* UIBackBarButtonPlain.png in Resources */,
+				4D91E0E811B2876500821C56 /* MainWindow.xib in Resources */,
+				4D91E0E911B2876500821C56 /* RootViewController.xib in Resources */,
+				4D91E0EA11B2876500821C56 /* TextEntryCell.xib in Resources */,
+				4D91E0EB11B2876500821C56 /* TwitterLoginController.xib in Resources */,
+				4D91E12511B28AA700821C56 /* want.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,39 +374,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				1D3623260D0F684500981E51 /* fabordrabAppDelegate.m in Sources */,
-				4DBA09C911B056080030ED26 /* PullToRefreshTableViewController.m in Sources */,
-				4DBA09CA11B056080030ED26 /* PushedBaseTableViewController.m in Sources */,
-				4DBA09CB11B056080030ED26 /* RefreshTableHeaderView.m in Sources */,
-				4DBA09CC11B056080030ED26 /* RetweetTableViewController.m in Sources */,
-				4DBA09D711B056290030ED26 /* Tweet.m in Sources */,
-				4DBA09D811B056290030ED26 /* TwitterTableViewCell.m in Sources */,
-				4DBA09D911B056290030ED26 /* TwitterTableViewController.m in Sources */,
-				4DBA09DA11B056290030ED26 /* UIImage+Resize.m in Sources */,
-				4DBA0A0F11B0574A0030ED26 /* AppHelpers.m in Sources */,
-				4DBA0A1011B0574A0030ED26 /* ISO8601DateFormatter.m in Sources */,
-				4DBA0A1111B0574A0030ED26 /* LoggingViewController.m in Sources */,
-				4DBA0A2711B057590030ED26 /* CDataScanner.m in Sources */,
-				4DBA0A2811B057590030ED26 /* CJSONDataSerializer.m in Sources */,
-				4DBA0A2911B057590030ED26 /* CJSONDeserializer.m in Sources */,
-				4DBA0A2A11B057590030ED26 /* CJSONScanner.m in Sources */,
-				4DBA0A2B11B057590030ED26 /* CJSONSerializer.m in Sources */,
-				4DBA0A2C11B057590030ED26 /* CSerializedJSONData.m in Sources */,
-				4DBA0A2D11B057590030ED26 /* CDataScanner_Extensions.m in Sources */,
-				4DBA0A2E11B057590030ED26 /* NSCharacterSet_Extensions.m in Sources */,
-				4DBA0A2F11B057590030ED26 /* NSDictionary_JSONExtensions.m in Sources */,
-				4DBA0A3011B057590030ED26 /* NSScanner_Extensions.m in Sources */,
-				4DBA0AA111B05A2C0030ED26 /* GradientTableViewCell.m in Sources */,
-				4DBA0AA811B05A590030ED26 /* BaseTableViewController.m in Sources */,
-				4D48060A11B1CA9A00BD36BE /* TwitterOauth.m in Sources */,
-				4D48064611B1D2DC00BD36BE /* TwitterLoginView.m in Sources */,
-				4D48065E11B1DAF300BD36BE /* TextEntryCell.m in Sources */,
-				4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */,
-				4D4808E411B20F9500BD36BE /* Camera.m in Sources */,
-<<<<<<< HEAD
-=======
-				4DCB5C7B11B2461700C2EDAE /* ImageUpload.m in Sources */,
->>>>>>> master
+				1D3623260D0F684500981E51 /* FabOrDrabAppDelegate.m in Sources */,
+				4D91DFCB11B2818B00821C56 /* FabOrDrab.m in Sources */,
+				4D91DFCE11B2818B00821C56 /* ImageUpload.m in Sources */,
+				4D91DFCF11B2818B00821C56 /* TwitterLoginView.m in Sources */,
+				4D91DFD011B2818B00821C56 /* TwitterOauth.m in Sources */,
+				4D91DFD311B2818B00821C56 /* UIImage+Resize.m in Sources */,
+				4D91DFF811B2824E00821C56 /* AppHelpers.m in Sources */,
+				4D91DFF911B2824E00821C56 /* ISO8601DateFormatter.m in Sources */,
+				4D91DFFA11B2824E00821C56 /* LoggingViewController.m in Sources */,
+				4D91E00811B2826400821C56 /* CDataScanner.m in Sources */,
+				4D91E00911B2826400821C56 /* CJSONDataSerializer.m in Sources */,
+				4D91E00A11B2826400821C56 /* CJSONDeserializer.m in Sources */,
+				4D91E00B11B2826400821C56 /* CJSONScanner.m in Sources */,
+				4D91E00C11B2826400821C56 /* CJSONSerializer.m in Sources */,
+				4D91E00D11B2826400821C56 /* CSerializedJSONData.m in Sources */,
+				4D91E01811B2828300821C56 /* CDataScanner_Extensions.m in Sources */,
+				4D91E01911B2828300821C56 /* NSCharacterSet_Extensions.m in Sources */,
+				4D91E01A11B2828300821C56 /* NSDictionary_JSONExtensions.m in Sources */,
+				4D91E01B11B2828300821C56 /* NSScanner_Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,10 +408,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = fabordrab_Prefix.pch;
+				GCC_PREFIX_HEADER = FabOrDrab_Prefix.pch;
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
-				INFOPLIST_FILE = "fabordrab-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				INFOPLIST_FILE = "FabOrDrab-Info.plist";
 				OTHER_LDFLAGS = (
 					"-lhttpriot",
 					"-lxml2",
@@ -559,9 +428,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = fabordrab_Prefix.pch;
-				INFOPLIST_FILE = "fabordrab-Info.plist";
-				PRODUCT_NAME = fabordrab;
+				GCC_PREFIX_HEADER = FabOrDrab_Prefix.pch;
+				INFOPLIST_FILE = "FabOrDrab-Info.plist";
+				PRODUCT_NAME = FabOrDrab;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -596,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "fabordrab" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FabOrDrab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
@@ -605,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "fabordrab" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FabOrDrab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,

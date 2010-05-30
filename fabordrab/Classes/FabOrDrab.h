@@ -23,4 +23,6 @@
 - (void) snap:(id)sender;
 - (void) sendImage:(id)sender;
 
+- (void) uploadImage;
+
 @end
