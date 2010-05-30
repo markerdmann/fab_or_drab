@@ -1,11 +1,8 @@
 class User < Ohm::Model
-  attribute :token
-  attribute :secret
+  attribute :handle
   collection :pictures, Picture
 
-  index :token
-  index :secret
-
+  index :handle
   def stats
     pictures
   end

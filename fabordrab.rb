@@ -33,6 +33,7 @@ configure do
   @@bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
   
   @@cf_key = ENV['CROWDFLOWER_KEY'] || @@config['crowdflower_key']
+  @@cf_job = ENV['CROWDFLOWER_JOB'] || @@config['crowdflower_job']
 
   @@consumer_key = ENV['CONSUMER_KEY'] || @@config['consumer_key']
   @@consumer_secret = ENV['CONSUMER_SECRET'] || @@config['consumer_secret']
@@ -118,6 +119,8 @@ post '/upload' do
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
   user = get_user
+  redirect '/' unless user
+  
   picture = Picture.create( :name => Picture.hash_name(name), :data=>[annotations].to_json )
   filename = picture.filename
   image_url = @@s3_url + "/" + filename
@@ -145,7 +148,7 @@ post '/upload' do
   
   
   # post to crowdflower
-  HTTParty.post("https://api.crowdflower.com/v1/jobs/12392/units.json?key=#{@@cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
+  HTTParty.post("https://api.crowdflower.com/v1/jobs/#{@@cf_job}/units.json?key=#{@@cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
   
   redirect "/vote/#{picture.name}"
 end
@@ -291,7 +294,13 @@ helpers do
 
   def get_user
     token, secret = get_tokens
-    user = User.first_or_create(:token => token, :secret => secret)
+    
+    if(token && secret)
+      screenname = @client.info["screen_name"]
+      user = User.first_or_create(:handle => screenname)
+    else
+      nil
+    end
   end
 
   def rate_picture(name, fab_or_drab)
@@ -301,7 +310,7 @@ helpers do
 
   def set_client
     token, secret = get_tokens
-    
+
     TwitterOAuth::Client.new(
                              :consumer_key => @@consumer_key,
                              :consumer_secret => @@consumer_secret,
