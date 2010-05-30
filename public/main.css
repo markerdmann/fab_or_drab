@@ -1,6 +1,10 @@
 body {font-size:16px; font-family:verdana;}
 img {border:none;}
-h2 {font-size:20px;}
+h2 {font-size:20px; padding: 10px;}
+
+a {
+	color: #BB86D9;
+}
 
 #header h1 {margin:0; font-size:24px;}
 
@@ -14,6 +18,7 @@ h2 {font-size:20px;}
   width:250px;
   font-size:20px;
   color:red;
+  padding: 10px;
 }
 
 .timeline {
@@ -37,9 +42,11 @@ form.right {
 }
 
 body{
-	background:none repeat fixed 0 0 #96879d;/*#DFDED9;*/
+	background:none repeat fixed 0 0 #C275D1;/*#DFDED9;*/
 	font-family:Arial,Helvetica,sans-serif;
 	margin:0px;
+	
+	color: white;
 }
 
 .sideways ul li {
@@ -64,14 +71,14 @@ body{
 #top{
 	width:800px;
 	height:40px;
-	padding:0 15px 5px 0;
-	background-color:#D1BDD9;
+	padding:0 15px 15px 0;
+	background-color:#480C6B;
 	margin:0px auto;
 	color:magenta;
-	-moz-border-radius-bottomleft:5px;
-	-moz-border-radius-bottomright:5px;
-	-webkit-border-bottom-left-radius:5px;
-	-webkit-border-bottom-right-radius:5px;	
+	-moz-border-radius-bottomleft:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;	
 }
 #top ul li {
 	list-style-type:none;
@@ -85,19 +92,24 @@ body{
 #top a {
 	text-decoration:none;
 	color:#FFF;
-	font-weight:bold;
+	font-size: 20px;
+	padding: 7px;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
 }
 #top a:hover {
-	color:magenta;
+	padding: 7px;
+	color:white;
+	background: #CA5AE0;
 }
 #main{
 	width:800px;
 	min-height:600px;
-	background-color:#FFEFFF;
+	background-color:#7A2B8A;
 	margin:0px auto;
 	margin-top:50px;	
 	padding-top:20px;
-	padding-bottom:20px;	
+	padding-bottom:20px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 }
