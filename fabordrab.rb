@@ -39,6 +39,8 @@ before do
   @client = set_client(token, secret)
   @rate_limit_status = @client.rate_limit_status
 
+  puts token.inspect
+  puts secret.inspect
   User.first_or_create( :token => token,
                         :secret => secret )
 end
@@ -98,7 +100,9 @@ post '/upload' do
 
   token = params[:token] || session[:token]
   secret = params[:secret] || session[:secret_token]
-  
+
+  puts token.inspect
+  puts secret.inspect
   user = User.first_or_create( :token => token, :secret => secret )
   picture = Picture.create( :name => Picture.hash_name(name) )
   filename = picture.filename
@@ -132,22 +136,29 @@ end
 get '/vote' do
   ## yeah we would use sorted set here
   least_judged_picture = Picture.all.sort { |a,b| a.votes.size <=> b.votes.size }.first
-  @name = least_judged_picture.name
-  @url = least_judged_picture.url
-  puts @url.inspect
-
-  redirect "/vote/#{@name}"
+  if( least_judged_picture )
+    @name = least_judged_picture.name
+    @url = least_judged_picture.url
+    puts @url.inspect
+    redirect "/vote/#{@name}"
+  else
+    redirect "/"
+  end
 end
 
 get '/vote/:name' do
   
   @name = params[:name]
-
-  @url = Picture.first(:name => @name).url
-  puts @url.inspect
-
-  erb :vote
+  pic = Picture.first(:name => @name)
   
+  if(pic)
+    @url = pic.url
+    puts @url.inspect
+
+    erb :vote
+  else
+    redirect "/"
+  end
 end
 
 def rate_picture(name, fab_or_drab)
