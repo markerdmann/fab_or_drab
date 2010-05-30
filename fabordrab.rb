@@ -128,18 +128,19 @@ end
 
 get '/vote' do
   ## yeah we would use sorted set here
-  least_judged_picture = Picture.all.sort_by { |a,b| a.votes.size <=> b.votes.size } 
-  @url = least_judge_picture.url
+  least_judged_picture = Picture.all.sort { |a,b| a.votes.size <=> b.votes.size }.first
+  @name = least_judged_picture.name
+  @url = least_judged_picture.url
   puts @url.inspect
 
   erb :vote
 end
 
-get '/vote/:id' do
+get '/vote/:name' do
   
-  id = params[:id]
+  @name = params[:name]
 
-  @url = Picture.first(:name => id).url
+  @url = Picture.first(:name => @name).url
   puts @url.inspect
 
   erb :vote
