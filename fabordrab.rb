@@ -90,9 +90,17 @@ post '/upload' do
 
   image_file = params[:datafile][:tempfile]
   
-  id = rand(10**20).to_s
-  filename = id + ".jpg"
+  name = Ohm.redis.incr "fabordrab:picture:last_name"
+  name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
+  token = params[:token] || session[:token]
+  secret = params[:secret] || session[:secret_token]
+  
+  user = User.first_or_create( :token => token, :secret => secret )
+  picture = Picture.create( :name => Picture.hash_name(name) )
+  filename = picture.filename
+  picture.update( :url => "#{@@config['s3_url']}/#{filename}" )
+  user.pictures << picture
   
   S3Object.store(
       filename,
@@ -100,16 +108,10 @@ post '/upload' do
       'fabordrab',
       :access => :public_read
     )
-  url = "#{@@config['s3_url']}/#{filename}"
 
-  token = params[:token] || session[:token]
-  secret = params[:secret] || session[:secret_token]
-  user = User.first_or_create( :token => token, :secret => secret )
-  picture = Picture.create( :uri => url ) 
-  user.pictures << picture
-  
   base_uri = ENV['BASE_URI'] || @@config['base_uri']
-  vote_url = base_uri + "/vote/#{id}"
+  vote_url = base_uri + "/vote/#{picture.name}"
+
   response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{@@config['bitly_login']}&apiKey=#{@@config['bitly_api_key']}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
@@ -117,7 +119,7 @@ post '/upload' do
   @client = set_client(token, secret)
   @client.update(short_url)
   
-  redirect "/vote/#{id}"
+  redirect "/vote/#{picture.name}"
 end
 
 get '/vote' do
@@ -133,7 +135,7 @@ get '/vote/:id' do
   
   id = params[:id]
 
-  @url = Picture.first(:id => id).url
+  @url = Picture.first(:name => id).url
   puts @url.inspect
 
   erb :vote
