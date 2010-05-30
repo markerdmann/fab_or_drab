@@ -5,12 +5,15 @@ module Ohm
     ## mappings.  In this case I just want to get one and not create
     ## the same user multiple times.
     ##
+    ## For this to work properly, the options you pass must both be
+    ## index properties in the object model
+    ##
     def self.first_or_create(options={})
-      user = first( options )
-      if user.nil?
+      model = first( options )
+      if model.nil?
         create( options )
       else 
-        user
+        model
       end
     end
 
