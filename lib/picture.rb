@@ -3,6 +3,7 @@ class Picture < Ohm::Model
   DRAB = 0
   
   attribute :name
+  attribute :tweet_id
   attribute :data
   attribute :url
   collection :votes, Vote
@@ -17,6 +18,10 @@ class Picture < Ohm::Model
     "PICTURES:NAME:#{name}".hash.abs.to_s(16)
   end
 
+  def get_data
+    JSON.parse(data).first
+  end
+  
   def fabs
     self.votes.inject(0) { |r,v| r += (v.rating.to_i == FAB) ? 1 : 0 }
   end
@@ -26,6 +31,6 @@ class Picture < Ohm::Model
   end
   
   def rating
-    self.votes.inject(0) {|r,v| r += v.rating.to_i } / self.votes.size.to_f
+    self.votes.size > 0 ? self.votes.inject(0) {|r,v| r += v.rating.to_i } / self.votes.size.to_f : 0
   end
 end

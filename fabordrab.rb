@@ -33,24 +33,12 @@ before do
 
   token = session[:access_token]
   secret = session[:secret_token]
-  @client = set_client(token, secret)
+  @client = set_client
+  @annotation_client = annotation_client
+  
   @rate_limit_status = @client.rate_limit_status
 
-  puts token.inspect
-  puts secret.inspect
-  User.first_or_create( :token => token,
-                        :secret => secret )
-end
-
-def set_client(token, secret)
-  
-  TwitterOAuth::Client.new(
-    :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
-    :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
-    :token => token,
-    :secret => secret
-  )
-
+  get_user
 end
 
 get '/' do
@@ -63,6 +51,9 @@ end
 
 get '/timeline' do
   @tweets = @client.friends_timeline
+
+  user = get_user
+  @pics = user.pictures if user
   erb :timeline
 end
 
@@ -78,17 +69,17 @@ get '/messages' do
 end
 
 get '/search' do
-  params[:q] ||= 'sinitter OR twitter_oauth'
+  params[:q] ||= '#fabordrab'
   @search = @client.search(params[:q], :page => params[:page], :per_page => params[:per_page])
   erb :search
 end
 
 get '/mypics' do 
-  token, secret = get_tokens
-  user = User.first_or_create(:token => token, :secret => secret) 
+  user = get_user
   redirect '/' unless user
 
   @pics = user.pictures
+  
   erb :mypics
 end
 
@@ -114,13 +105,8 @@ post '/upload' do
   name = Ohm.redis.incr "fabordrab:picture:last_name"
   name_available = Ohm.redis.sadd "fabordrab:picture:names", name
 
-  token, secret = get_tokens
-
-  puts "in upload"
-  puts token.inspect
-  puts secret.inspect
-  user = User.first_or_create( :token => token, :secret => secret )
-  picture = Picture.create( :name => Picture.hash_name(name) )
+  user = get_user
+  picture = Picture.create( :name => Picture.hash_name(name), :data=>[annotations].to_json )
   filename = picture.filename
   s3_url = ENV['S3_URL'] || @@config['s3_url']
   image_url = s3_url + "/" + filename
@@ -135,17 +121,23 @@ post '/upload' do
     )
 
   base_uri = ENV['BASE_URI'] || @@config['base_uri']
-  vote_url = base_uri + "/vote/#{picture.name}"
-  
   bitly_login = ENV['BITLY_LOGIN'] || @@config['bitly_login']
   bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
 
+  vote_url = base_uri + "/vote/#{picture.name}"
   response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{bitly_login}&apiKey=#{bitly_api_key}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
-  @client = set_client(token, secret)
-  p @client.update(short_url + " #fabordrab", {:annotations => annotations.to_json})
+  
+  
+
+  @annotation_client = annotation_client
+  resp = @annotation_client.post("/1/statuses/update.json", 
+                                 {:status => short_url + " #fabordrab",
+                                   :annotations => picture.data })
+  puts resp.inspect
+  picture.update( :tweet_id => JSON.parse(resp.body)["id"] )
   
   
   # post to crowdflower
@@ -157,7 +149,7 @@ end
 
 get '/vote' do
   ## yeah we would use sorted set here
-  least_judged_picture = Picture.all.sort { |a,b| a.votes.size <=> b.votes.size }.first
+  least_judged_picture = Picture.all.to_a.sort { |a,b| a.votes.size <=> b.votes.size }.first
   if( least_judged_picture )
     @name = least_judged_picture.name
     @url = least_judged_picture.url
@@ -181,11 +173,6 @@ get '/vote/:name' do
   else
     redirect "/"
   end
-end
-
-def rate_picture(name, fab_or_drab)
-  pic = Picture.first( :name => name )
-  vote = Vote.create( :rating => fab_or_drab, :picture => pic ) if pic
 end
 
 post '/fab/:name' do
@@ -288,5 +275,40 @@ helpers do
     token = params[:token] || session[:access_token]
     secret = params[:secret] || session[:secret_token]
     return token, secret
+  end
+
+  def get_user
+    token, secret = get_tokens
+    user = User.first_or_create(:token => token, :secret => secret)
+  end
+
+  def rate_picture(name, fab_or_drab)
+    pic = Picture.first( :name => name )
+    vote = Vote.create( :rating => fab_or_drab, :picture => pic ) if pic
+  end
+
+  def set_client
+    token, secret = get_tokens
+    
+    TwitterOAuth::Client.new(
+                             :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
+                             :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
+                             :token => token,
+                             :secret => secret
+                             )
+
+  end
+
+  def annotation_client
+    token, secret = get_tokens
+
+    puts "annotation client"
+    puts token
+    puts secret
+
+    consumer = OAuth::Consumer.new(ENV['CONSUMER_KEY'] || @@config['consumer_key'],
+                                   ENV['CONSUMER_SECRET'] || @@config['consumer_secret'], 
+                                   { :site => "http://api.twitter.com" })
+    access_token = OAuth::AccessToken.new(consumer, token, secret)
   end
 end
