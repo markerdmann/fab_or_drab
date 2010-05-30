@@ -5,6 +5,7 @@ require 'twitter_oauth'
 require 'redis'
 require 'aws/s3'
 require 'json'
+require 'httparty'
 
 $redis = Redis.new(:host => '173.203.28.144')
 
@@ -83,7 +84,6 @@ end
 
 post '/upload' do
   
-  
   image_file = params[:datafile][:tempfile]
   id = rand(10**20).to_s
   filename = id + ".jpg"
@@ -96,6 +96,15 @@ post '/upload' do
   url = "http://s3.amazonaws.com/fabordrab/#{filename}"
   $redis.set(id, url)
   $redis.sadd("images", url)
+  
+  base_uri = @@config['base_uri']
+  vote_url = base_uri + "/vote/#{id}"
+  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=markerdmann&apiKey=R_d7a6c79cf48989e6e9355bd4a6d96da2&longUrl=#{vote_url}")
+  puts response.inspect
+  short_url = response['data']['url']
+  puts short_url.inspect
+  @client.update(short_url)
+  
   redirect "/vote/#{id}"
   
 end
