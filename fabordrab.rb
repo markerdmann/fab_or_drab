@@ -6,17 +6,22 @@ require 'redis'
 require 'aws/s3'
 require 'json'
 
-$redis = Redis.new(:host => '173.203.28.144')
-
 AWS::S3::Base.establish_connection!(
     :access_key_id     => '1K0XS3P667NWV6EZWBR2',
     :secret_access_key => 'fQXVMcK11QW8O6xsxWKISpb30Oir32q8UZFV1G/6'
   )
 include AWS::S3
 
+require File.expand_path(File.join(File.dirname(__FILE__), 'init.rb'))
+
 configure do
   set :sessions, true
   @@config = YAML.load_file("config.yml") rescue nil || {}
+  Ohm.redis=Ohm.connection(:port =>6379, 
+                           :db => @@config["redis_db"] || 0,
+                           :thread_safe => true,
+                           :host => @@config["redis_host"] || "127.0.0.1")
+  $redis = Ohm.redis
 end
 
 before do
