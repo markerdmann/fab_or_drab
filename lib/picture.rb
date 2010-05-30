@@ -1,7 +1,6 @@
 class Picture < Ohm::Model
   attribute :data
   attribute :uri
-  collection :judgments, Judgment
-  counter :votes
+  collection :votes, Vote
   reference :user, User
 end

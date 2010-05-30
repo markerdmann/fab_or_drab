@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title><!-- Insert your title here --></title>
+</head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+<script src="js/vote.js"></script>
+<!--
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css">
+-->
+<link rel="stylesheet" type="text/css" href="css/buttons.css">
+<style>
+body{
+	background:none repeat fixed 0 0 #96879d;/*#DFDED9;*/
+	font-family:Arial,Helvetica,sans-serif;
+	margin:0px;
+}
+#top{
+	width:800px;
+	height:40px;
+	background-color:#D1BDD9;
+	margin:0px auto;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;	
+}
+#main{
+	width:800px;
+	min-height:600px;
+	background-color:#FFEFFF;
+	margin:0px auto;
+	margin-top:100px;	
+	padding-top:20px;
+	padding-bottom:20px;	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#main .image{
+	text-align:center;
+	vertical-align:bottom;
+	height:500px;
+}
+#main .image img{
+	max-height:500px;
+	max-width:500px;
+	position:relative;	
+}
+#main .buttonsRow{
+	text-align:center;
+	margin-bottom:10px;
+	font-size:32px;
+	text-shadow:0 -1px 1px rgba(0, 0, 0, 0.25);
+	line-height:1;
+	font-weight:bold;
+	color:#bd09bd;
+}
+#leftPanel,#rightPanel{
+	position:fixed;
+	width:50%;
+	height:100%;
+	background:inherit;
+	z-index:3;
+}
+#leftPanel{
+	left:-400px;	
+}
+#rightPanel{
+	right:-400px;	
+}
+</style>
+<body>
+	<!-- Part of base template -->
+<div id="top">
+	
+</div>
+
+<!-- Same color as background, used to hide(overlay) image as it slides out-->
+<div id="leftPanel"></div>
+<div id="rightPanel"></div>
+
+<div id="main">	
+	<div class="buttonsRow">
+		<div class="zurb button vote purple blueHover" type="fab">Fab</div>
+		<span style="margin-right:6px;margin-left:6px;">or</span>
+		<div class="zurb button vote purple orangeHover" type="drab">Drab</div>		
+	</div>	
+	<div class="image">
+		<img src="images/sample1.jpg" />		
+	</div>
+
+</div>
+
+</body>
+</html>
