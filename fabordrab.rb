@@ -14,15 +14,16 @@ include AWS::S3
 configure do
   set :sessions, true
   @@config = YAML.load_file("config.yml") rescue nil || {}
-  Ohm.connect(:port =>6379, 
-              :db => @@config["redis_db"] || 0,
-              :thread_safe => true,
-              :host => @@config["redis_host"] || "127.0.0.1")
+
+  Ohm.redis=Ohm.connection(:port =>6379, 
+                           :db => @@config["redis_db"] || 0,
+                           :thread_safe => true,
+                           :host => ENV['REDIS_HOST'] || @@config["redis_host"] || "127.0.0.1")
   $redis = Ohm.redis
 
   AWS::S3::Base.establish_connection!(
-    :access_key_id     => @@config["s3_access_key_id"],
-    :secret_access_key => @@config["s3_secret_access_key"]
+    :access_key_id     => ENV['S3_ACCESS_KEY_ID'] || @@config["s3_access_key_id"],
+    :secret_access_key => ENV['S3_SECRET_ACCESS_KEY'] || @@config["s3_secret_access_key"]
   )
 end
 
@@ -115,15 +116,21 @@ post '/upload' do
 end
 
 get '/vote' do
+  ## yeah we would use sorted set here
   least_judged_picture = Picture.all.sort_by { |a,b| a.votes.size <=> b.votes.size } 
   @url = least_judge_picture.url
+  puts @url.inspect
+
   erb :vote
 end
 
 get '/vote/:id' do
   
   id = params[:id]
+
   @url = Picture.first(:id => id).url
+  puts @url.inspect
+
   erb :vote
   
 end

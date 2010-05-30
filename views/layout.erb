@@ -1,44 +1,42 @@
-<html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
 <head>
     <title>Fab or Drab</title>
-    <link href="/main.css" media="screen" rel="Stylesheet" type="text/css" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+	<script src="/vote.js"></script>
+	<!--
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css">
+	-->
+	<link rel="stylesheet" type="text/css" href="/main.css"></link>
+	<link rel="stylesheet" type="text/css" href="/buttons.css"></link>
 </head>
-
 <body>
-
-<div id="content">
-    <div id="header">
-        <div>
-            <h1>Fab or Drab</h1>
-        </div>
-        <br clear="all"/>
-    </div>
-    
-    <div id="nav" style="float:right">
-        <p>
-            <a href='/'>Home</a> |
-            <a href='/search'>Search</a>
+	<!-- Part of base template -->
+<div id="top">
+	<div id="nav" style="float:right">
+        <ul>
+            <li><a href='/'>Home</a></li>
             <% if @user %>
-                |
-                <a href='/vote'>Vote</a> |
-                <a href='/mypics'>My Pictures</a> |
-				<a href='/upload'>Upload</a> |
-                <a href='/disconnect'>Logout</a>
+                <li><a href='/vote'>Vote</a></li>
+                <li><a href='/mypics'>My Pictures</a></li>
+				<li><a href='/upload'>Upload</a></li>
+                <li><a href='/disconnect'>Logout</a></li>
             <% end %>
-        </p>
+            <li class="last"><a href='/search'>Search</a></li>
+        </ul>
     </div>
-    <br clear="all"/>
-    
-    <%= yield %>
-    
-    <div id="footer">
-        <br/>
-        <small>
-            Hosted free on <a href="http://heroku.com/">Heroku</a>. API calls remaining: <%= @rate_limit_status['remaining_hits'] %>/<%= @rate_limit_status['hourly_limit'] %> per hour
-        </small>
-    </div>
-    
+    <br style="clear:both"/>
+</div>
+
+<!-- Same color as background, used to hide(overlay) image as it slides out-->
+<div id="leftPanel"></div>
+<div id="rightPanel"></div>
+
+<div id="main">	
+	<%= yield %>
 </div>
 
 </body>
