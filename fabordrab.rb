@@ -104,7 +104,6 @@ get '/vote' do
   
   @url = $redis.srandmember("images")
   puts @url.inspect
-  
   erb :vote
   
 end
