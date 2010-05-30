@@ -25,6 +25,18 @@ configure do
     :access_key_id     => ENV['S3_ACCESS_KEY_ID'] || @@config["s3_access_key_id"],
     :secret_access_key => ENV['S3_SECRET_ACCESS_KEY'] || @@config["s3_secret_access_key"]
   )
+  
+  @@s3_url = ENV['S3_URL'] || @@config['s3_url']
+
+  @@base_uri = ENV['BASE_URI'] || @@config['base_uri']
+  @@bitly_login = ENV['BITLY_LOGIN'] || @@config['bitly_login']
+  @@bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
+  
+  @@cf_key = ENV['CROWDFLOWER_KEY'] || @@config['crowdflower_key']
+
+  @@consumer_key = ENV['CONSUMER_KEY'] || @@config['consumer_key']
+  @@consumer_secret = ENV['CONSUMER_SECRET'] || @@config['consumer_secret']
+  @@callback_url = ENV['CALLBACK_URL'] || @@config['callback_url']
 end
 
 before do
@@ -108,8 +120,7 @@ post '/upload' do
   user = get_user
   picture = Picture.create( :name => Picture.hash_name(name), :data=>[annotations].to_json )
   filename = picture.filename
-  s3_url = ENV['S3_URL'] || @@config['s3_url']
-  image_url = s3_url + "/" + filename
+  image_url = @@s3_url + "/" + filename
   picture.update( :url => image_url )
   user.pictures << picture
   
@@ -120,19 +131,12 @@ post '/upload' do
       :access => :public_read
     )
 
-  base_uri = ENV['BASE_URI'] || @@config['base_uri']
-  bitly_login = ENV['BITLY_LOGIN'] || @@config['bitly_login']
-  bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
-
-  vote_url = base_uri + "/vote/#{picture.name}"
-  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{bitly_login}&apiKey=#{bitly_api_key}&longUrl=#{vote_url}")
+  vote_url = @@base_uri + "/vote/#{picture.name}"
+  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{@@bitly_login}&apiKey=#{@@bitly_api_key}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
   
-  
-
-  @annotation_client = annotation_client
   resp = @annotation_client.post("/1/statuses/update.json", 
                                  {:status => short_url + " #fabordrab",
                                    :annotations => picture.data })
@@ -141,15 +145,15 @@ post '/upload' do
   
   
   # post to crowdflower
-  cf_key = ENV['CROWDFLOWER_KEY'] || @@config['crowdflower_key']
-  HTTParty.post("https://api.crowdflower.com/v1/jobs/12386/units.json?key=#{cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
+  
+  HTTParty.post("https://api.crowdflower.com/v1/jobs/12386/units.json?key=#{@@cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
   
   redirect "/vote/#{picture.name}"
 end
 
 get '/vote' do
   ## yeah we would use sorted set here
-  least_judged_picture = Picture.all.to_a.sort { |a,b| a.votes.size <=> b.votes.size }.first
+  least_judged_picture = Picture.least_judged
   if( least_judged_picture )
     @name = least_judged_picture.name
     @url = least_judged_picture.url
@@ -187,10 +191,15 @@ post '/drab/:name' do
   redirect "/vote"
 end
 
+post '/annotate/:name' do
+  name = params[:name]
+  puts params.inspect
+end
+
 # store the request tokens and send to Twitter
 get '/connect' do
   request_token = @client.request_token(
-    :oauth_callback => ENV['CALLBACK_URL'] || @@config['callback_url']
+    :oauth_callback => @@callback_url
   )
   session[:request_token] = request_token.token
   session[:request_token_secret] = request_token.secret
@@ -295,8 +304,8 @@ helpers do
     token, secret = get_tokens
     
     TwitterOAuth::Client.new(
-                             :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
-                             :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
+                             :consumer_key => @@consumer_key,
+                             :consumer_secret => @@consumer_secret,
                              :token => token,
                              :secret => secret
                              )
@@ -305,13 +314,9 @@ helpers do
 
   def annotation_client
     token, secret = get_tokens
-
-    puts "annotation client"
-    puts token
-    puts secret
-
-    consumer = OAuth::Consumer.new(ENV['CONSUMER_KEY'] || @@config['consumer_key'],
-                                   ENV['CONSUMER_SECRET'] || @@config['consumer_secret'], 
+    
+    consumer = OAuth::Consumer.new(@@consumer_key,
+                                   @@consumer_secret,
                                    { :site => "http://api.twitter.com" })
     access_token = OAuth::AccessToken.new(consumer, token, secret)
   end

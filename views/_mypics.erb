@@ -15,14 +15,16 @@
                 </div>
                 
                 <div class="sideways">
+                  <% p.get_data.each do |ann| %>
                   <ul>
-                    <% p.get_data.each do |type, attributes| %>
+                    <% ann.each do |type, attributes| %>
                     <li style="font-weight:bold;font-size:16px"> <%= type.capitalize %> </li>
                       <% attributes.each do |f, v| %>
                         <li class="field"><span style="font-weight:bold;"><%= f.capitalize %></span>: <span><%= v %></span></li>
                       <% end %>
                     <% end %>
                   </ul>
+                  <% end %>
                 </div>
                 <br/>
             </div>

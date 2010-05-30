@@ -19,7 +19,8 @@ class Picture < Ohm::Model
   end
 
   def get_data
-    JSON.parse(data).first
+    return [] unless data
+    JSON.parse(data)
   end
   
   def fabs
@@ -32,5 +33,9 @@ class Picture < Ohm::Model
   
   def rating
     self.votes.size > 0 ? self.votes.inject(0) {|r,v| r += v.rating.to_i } / self.votes.size.to_f : 0
+  end
+
+  def self.least_judged
+    Picture.all.to_a.sort { |a, b| a.votes.size <=> b.votes.size }.first
   end
 end
