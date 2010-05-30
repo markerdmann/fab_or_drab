@@ -103,6 +103,8 @@ end
 get '/vote' do
   
   @url = $redis.srandmember("images")
+  puts @url.inspect
+  
   erb :vote
   
 end
@@ -111,6 +113,7 @@ get '/vote/:id' do
   
   id = params[:id]
   @url = $redis.get(id)
+  puts @url.inspect
   erb :vote
   
 end
