@@ -123,7 +123,8 @@ post '/upload' do
   picture = Picture.create( :name => Picture.hash_name(name) )
   filename = picture.filename
   s3_url = ENV['S3_URL'] || @@config['s3_url']
-  picture.update( :url => "#{s3_url}/#{filename}" )
+  image_url = s3_url + "/" + filename
+  picture.update( :url => image_url )
   user.pictures << picture
   
   S3Object.store(
@@ -145,6 +146,11 @@ post '/upload' do
   puts short_url.inspect
   @client = set_client(token, secret)
   p @client.update(short_url + " #fabordrab", {:annotations => annotations.to_json})
+  
+  
+  # post to crowdflower
+  cf_key = ENV['CROWDFLOWER_KEY'] || @@config['crowdflower_key']
+  HTTParty.post("https://api.crowdflower.com/v1/jobs/12386/units.json?key=#{cf_key}", :body => {:unit => {:data => {:url => image_url, :name => picture.name}}})
   
   redirect "/vote/#{picture.name}"
 end
@@ -228,6 +234,27 @@ get '/auth' do
     else
       redirect '/'
   end
+end
+
+post '/crowdflower' do
+  
+  return if params[:signal] != "unit_complete"
+  
+  payload = JSON.parse(params[:payload])
+  name = payload['data']['name']
+  
+  judgments = payload['results']['judgments']
+  judgments.each do |judgment|
+    result = judgment['data']['choose_one']
+    if result == "Fab"
+      HTTParty.post("http://fabordrab.heroku.com/fab/#{name}")
+    elsif result == "Drab"
+      HTTParty.post("http://fabordrab.heroku.com/drab/#{name}")
+    end
+  end
+  
+  status 200
+
 end
 
 get '/disconnect' do

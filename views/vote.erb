@@ -2,13 +2,13 @@
 	<!-- <div class="zurb button vote purple blueHover" type="fab">Fab</div>
 	<span style="margin-right:6px;margin-left:6px;">or</span>
 	<div class="zurb button vote purple orangeHover" type="drab">Drab</div> -->
-    <form action="/fab/<%= @name %>" method="post">
-		<input type="submit" value="Fab" />
-    </form>
-    <form action="/drab/<%= @name %>" method="post">
-		<input type="submit" value="Drab" />
-    </form>
-</div>	
+</div>
 <div class="image">
 	<img src="<%= @url %>" />		
 </div>
+<form action="/fab/<%= @name %>" method="post" class="left">
+	<input type="image" src='/fab.png' alt="Fab" />
+</form>
+<form action="/drab/<%= @name %>" method="post" class="right">
+	<input type="image" src='/drab.png' alt="Drab" />
+</form>
