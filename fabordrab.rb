@@ -21,8 +21,8 @@ configure do
   $redis = Ohm.redis
 
   AWS::S3::Base.establish_connection!(
-    :access_key_id     => @@config["s3_access_key_id"],
-    :secret_access_key => @@config["s3_secret_access_key"]
+    :access_key_id     => ENV['S3_ACCESS_KEY_ID'] || @@config["s3_access_key_id"],
+    :secret_access_key => ENV['S3_SECRET_ACCESS_KEY'] || @@config["s3_secret_access_key"]
   )
 end
 
