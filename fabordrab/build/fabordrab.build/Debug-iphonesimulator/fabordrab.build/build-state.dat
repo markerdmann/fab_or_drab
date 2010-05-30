@@ -1,7 +1,7 @@
 Tfabordrab
 v7
 r0
-t296879733.909786
+t296893187.540244
 cCheck dependencies
 cProcessInfoPlistFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Info.plist fabordrab-Info.plist
 cCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
@@ -45,6 +45,7 @@ cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-no
 cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterLoginView.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TextEntryCell.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TextEntryCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/FabOrDrab.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Camera.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab normal i386
 cGenerateDSYMFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app.dSYM /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab
 cTouch /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app
@@ -216,6 +217,19 @@ c00000000000000000000000000000000
 t2
 s0
 
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.h
+c000000004C01EC2000000000000000F2
+t1275194400
+s242
+i<UIKit/UIKit.h>
+
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m
+c000000004C01EBDB000000000000047B
+t1275194331
+s1147
+i"Camera.h"
+i"AppHelpers.h"
+
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/BaseTableViewController.h
 c000000004C0191F500000000000001B4
 t1275171317
@@ -299,17 +313,19 @@ s9713
 i"RetweetTableViewController.h"
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.h
-c000000004C01CE840000000000000143
-t1275186820
-s323
+c000000004C01FEB600000000000001E3
+t1275199158
+s483
 i<UIKit/UIKit.h>
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m
-c000000004C01CE870000000000000311
-t1275186823
-s785
+c000000004C02033B0000000000000940
+t1275200315
+s2368
 i"FabOrDrab.h"
+i"AppHelpers.h"
 i"TwitterLoginView.h"
+i"Camera.h"
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/GradientTableViewCell.h
 c000000004C0191F50000000000000102
@@ -573,8 +589,8 @@ s2316
 i"TextEntryCell.h"
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.h
-c000000004C0193A5000000000000014A
-t1275171749
+c000000004C01FB24000000000000014A
+t1275198244
 s330
 i<Foundation/Foundation.h>
 
@@ -617,8 +633,8 @@ i"TwitterOauth.h"
 i"TextEntryCell.h"
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m
-c000000004C01B5700000000000001081
-t1275180400
+c000000004C01F87D0000000000001081
+t1275197565
 s4225
 i<stdlib.h>
 i"TwitterLoginView.h"
@@ -682,9 +698,9 @@ s808
 i"UIImage+Resize.h"
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.h
-c000000004C01CEE400000000000001C8
-t1275186916
-s456
+c000000004C01D5C300000000000001C6
+t1275188675
+s454
 i<UIKit/UIKit.h>
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m
@@ -801,14 +817,14 @@ t2
 s0
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
-c000000004C01CEF4000000000000618E
-t1275186932
-s24974
+c000000004C0203800000000000005EEE
+t1275200384
+s24302
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
-c000000004C01CE4200000000000040D0
-t1275186754
-s16592
+c000000004C0203790000000000005E2A
+t1275200377
+s24106
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/TFTextEntryCell.xib
 c000000004AE9C3B40000000000004B4C
@@ -836,32 +852,32 @@ t1275177098
 s21316
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app
-t1275186933
+t1275200387
 s578
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app.dSYM
-t1275186918
+t1275200387
 s102
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab
-t1275186917
-s298916
+t1275200387
+s304760
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Info.plist
 t1275186856
 s611
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/MainWindow.nib
-t1275186933
-s2042
+t1275200387
+s2030
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/PkgInfo
 t1275186856
 s8
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/RootViewController.nib
-t1275186758
-s1106
+t1275200387
+s2218
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/TFTextEntryCell.nib
 t2
@@ -1071,14 +1087,18 @@ N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphon
 t1275172750
 s8432
 
+N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Camera.o
+t1275194650
+s35848
+
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Fab.LinkFileList
-c000000004C01B67700000000000010B1
-t1275180663
-s4273
+c000000004C01D84D0000000000001138
+t1275189325
+s4408
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/FabOrDrab.o
-t1275186858
-s33108
+t1275200387
+s42108
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell-2F4A3A70BDD03C68.o
 t2
@@ -1197,7 +1217,7 @@ t2
 s0
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o
-t1275172749
+t1275198273
 s58240
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RootViewController.o
@@ -1209,7 +1229,7 @@ t1275175956
 s30988
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Tweet.o
-t1275172749
+t1275198273
 s9056
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o
@@ -1221,7 +1241,7 @@ t2
 s0
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterLoginView.o
-t1275184510
+t1275197977
 s51760
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterOauth.o
@@ -1233,7 +1253,7 @@ t1275175371
 s31536
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o
-t1275184510
+t1275198273
 s51744
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o
@@ -1246,8 +1266,8 @@ t1275077420
 s3709
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o
-t1275186917
-s41108
+t1275199159
+s41124
 
 N/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o
 t1275186585
@@ -4234,7 +4254,7 @@ s917
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies296879732#296879733#0(0"0(0#1#0"4300907800#0"0#
+lSLF07#2@18"Check dependencies296893186#296893186#0(0"0(0#1#0"4300907800#0"0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/AppHelpers-868FDCD73D50563F.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/AppHelpers.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -4425,9 +4445,22 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m296865550#296865550#0(0"0(0#0#80"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m4300907800#2120"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/JSON/CSerializedJSONData.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/CSerializedJSONData.o0#
 
+CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Camera.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296887450.728782
+e296887450.828503
+r1
+xCompileC
+xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Camera.o
+x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m296887450#296887450#0(0"0(0#0#62"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m4300907800#2266"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Camera.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Camera.o0#
+
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/FabOrDrab.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296879657.677958
-e296879658.097784
+s296893187.146782
+e296893187.357752
 r1
 xCompileC
 xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/FabOrDrab.o
@@ -4436,7 +4469,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m296879657#296879658#0(0"0(0#0#65"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m4300907800#2095"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/FabOrDrab.o0#
+lSLF07#2@73"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m296893187#296893187#0(0"0(0#0#65"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m4300907800#2272"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/FabOrDrab.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/FabOrDrab.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/GradientTableViewCell-2F4A3A70BDD03C68.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Controller/GradientTableViewCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -4644,8 +4677,8 @@ CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-no
 r0
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296865549.546290
-e296865549.681467
+s296891073.302056
+e296891073.541729
 r1
 xCompileC
 xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o
@@ -4654,7 +4687,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m296865549#296865549#0(0"0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m4300907800#2129"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o0#
+lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m296891073#296891073#0(0"0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m4300907800#2306"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RetweetTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RetweetTableViewController.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/RootViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -4673,8 +4706,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@77"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TextEntryCell.m296868756#296868756#0(0"0(0#0#69"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TextEntryCell.m4300907800#2103"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TextEntryCell.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TextEntryCell.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Tweet.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296865549.623702
-e296865549.701720
+s296891073.381081
+e296891073.499671
 r1
 xCompileC
 xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Tweet.o
@@ -4683,7 +4716,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m296865549#296865549#0(0"0(0#0#61"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m4300907800#2087"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Tweet.o0#
+lSLF07#2@69"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m296891073#296891073#0(0"0(0#0#61"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m4300907800#2264"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Tweet.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Tweet.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Twitter.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/Twitter.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296775007.952070
@@ -4702,8 +4735,8 @@ CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-no
 r0
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterLoginView.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296877310.538455
-e296877310.817753
+s296890775.918778
+e296890777.333017
 r1
 xCompileC
 xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterLoginView.o
@@ -4712,7 +4745,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m296877310#296877310#0(0"0(0#0#72"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m4300907800#2109"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterLoginView.o0#
+lSLF07#2@80"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m296890775#296890777#0(0"0(0#0#72"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m4300907800#2286"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterLoginView.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterLoginView.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterOauth.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterOauth.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296868171.557788
@@ -4741,8 +4774,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m296868171#296868171#0(0"0(0#0#76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m4300907800#2117"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewCell.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewCell.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296877310.330094
-e296877310.717299
+s296891073.499881
+e296891073.696824
 r1
 xCompileC
 xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o
@@ -4751,7 +4784,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296877310#296877310#0(0"0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m4300907800#2129"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o0#
+lSLF07#2@90"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m296891073#296891073#0(0"0(0#0#82"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m4300907800#2306"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/TwitterTableViewController.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/TwitterTableViewController.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296865549.897515
@@ -4767,8 +4800,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@78"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m296865549#296865549#0(0"0(0#0#70"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m4300907800#2105"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/UIImage+Resize.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/UIImage+Resize.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296879717.526292
-e296879717.813371
+s296891959.071496
+e296891959.158273
 r1
 xCompileC
 xbuild/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o
@@ -4777,7 +4810,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m296879717#296879718#0(0"0(0#0#76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m4300907800#2117"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o0#
+lSLF07#2@84"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m296891959#296891959#0(0"0(0#0#76"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m4300907800#2294"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Classes/fabordrabAppDelegate.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/fabordrabAppDelegate.o0#
 
 CCompileC build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296879385.198751
@@ -4793,20 +4826,20 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@60"Compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m296879385#296879385#0(0"0(0#0#52"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m4300907800#2077"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-generated-files.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-own-target-headers.hmap -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-all-target-headers.hmap -iquote /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Fab-project-headers.hmap -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/include -I/usr/include/libxml2 -I/usr/include/libxml2/libxml -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources/i386 -I/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/DerivedSources -include /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/fabordrab_Prefix-cixuwmrfzrdkzghbaxezfhbfpcgs/fabordrab_Prefix.pch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/main.m -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
-s296879733.004328
-e296879733.902592
+s296893186.650737
+e296893187.106898
 r1
 xCompileXIB
 x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib296879733#296879733#0(0"0(0#0#60"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib4300907800#499"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/MainWindow.nib /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib296893186#296893187#0(0"0(0#0#60"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib4300907800#676"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/MainWindow.nib /Users/mark/CrowdFlower/fab_or_drab/fabordrab/MainWindow.xib0#
 
 CCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
-s296879557.458753
-e296879558.483659
+s296893186.657876
+e296893187.141933
 r1
 xCompileXIB
 x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib
-lSLF07#2@33"CompileXIB RootViewController.xib296879557#296879558#0(0"0(0#0#68"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib4300907800#515"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/RootViewController.nib /Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib0#
+lSLF07#2@33"CompileXIB RootViewController.xib296893186#296893187#0(0"0(0#0#68"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib4300907800#692"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/RootViewController.nib /Users/mark/CrowdFlower/fab_or_drab/fabordrab/RootViewController.xib0#
 
 CCompileXIB /Users/mark/CrowdFlower/fab_or_drab/fabordrab/TFTextEntryCell.xib
 r0
@@ -4978,13 +5011,13 @@ xImages/twitter.png
 lSLF07#2@23"Copy Images/twitter.png296770220#296770220#0(0"0(0#0#64"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/Images/twitter.png4300907800#485"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/mark/CrowdFlower/fab_or_drab/fabordrab/Images/twitter.png /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app0#
 
 CGenerateDSYMFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app.dSYM /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab
-s296879718.059037
-e296879718.195005
+s296893187.450515
+e296893187.535964
 r1
 xGenerateDSYMFile
 x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app.dSYM
 x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab
-lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/Fab.app.dSYM build/Debug-iphonesimulator/Fab.app/Fab296879718#296879718#0(0"0(0#0#85"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab4300907800#392"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app.dSYM0#
+lSLF07#2@97"GenerateDSYMFile build/Debug-iphonesimulator/Fab.app.dSYM build/Debug-iphonesimulator/Fab.app/Fab296893187#296893187#0(0"0(0#0#85"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab4300907800#569"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/usr/bin/dsymutil /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app.dSYM0#
 
 CGenerateDSYMFile /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app.dSYM /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab
 s296774906.909234
@@ -4996,14 +5029,14 @@ x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabor
 lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/fabordrab.app.dSYM build/Debug-iphonesimulator/fabordrab.app/fabordrab296774906#296774906#0(0"0(0#0#97"/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab4300907800#410"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app.dSYM0#
 
 CLd /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab normal i386
-s296879717.813460
-e296879718.058923
+s296893187.357860
+e296893187.450377
 r1
 xLd
 x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab
 xnormal
 xi386
-lSLF07#2@90"Link /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab296879717#296879718#0(0"0(0#0#0"4300907800#1019"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -L/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -filelist /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Fab.LinkFileList -mmacosx-version-min=10.5 -lhttpriot -lxml2 -ObjC -all_load -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab0#
+lSLF07#2@90"Link /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab296893187#296893187#0(0"0(0#0#0"4300907800#1196"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs/iphonesimulator3.1.3-iPhoneSimulator3.1.3-ehfzfddveglfjphdlqfdhdyqzrdf -L/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -F/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator -filelist /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/fabordrab.build/Debug-iphonesimulator/fabordrab.build/Objects-normal/i386/Fab.LinkFileList -mmacosx-version-min=10.5 -lhttpriot -lxml2 -ObjC -all_load -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app/Fab0#
 
 CLd /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app/fabordrab normal i386
 s296774906.834686
@@ -5066,12 +5099,12 @@ CProcessPCH /var/folders/rz/rzArR2ElFhWzPEuN+BbOUU+++TI/-Caches-/com.apple.Xcode
 r0
 
 CTouch /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app
-s296879733.905190
-e296879733.909726
+s296893187.536058
+e296893187.540199
 r1
 xTouch
 x/Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app
-lSLF07#2@87"Touch /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app296879733#296879733#0(0"0(0#0#0"4300907800#288"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app0#
+lSLF07#2@87"Touch /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app296893187#296893187#0(0"0(0#0#0"4300907800#465"    cd /Users/mark/CrowdFlower/fab_or_drab/fabordrab    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin/homebrew/bin:/usr/local/hadoop/bin:/usr/local/mysql/bin:/usr/local/s3cmd:/Users/mark/.ec2/bin:~/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin"    /usr/bin/touch -c /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/Fab.app0#
 
 CTouch /Users/mark/CrowdFlower/fab_or_drab/fabordrab/build/Debug-iphonesimulator/fabordrab.app
 s296774906.959075

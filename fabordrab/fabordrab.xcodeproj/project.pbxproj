@@ -20,6 +20,7 @@
 		4D48069C11B1DCFD00BD36BE /* TextEntryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48069A11B1DCFD00BD36BE /* TextEntryCell.xib */; };
 		4D48069D11B1DCFD00BD36BE /* TwitterLoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */; };
 		4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D48076611B1ED2A00BD36BE /* FabOrDrab.m */; };
+		4D4808E411B20F9500BD36BE /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4808E311B20F9500BD36BE /* Camera.m */; };
 		4DBA09C911B056080030ED26 /* PullToRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */; };
 		4DBA09CA11B056080030ED26 /* PushedBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C311B056080030ED26 /* PushedBaseTableViewController.m */; };
 		4DBA09CB11B056080030ED26 /* RefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBA09C511B056080030ED26 /* RefreshTableHeaderView.m */; };
@@ -74,6 +75,8 @@
 		4D48069B11B1DCFD00BD36BE /* TwitterLoginController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitterLoginController.xib; sourceTree = "<group>"; };
 		4D48076511B1ED2A00BD36BE /* FabOrDrab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FabOrDrab.h; sourceTree = "<group>"; };
 		4D48076611B1ED2A00BD36BE /* FabOrDrab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabOrDrab.m; sourceTree = "<group>"; };
+		4D4808E211B20F9500BD36BE /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		4D4808E311B20F9500BD36BE /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
 		4DBA09C011B056080030ED26 /* PullToRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToRefreshTableViewController.h; sourceTree = "<group>"; };
 		4DBA09C111B056080030ED26 /* PullToRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToRefreshTableViewController.m; sourceTree = "<group>"; };
 		4DBA09C211B056080030ED26 /* PushedBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedBaseTableViewController.h; sourceTree = "<group>"; };
@@ -217,6 +220,7 @@
 		4D48065111B1D99900BD36BE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4D4808E111B20F8800BD36BE /* Camera */,
 				4D48076411B1ED1600BD36BE /* FabOrDrab */,
 				4D48065211B1D9A100BD36BE /* Twitter */,
 			);
@@ -243,6 +247,15 @@
 				4D48076611B1ED2A00BD36BE /* FabOrDrab.m */,
 			);
 			name = FabOrDrab;
+			sourceTree = "<group>";
+		};
+		4D4808E111B20F8800BD36BE /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				4D4808E211B20F9500BD36BE /* Camera.h */,
+				4D4808E311B20F9500BD36BE /* Camera.m */,
+			);
+			name = Camera;
 			sourceTree = "<group>";
 		};
 		4DBA09BD11B055EE0030ED26 /* Controller */ = {
@@ -480,6 +493,7 @@
 				4D48064611B1D2DC00BD36BE /* TwitterLoginView.m in Sources */,
 				4D48065E11B1DAF300BD36BE /* TextEntryCell.m in Sources */,
 				4D48076711B1ED2A00BD36BE /* FabOrDrab.m in Sources */,
+				4D4808E411B20F9500BD36BE /* Camera.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
