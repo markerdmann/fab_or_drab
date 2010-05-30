@@ -1,0 +1,8 @@
+<div id="connect_button">
+    <a href="/connect"><img src="sign_in_with_twitter.gif"/></a>
+</div>
+<h2>Current Trends</h2>
+<%= @trends['trends'].to_a.first.last.collect{|x| "<a href='/search?q=#{URI.encode(x['query'])}'>#{x['name']}</a>"}.join(', ') %>
+
+<h2>Public Timeline</h2>
+<%= partial('timeline', :locals => {:tweets => @tweets}) %>

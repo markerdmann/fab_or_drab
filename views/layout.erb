@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+    "http://www.w3.org/TR/html4/strict.dtd"
+    >
+<html lang="en">
+<head>
+    <title>Fab or Drab</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
+	<script src="/vote.js"></script>
+	<!--
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.1.1/build/cssreset/reset-min.css">
+	-->
+	<link rel="stylesheet" type="text/css" href="/main.css"></link>
+	<link rel="stylesheet" type="text/css" href="/buttons.css"></link>
+</head>
+<body>
+	<!-- Part of base template -->
+<div id="top">
+	<div id="nav" style="float:right">
+        <ul>
+            <li><a href='/'>Home</a></li>
+            <% if @user %>
+                <li><a href='/vote'>Vote</a></li>
+                <li><a href='/mypics'>My Pictures</a></li>
+				<li><a href='/upload'>Upload</a></li>
+                <li><a href='/disconnect'>Logout</a></li>
+            <% end %>
+            <li class="last"><a href='/search'>Search</a></li>
+        </ul>
+    </div>
+    <br style="clear:both"/>
+</div>
+
+<!-- Same color as background, used to hide(overlay) image as it slides out-->
+<div id="leftPanel"></div>
+<div id="rightPanel"></div>
+
+<div id="main">	
+	<%= yield %>
+</div>
+
+</body>
+</html>
