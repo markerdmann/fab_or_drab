@@ -90,7 +90,8 @@ post '/upload' do
   
   
   image_file = params[:datafile][:tempfile]
-  filename = rand(10**20).to_s + ".jpg"
+  id = rand(10**20).to_s
+  filename = id + ".jpg"
   S3Object.store(
       filename,
       image_file.read,
@@ -98,15 +99,24 @@ post '/upload' do
       :access => :public_read
     )
   url = "http://s3.amazonaws.com/fabordrab/#{filename}"
+  $redis.set(id, url)
   $redis.sadd("images", url)
-  redirect '/vote'
+  redirect "/vote/#{id}"
   
 end
 
 get '/vote' do
   
-  @image_url = $redis.srandmember("images")
-  "<img src='#{@image_url}' />"
+  @url = $redis.srandmember("images")
+  erb :vote
+  
+end
+
+get '/vote/:id' do
+  
+  id = params[:id]
+  @url = $redis.get(id)
+  erb :vote
   
 end
 

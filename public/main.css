@@ -20,3 +20,8 @@ h2 {font-size:20px;}
   margin:0 auto; 
   width:700px
 }
+
+img {
+	max-width: 800px;
+	max-height: 500px;
+}
