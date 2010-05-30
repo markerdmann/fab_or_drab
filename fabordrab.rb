@@ -111,8 +111,11 @@ post '/upload' do
 
   base_uri = ENV['BASE_URI'] || @@config['base_uri']
   vote_url = base_uri + "/vote/#{picture.name}"
+  
+  bitly_login = ENV['BITLY_LOGIN'] || @@config['bitly_login']
+  bitly_api_key = ENV['BITLY_API_KEY'] || @@config['bitly_api_key']
 
-  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{@@config['bitly_login']}&apiKey=#{@@config['bitly_api_key']}&longUrl=#{vote_url}")
+  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{bitly_login}&apiKey=#{bitly_api_key}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
