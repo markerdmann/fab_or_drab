@@ -14,10 +14,10 @@ include AWS::S3
 configure do
   set :sessions, true
   @@config = YAML.load_file("config.yml") rescue nil || {}
-  Ohm.redis=Ohm.connection(:port =>6379, 
-                           :db => @@config["redis_db"] || 0,
-                           :thread_safe => true,
-                           :host => @@config["redis_host"] || "127.0.0.1")
+  Ohm.connect(:port =>6379, 
+              :db => @@config["redis_db"] || 0,
+              :thread_safe => true,
+              :host => @@config["redis_host"] || "127.0.0.1")
   $redis = Ohm.redis
 
   AWS::S3::Base.establish_connection!(
@@ -29,14 +29,22 @@ end
 before do
   next if request.path_info =~ /ping$/
   @user = session[:user]
+
+  token = session[:access_token]
+  secret = session[:secret_token]
   @client = TwitterOAuth::Client.new(
     :consumer_key => ENV['CONSUMER_KEY'] || @@config['consumer_key'],
     :consumer_secret => ENV['CONSUMER_SECRET'] || @@config['consumer_secret'],
-    :token => session[:access_token],
-    :secret => session[:secret_token]
+    :token => token,
+    :secret => secret
   )
   @rate_limit_status = @client.rate_limit_status
+
+  User.first_or_create( :token => token,
+                        :secret => secret )
 end
+
+
 
 get '/' do
   redirect '/timeline' if @user
@@ -74,43 +82,48 @@ get '/upload' do
 end
 
 post '/upload' do
-  
+
   image_file = params[:datafile][:tempfile]
+  
   id = rand(10**20).to_s
   filename = id + ".jpg"
+
+  
   S3Object.store(
       filename,
       image_file.read,
       'fabordrab',
       :access => :public_read
     )
-  url = "http://s3.amazonaws.com/fabordrab/#{filename}"
-  $redis.set(id, url)
-  $redis.sadd("images", url)
+  url = "#{@@config['s3_url']}/#{filename}"
+
+  token = session[:token]
+  secret = session[:secret_token]
+  user = User.first_or_create( :token => token, :secret => secret )
+  picture = Picture.create( :uri => url ) 
+  user.pictures << picture
   
   base_uri = @@config['base_uri']
   vote_url = base_uri + "/vote/#{id}"
-  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=markerdmann&apiKey=R_d7a6c79cf48989e6e9355bd4a6d96da2&longUrl=#{vote_url}")
+  response = HTTParty.get("http://api.bit.ly/v3/shorten?login=#{@@config['bitly_login']}&apiKey=#{@@config['bitly_api_key']}&longUrl=#{vote_url}")
   puts response.inspect
   short_url = response['data']['url']
   puts short_url.inspect
   @client.update(short_url)
   
   redirect "/vote/#{id}"
-  
 end
 
 get '/vote' do
-  
-  @url = $redis.srandmember("images")
+  least_judged_picture = Picture.all.sort_by { |a,b| a.votes.size <=> b.votes.size } 
+  @url = least_judge_picture.url
   erb :vote
-  
 end
 
 get '/vote/:id' do
   
   id = params[:id]
-  @url = $redis.get(id)
+  @url = Picture.first(:id => id).url
   erb :vote
   
 end
