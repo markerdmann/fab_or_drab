@@ -13,11 +13,17 @@
 	You may also notice that you're receiving judgments in spite of the fact that no one else
 	knows about this app. We're using CrowdFlower to have paid workers around the world judge your pictures.
 	This is a way of seeding the app in order to generate a community of happy and satisfied users. After
-	a while, paying for judgments will probably be unnecessary. 
+	a while, paying for judgments would probably be unnecessary. 
 	After a	picture has been judged by workers, the results are posted back to Fab Or Drab and added to the
 	stats on the My Pictures page.<br /><br />
 	
-	Apologies for the rough interface design! Our front-end developers were all busy this weekend. :-)<br /><br />
+	Apologies for the rough interface design! Our front-end developers were all busy this weekend. :-) You
+	can view or fork our code <a href="http://github.com/markerdmann/Fab-Or-Drab">this link.</a> Also, the
+	site probably feels slow, and this is because our Redis database is on a remote Slicehost box. Reducing latency
+	between the app and its database would result in a huge performance boost.
+	<br /><br />
+	
+	If you have any questions, feel free to email me at mark@crowdflower.com.<br /><br />
 </p>
 <h2>Current Trends</h2>
 <%= @trends['trends'].to_a.first.last.collect{|x| "<a href='/search?q=#{URI.encode(x['query'])}'>#{x['name']}</a>"}.join(', ') %>
