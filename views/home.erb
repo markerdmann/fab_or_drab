@@ -2,13 +2,11 @@
     <a href="/connect"><img src="sign_in_with_twitter.gif" class="connect_button"/></a>
 </div>
 <p class="intro">
-	Hi Everyone! Welcome to Fab Or Drab, which is now officially 1 day old. This app is designed for people who have trouble making decisions when they're putting
-	on clothes (at the store, for example, or before a night on the town). We've put together a small
-	demo app for the iPhone that lets you take a picture and upload it (or you can upload via the
-	web interface). After the picture has been uploaded, other users can vote "Fab" or "Drab" by 
-	clicking on the link which is tweeted out to all your friends. It even includes annotations! :-)
-	Users can also find your picture by clicking on the vote link (pictures shown in order of 
-	fewest judgments).<br /><br />
+	Hi Everyone! Welcome to Fab Or Drab, which is now officially 1 day old. This app is designed for people who have trouble making decisions when they're trying
+	on clothes (at the store, for example, or before a night on the town). After the picture has been uploaded, 
+	other users can vote "Fab" or "Drab" by clicking on the link which is tweeted out to all your friends. It 
+	even includes annotations! :-)	Users can also find your picture by clicking on the vote link (pictures 
+	shown in order of fewest judgments).<br /><br />
 	
 	You may also notice that you're receiving judgments in spite of the fact that no one else
 	knows about this app. We're using CrowdFlower to have paid workers around the world judge your pictures.
@@ -23,8 +21,30 @@
 	between the app and its database would result in a huge performance boost.
 	<br /><br />
 	
-	If you have any questions, feel free to email me at mark@crowdflower.com.<br /><br />
+	
+	If you wanted to take this app and turn it into a real project, next steps could include:<br><br>
+	
+	<ul>
+		<li>
+			Finishing the iPhone app (or building another phone app) which
+			makes it easy to upload a picture while shopping. Alternatively,
+			you could let users send their pictures via email (this has the 
+			advantage of being platform independent).
+		</li>
+		<li>
+			Improving the UI. A lot. Right now, for example, the voting part of the app
+			always shows you the image with the fewest votes. This often results in 
+			a user being shown the same image over and over again.
+		</li>
+		<li>
+			Making it possible for users to see the votes for everyone else's images.
+		</li><br />
+	</ul>
 </p>
+<p class="intro">
+	If you have any questions, feel free to email me at mark@crowdflower.com.<br /><br />	
+</p>
+
 <h2>Current Trends</h2>
 <%= @trends['trends'].to_a.first.last.collect{|x| "<a href='/search?q=#{URI.encode(x['query'])}'>#{x['name']}</a>"}.join(', ') %>
 
